@@ -64,6 +64,13 @@
 - [ ] Phase 3: Sales, PR, T3 Research, T3 Writer, Music (March+)
 - [ ] Finance agent
 
+### Security & Privacy
+- [ ] Droplet security audit (SSH keys only, disable password auth, firewall rules)
+- [ ] Research TEE-based cloud servers (confidential compute -- Azure, AWS Nitro, OVH)
+- [ ] Evaluate: can we run Janet inside a TEE? What's the cost/performance tradeoff?
+- [ ] Review what data passes through Anthropic/OpenRouter -- minimize PII exposure
+- [ ] Consider self-hosted LLM options for sensitive tasks (finance, health, relationship)
+
 ### Infrastructure
 - [ ] Switch original Telegram bot token to cloud Janet
 - [ ] Retire local Janet on MacBook (once cloud Janet is fully ready)

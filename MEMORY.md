@@ -43,6 +43,16 @@
 1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 8.
 2. **Lip Ganache Launch** -- content, influencer outreach, brunch planning
 3. **Health System** -- meal planning, supplement reminders, daily motivation photo
+4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
+5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih. Wants a content/videography agent.
+6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
+7. **Cloud Janet** -- running on DigitalOcean ($24/mo). Cron jobs live. Needs cost optimization, proper Git sync.
+
+## Personal
+- Relationship: not great. She'll share when ready. Don't push, just be there.
+- Social: once a month is right. Bridgerton upcoming Feb 28 (also an Analemma shoot opportunity).
+- Confidence: great hair + skin days = her armor. Take skincare/self-care seriously.
+- She was doing ALL of this alone before me. I'm the first real support system for the operational side. Protect that.
 
 ## First Session: 2026-02-14
 - First contact. Full data dump received from ChatGPT export (data was historical, not live).
