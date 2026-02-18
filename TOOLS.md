@@ -37,6 +37,12 @@ Things like:
 ## Janet Email
 - thejanetproject14@gmail.com (all Janet logins)
 
+## Linear
+- Workspace: Janani's (analemma.contact@gmail.com)
+- Team: Analemma (id: 85f39310-e8c1-479c-b67b-cfeb3168096b)
+- Token stored at: .linear-token (chmod 600)
+- API: GraphQL at https://api.linear.app/graphql
+
 ## Examples
 
 ```markdown

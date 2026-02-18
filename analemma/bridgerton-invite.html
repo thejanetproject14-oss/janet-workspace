@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You Are Cordially Invited — A Bridgerton Tea Party</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --lavender: #c4b1d4;
+    --lavender-light: #e8dff0;
+    --lavender-pale: #f3eef8;
+    --rose: #d4a0a0;
+    --rose-dust: #c98b8b;
+    --rose-light: #f0d5d5;
+    --cream: #faf6f0;
+    --ivory: #fffdf8;
+    --gold: #c9a84c;
+    --gold-light: #e2cc7a;
+    --gold-dark: #9e7e2e;
+    --text-dark: #3a2f2f;
+    --text-medium: #5a4a4a;
+    --text-light: #7a6a6a;
+  }
+
+  body {
+    background-color: #e8e0d8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px 10px;
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+  }
+
+  /* Damask background pattern via CSS */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      radial-gradient(ellipse 30px 40px at 30px 40px, rgba(196,177,212,0.08) 50%, transparent 50%),
+      radial-gradient(ellipse 30px 40px at 90px 40px, rgba(196,177,212,0.08) 50%, transparent 50%),
+      radial-gradient(ellipse 20px 25px at 60px 65px, rgba(212,160,160,0.06) 50%, transparent 50%),
+      radial-gradient(circle 3px at 30px 20px, rgba(201,168,76,0.1) 50%, transparent 50%),
+      radial-gradient(circle 3px at 90px 60px, rgba(201,168,76,0.1) 50%, transparent 50%);
+    background-size: 120px 80px;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .invitation-card {
+    width: 100%;
+    max-width: 420px;
+    background: var(--ivory);
+    position: relative;
+    box-shadow:
+      0 4px 30px rgba(58,47,47,0.12),
+      0 1px 3px rgba(58,47,47,0.08),
+      inset 0 0 80px rgba(196,177,212,0.06);
+    overflow: hidden;
+  }
+
+  /* Outer gold border */
+  .border-outer {
+    border: 2px solid var(--gold);
+    margin: 8px;
+    padding: 2px;
+  }
+
+  /* Inner decorative border */
+  .border-inner {
+    border: 1px solid var(--gold-light);
+    padding: 28px 24px 24px;
+    position: relative;
+    background:
+      linear-gradient(135deg, rgba(196,177,212,0.04) 0%, transparent 50%),
+      linear-gradient(225deg, rgba(212,160,160,0.04) 0%, transparent 50%);
+  }
+
+  /* Corner ornaments */
+  .corner {
+    position: absolute;
+    color: var(--gold);
+    font-size: 28px;
+    line-height: 1;
+    opacity: 0.7;
+  }
+  .corner-tl { top: 4px; left: 8px; }
+  .corner-tr { top: 4px; right: 8px; transform: scaleX(-1); }
+  .corner-bl { bottom: 4px; left: 8px; transform: scaleY(-1); }
+  .corner-br { bottom: 4px; right: 8px; transform: scale(-1, -1); }
+
+  /* Floral top decoration */
+  .floral-header {
+    text-align: center;
+    color: var(--gold);
+    font-size: 18px;
+    letter-spacing: 6px;
+    margin-bottom: 4px;
+    opacity: 0.6;
+  }
+
+  /* Season banner */
+  .season-banner {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin-bottom: 16px;
+    position: relative;
+    padding: 0 20px;
+  }
+  .season-banner::before,
+  .season-banner::after {
+    content: '—';
+    color: var(--gold-light);
+    margin: 0 6px;
+  }
+
+  /* Main title */
+  .title-block {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title-you-are {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 2px;
+  }
+  .title-main {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-dark);
+    line-height: 1.15;
+    margin-bottom: 2px;
+  }
+  .title-main em {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--rose-dust);
+  }
+  .title-invited {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-dark);
+    font-style: italic;
+  }
+
+  /* Divider flourish */
+  .divider {
+    text-align: center;
+    color: var(--gold);
+    font-size: 16px;
+    letter-spacing: 8px;
+    margin: 16px 0;
+    opacity: 0.5;
+  }
+  .divider-thin {
+    margin: 12px auto;
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--gold-light), transparent);
+  }
+
+  /* Subtitle */
+  .event-subtitle {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--lavender);
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+  .event-subtitle-secondary {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-light);
+    margin-bottom: 18px;
+  }
+
+  /* Body copy */
+  .body-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-medium);
+    line-height: 1.65;
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 0 8px;
+  }
+  .body-text .highlight {
+    color: var(--rose-dust);
+    font-weight: 500;
+  }
+  .body-text .gold-text {
+    color: var(--gold-dark);
+    font-weight: 500;
+  }
+
+  /* Guest names */
+  .guest-names {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+  .guest-names span {
+    white-space: nowrap;
+  }
+  .guest-separator {
+    color: var(--gold);
+    margin: 0 2px;
+    font-style: normal;
+  }
+
+  /* Details card */
+  .details-card {
+    background: linear-gradient(135deg, var(--lavender-pale) 0%, rgba(240,213,213,0.15) 100%);
+    border: 1px solid rgba(196,177,212,0.25);
+    border-radius: 2px;
+    padding: 18px 16px;
+    margin: 0 0 18px;
+  }
+  .detail-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: var(--text-medium);
+    line-height: 1.5;
+  }
+  .detail-row:last-child { margin-bottom: 0; }
+  .detail-icon {
+    width: 24px;
+    min-width: 24px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    padding-top: 2px;
+  }
+  .detail-label {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1px;
+  }
+  .detail-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15.5px;
+    font-weight: 400;
+  }
+  .detail-value em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: 14px;
+  }
+
+  /* Activities section */
+  .activities {
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 0 4px;
+  }
+  .activities-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin-bottom: 8px;
+  }
+  .activity-item {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-medium);
+    line-height: 1.7;
+  }
+  .activity-item .emoji {
+    font-style: normal;
+  }
+
+  /* Dress code */
+  .dress-code {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14.5px;
+    font-style: italic;
+    color: var(--text-light);
+    margin-bottom: 18px;
+    padding: 10px 12px;
+    border-top: 1px solid rgba(196,177,212,0.2);
+    border-bottom: 1px solid rgba(196,177,212,0.2);
+  }
+
+  /* RSVP */
+  .rsvp-block {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .rsvp-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--rose-dust);
+    margin-bottom: 4px;
+  }
+  .rsvp-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    color: var(--text-medium);
+  }
+
+  /* Sign-off */
+  .signoff {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .signoff-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-style: italic;
+    color: var(--text-light);
+    margin-bottom: 4px;
+  }
+  .signoff-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--text-dark);
+  }
+
+  /* Postscript */
+  .postscript {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13.5px;
+    font-style: italic;
+    color: var(--text-light);
+    margin-top: 12px;
+    padding: 0 10px;
+    line-height: 1.6;
+  }
+
+  /* Analemma footer */
+  .footer {
+    text-align: center;
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(201,168,76,0.2);
+  }
+  .footer-hosted {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10.5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.6;
+    margin-bottom: 2px;
+  }
+  .footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.5;
+  }
+
+  /* Wax seal decoration */
+  .wax-seal {
+    text-align: center;
+    margin: 14px 0 6px;
+    font-size: 32px;
+    opacity: 0.25;
+    color: var(--rose-dust);
+  }
+
+  /* Print styles */
+  @media print {
+    body {
+      background: white;
+      padding: 0;
+    }
+    .invitation-card {
+      box-shadow: none;
+      max-width: 100%;
+    }
+  }
+
+  /* Small screen adjustments */
+  @media (max-width: 420px) {
+    body { padding: 10px 6px; }
+    .border-inner { padding: 24px 18px 20px; }
+    .title-main { font-size: 28px; }
+    .title-invited { font-size: 24px; }
+    .body-text { font-size: 15px; padding: 0 4px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="invitation-card">
+  <div class="border-outer">
+    <div class="border-inner">
+
+      <!-- Corner ornaments -->
+      <span class="corner corner-tl">❧</span>
+      <span class="corner corner-tr">❧</span>
+      <span class="corner corner-bl">❧</span>
+      <span class="corner corner-br">❧</span>
+
+      <!-- Floral header -->
+      <div class="floral-header">✿ ❀ ✿</div>
+
+      <!-- Season banner -->
+      <div class="season-banner">The Season of 2026</div>
+
+      <!-- Title -->
+      <div class="title-block">
+        <div class="title-you-are">You are most</div>
+        <div class="title-main"><em>Cordially</em></div>
+        <div class="title-invited">Invited</div>
+      </div>
+
+      <div class="divider-thin"></div>
+
+      <!-- Event subtitle -->
+      <div class="event-subtitle">A Bridgerton Tea Party</div>
+      <div class="event-subtitle-secondary">& Afternoon of Delights</div>
+
+      <!-- Body copy -->
+      <div class="body-text">
+        Dearest gentle-ladies of the most distinguished taste,<br><br>
+        It has come to this author's attention that the finest company in all the ton
+        has yet to gather this season. A matter most <span class="highlight">unacceptable</span>,
+        if you ask me.<br><br>
+        And so, you are hereby summoned — with great affection and zero formality —
+        to an afternoon of <span class="gold-text">chai, tiramisu, and thoroughly
+        delightful gossip</span>.
+      </div>
+
+      <!-- Guest names -->
+      <div class="guest-names">
+        <span>Jaanvi</span> <span class="guest-separator">✦</span>
+        <span>Raghavi</span> <span class="guest-separator">✦</span>
+        <span>Priyanka</span> <span class="guest-separator">✦</span>
+        <span>Poojha</span>
+      </div>
+
+      <div class="divider">· · ·</div>
+
+      <!-- Event details -->
+      <div class="details-card">
+        <div class="detail-row">
+          <div class="detail-icon">🗓</div>
+          <div>
+            <span class="detail-label">When</span>
+            <span class="detail-value">Saturday, the 28th of February, 2026<br>Half past two in the afternoon</span>
+          </div>
+        </div>
+        <div class="detail-row">
+          <div class="detail-icon">🏡</div>
+          <div>
+            <span class="detail-label">Where</span>
+            <span class="detail-value">The Drawing Room of Lady Sunshine<br><em>[Address to be shared via WhatsApp]</em></span>
+          </div>
+        </div>
+        <div class="detail-row">
+          <div class="detail-icon">🫖</div>
+          <div>
+            <span class="detail-label">Refreshments</span>
+            <span class="detail-value">Chai — because we are Sharmas at heart<br>Tiramisu — assembled by our own hands</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activities -->
+      <div class="activities">
+        <div class="activities-title">The Programme</div>
+        <div class="activity-item">Tiramisu-making, together 🍰</div>
+        <div class="activity-item">Chai of the finest variety 🫖</div>
+        <div class="activity-item">Conversation most stimulating 💬</div>
+        <div class="activity-item">An excess of laughter (inevitable) ✨</div>
+      </div>
+
+      <!-- Dress code -->
+      <div class="dress-code">
+        <strong style="color: var(--text-medium); font-style: normal;">Attire:</strong>
+        Dress as you wish — comfortable, but in the vibe.<br>
+        Regency-inspired, elegant casual, or simply yourself at your loveliest.
+      </div>
+
+      <!-- RSVP -->
+      <div class="rsvp-block">
+        <div class="rsvp-title">Kindly Send Word</div>
+        <div class="rsvp-text">
+          RSVP via WhatsApp to <strong>Janani</strong><br>
+          <em style="font-size: 13.5px; color: var(--text-light);">(A lady does not leave her hostess in suspense.)</em>
+        </div>
+      </div>
+
+      <div class="divider-thin"></div>
+
+      <!-- Sign-off -->
+      <div class="signoff">
+        <div class="signoff-text">With warmth, chai, and considerably less scandal,</div>
+        <div class="signoff-name">Lady J ♡</div>
+      </div>
+
+      <!-- Postscript -->
+      <div class="postscript">
+        P.S. — This author has it on excellent authority that the tiramisu shall be
+        <em>extraordinary</em>. Do not make me send a second letter. 💌
+      </div>
+
+      <!-- Wax seal -->
+      <div class="wax-seal">♔</div>
+
+      <!-- Analemma footer -->
+      <div class="footer">
+        <div class="footer-hosted">hosted by</div>
+        <div class="footer-brand">Analemma</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
