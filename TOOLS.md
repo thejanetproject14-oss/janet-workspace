@@ -13,6 +13,22 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+## Notion
+- Workspace: The Janet Project's Space
+- Integration: "janet" (internal)
+- Token stored at: .notion-token (chmod 600)
+- API version: 2022-06-28
+- Access: read, update, insert content + user info with emails
+- Pages:
+  - Analemma: 30beab20-0eed-80a0-80a1-cf6a2ad73acd
+  - Terminal 3: 30beab20-0eed-8056-b8fb-d1cf91255664
+  - Health: 30beab20-0eed-80f8-ba75-f7bbcf1aaf16
+  - Others: 30beab20-0eed-8088-9865-e17a2be987a9
+- Strategy: Notion = hub/databases/links. Google Drive = long-form docs. Always link GDrive docs back into Notion.
+
+## Janet Email
+- thejanetproject14@gmail.com (all Janet logins)
+
 ## Examples
 
 ```markdown
