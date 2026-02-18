@@ -8,3 +8,5 @@ upload-to-notion.js
 .shopify-token
 shopify_rebuild.py
 shopify-fix.sh
+.linear-token
+.notion-token
