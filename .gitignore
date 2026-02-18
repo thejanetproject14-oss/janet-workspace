@@ -1,0 +1,6 @@
+.notion-token
+*.pyc
+__pycache__/
+populate_catalog.py
+populate_catalog.sh
+upload-to-notion.js

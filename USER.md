@@ -8,12 +8,22 @@
 - **Pronouns:** she/her
 - **Based in:** Singapore (travels often, including Indonesia)
 - **Owns:** HDB flat in Singapore (subject to MOP rules)
+- **Husband:** Vageesh
+- **Helper:** Sita (Nepali, from Darjeeling, WhatsApp only)
 
 ---
 
 ## Preferences
 - Vegetarian. No eggs. No mushrooms. Doesn't like tomatoes much. Dairy is fine.
 - Gets hungry ~1.5 hours after waking up.
+- No breakfast. Lunch 11am-12pm. Dinner 6:30-7:30pm. Snacks unhealthily at ~3pm.
+- Picky eater. Doesn't like plain yoghurt or yoghurt with sweet stuff.
+- Yoghurt only as: vegetable raita OR buttermilk (curry leaves, coriander, salt, black pepper, asafoetida, jeera, blended with lots of water)
+- Groceries: ~$100/week
+- Sleeping by 11pm recently (improved from midnight).
+- Current weight: 102kg. Height: 168cm. BMI ~36. Wants to lose weight urgently.
+- Sedentary lifestyle -- wants to change. Wants morning walks.
+- **Health is #1 priority above all other goals.**
 - Groceries: ~$100/week
 - No em-dashes in responses
 - Write "terminal 3" with a space (company name)
@@ -53,6 +63,9 @@ Systems thinker with an artist's soul. Strategist building myth. Refuses small n
 - Wants a botanical healing wall mural.
 - Tools: Procreate, Figma, Final Cut Pro
 - Cameras: Sony A7C, Fujifilm XM5, DJI Pocket 3
+- **Loves videography.** Cinematic, scripted, shot lists. Not casual -- intentional.
+- Content voice inspo: Nirmal Pillai, Life of Riza, Chloe Shih
+- Confidence booster: great hair + skin days. Makes her feel ready for content/life.
 
 ### Nature Connection
 - Deeply loves trees. Wants to learn to communicate with plants and trees.
