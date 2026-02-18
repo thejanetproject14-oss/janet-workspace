@@ -1,0 +1,450 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Singapore's Sweetest Lip Treatment",
+            "heading_size": "h0",
+            "heading_tag": "h1",
+            "text": "Five shades of lip ganache — dessert-scented, richly pigmented, impossibly smooth.",
+            "text_size": "typeset2",
+            "button_label": "Shop Sweet Treat",
+            "button_link": "/collections/sweet-treat",
+            "button_size": "medium",
+            "button_style_secondary": false,
+            "button_alt_label": "",
+            "button_alt_link": "",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "slide_2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "A Cute Companion for Your Bags",
+            "heading_size": "h0",
+            "heading_tag": "h2",
+            "text": "Handcrafted fruit bag charms, beaded handbags, and accessories that spark joy.",
+            "text_size": "typeset2",
+            "button_label": "Shop Cute Stuff",
+            "button_link": "/collections/accessories",
+            "button_size": "medium",
+            "button_style_secondary": false,
+            "button_alt_label": "",
+            "button_alt_link": "",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["slide_1", "slide_2"],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "show_text_below": false,
+        "colors_button_label": "#FFF8F0",
+        "colors_button_background": "#D4838F",
+        "colors_text": "#FFF8F0",
+        "colors_overlay": "#2D2926",
+        "colors_highlight": "#D4838F"
+      }
+    },
+    "featured_sweet_treat": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "sweet-treat",
+        "products_to_show": 6,
+        "horizontal_scroll": false,
+        "show_view_all": true,
+        "show_divider": false,
+        "enable_drag": false,
+        "heading": "The Sweet Treat Collection",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "colors_highlight": "#D4838F",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "multicolumn_values": {
+      "type": "multicolumn",
+      "blocks": {
+        "col_vegan": {
+          "type": "column",
+          "settings": {
+            "title": "100% Vegan",
+            "title_size": "h3",
+            "text": "<p>Every product, every material. No exceptions.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "col_intention": {
+          "type": "column",
+          "settings": {
+            "title": "Made with Intention",
+            "title_size": "h3",
+            "text": "<p>From scent to shade, every detail is chosen with care.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "col_ritual": {
+          "type": "column",
+          "settings": {
+            "title": "Beauty as Ritual",
+            "title_size": "h3",
+            "text": "<p>Not a chore. A daily act of choosing yourself.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["col_vegan", "col_intention", "col_ritual"],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 3,
+        "open_in_new_tab": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "colors_highlight": "#D4838F",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "card_border_radius": 0,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "hair_oil_richtext": {
+      "type": "rich-text",
+      "blocks": {
+        "hair_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hair Oil That Really Works",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "hair_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lightweight, deeply nourishing, and scented like a Sunday you never want to end.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "hair_button": {
+          "type": "button",
+          "settings": {
+            "button_size": "medium",
+            "button_label": "Shop Hair Oil",
+            "button_link": "/collections/sunday-rituals",
+            "button_style_secondary": false,
+            "button_alt_label": "",
+            "button_alt_link": "",
+            "button_alt_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["hair_heading", "hair_text", "hair_button"],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#FFF8F0",
+        "colors_button_background": "#D4838F",
+        "colors_text": "#2D2926",
+        "colors_background": "#FAF0E8",
+        "colors_highlight": "#D4838F",
+        "gradient_background": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "featured_cute_stuff": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "accessories",
+        "products_to_show": 8,
+        "horizontal_scroll": false,
+        "show_view_all": true,
+        "show_divider": false,
+        "enable_drag": false,
+        "heading": "Cute Stuff",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "colors_highlight": "#D4838F",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "scrolling_promo": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "promo_1": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "text": "100% Vegan · Cruelty Free · Made with Intention · Singapore · Free Shipping over $80",
+            "text_size": 20
+          }
+        }
+      },
+      "block_order": ["promo_1"],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#FFF8F0",
+        "colors_text": "#FFF8F0",
+        "colors_background": "#D4838F",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>The most fun brand I've ever discovered.</p>",
+            "author": "First Customer",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Amazing products. The lip ganache is addictive.</p>",
+            "author": "Happy Customer",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "testimonial_3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Finally, a brand that feels intentional.</p>",
+            "author": "Loyal Customer",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["testimonial_1", "testimonial_2", "testimonial_3"],
+      "settings": {
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "hide_images": true,
+        "show_divider": false,
+        "heading": "What People Are Saying",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_highlight": "#D4838F",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "faq_section": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "title": "Are all Analemma products vegan?",
+            "text": "<p>Yes. Every single product — from our lip ganache formulas to our handbag materials to our brush bristles — is 100% vegan and cruelty-free. No exceptions.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you ship to?",
+            "text": "<p>We currently ship within Singapore. International shipping is on our roadmap — follow us on Instagram @analemma for updates on when we expand.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "title": "What does the lip ganache smell like?",
+            "text": "<p>Our Sweet Treat lip ganache scents are created using food-grade fragrance oils that are safe for lip application. Each flavour is scented to match its dessert namesake — so Raspberry Coulis smells like raspberry, Hot Cocoa smells like cocoa, and so on. All scent ingredients are vegan.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "text": "<p>We accept returns on unused, unopened products within 14 days of delivery. Items must be in their original packaging. Due to hygiene, we cannot accept returns on opened beauty products (lip ganache, hair oil, perfumes). Accessories and handbags may be returned if unused and in original condition.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "title": "How do I care for my beaded handbag?",
+            "text": "<p>Our beaded handbags are handcrafted to be both beautiful and durable. They're best treated as evening or occasion bags rather than everyday carry. Avoid overstuffing, and store flat or stuffed with tissue to maintain shape.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Everything You Need to Know",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_highlight": "#D4838F",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "newsletter_section": {
+      "type": "newsletter",
+      "blocks": {
+        "nl_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "First Access. Always.",
+            "heading_tag": "h2",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "nl_paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Join the Analemma world — new launches, exclusive offers, and beauty rituals delivered to your inbox.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "nl_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": ["nl_heading", "nl_paragraph", "nl_form"],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "full_width": true,
+        "show_divider": false,
+        "colors_text": "#FFF8F0",
+        "colors_border": "#D4838F",
+        "colors_background": "#D4838F",
+        "colors_highlight": "#FFF8F0",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_sweet_treat",
+    "multicolumn_values",
+    "hair_oil_richtext",
+    "featured_cute_stuff",
+    "scrolling_promo",
+    "testimonials",
+    "faq_section",
+    "newsletter_section"
+  ]
+}
