@@ -5,3 +5,6 @@ populate_catalog.py
 populate_catalog.sh
 upload-to-notion.js
 .notion-token
+.shopify-token
+shopify_rebuild.py
+shopify-fix.sh
