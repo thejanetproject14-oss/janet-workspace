@@ -12,3 +12,4 @@ shopify-fix.sh
 .notion-token
 .linear-token
 analemma/update-shopify.sh
+build-calendar.sh
