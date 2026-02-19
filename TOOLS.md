@@ -37,6 +37,14 @@ Things like:
 ## Janet Email
 - thejanetproject14@gmail.com (all Janet logins)
 
+## Slack
+- Workspace: Janet x Analemma (janetxanalemma.slack.com)
+- Bot user: janet_ai_team (U0AGPSW6Q80)
+- Bot ID: B0AFZ71G2LC
+- Token stored at: .slack-tokens (chmod 600)
+- Channels: #general, #shopify, #content-engine, #seo-engine, #linear-updates, #social, #all-janet-x-analemma
+- Channel IDs: general=C0AFP41TC0K, shopify=C0AFVFSJEE6, content-engine=C0AFE2LNTP1, seo-engine=C0AFS3CC6BX, linear-updates=C0AG8DFJ057, social=C0AG8D2D341, all=C0AFTDRF1F0
+
 ## Linear
 - Workspace: Janani's (analemma.contact@gmail.com)
 - Team: Analemma (id: 85f39310-e8c1-479c-b67b-cfeb3168096b)

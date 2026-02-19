@@ -13,3 +13,4 @@ shopify-fix.sh
 .linear-token
 analemma/update-shopify.sh
 build-calendar.sh
+.slack-tokens
