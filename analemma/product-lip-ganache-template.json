@@ -1,0 +1,441 @@
+{
+  "sections": {
+    "empty_space_top": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "text_style": "body",
+            "show_divider": false
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "Analemma",
+            "text_style": "subtitle"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "swatch_type": "round",
+            "enable_swatch_unavailable_click": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "tab_whats_inside": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "What's Inside",
+            "content": "<p>Our Sweet Treat lip ganache formula glides on creamy and sets to a soft satin finish. Dessert-scented with food-grade fragrance oils that are safe for lip application. Each flavour is scented to match its dessert namesake.</p>",
+            "keep_open": false
+          }
+        },
+        "tab_how_to_use": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "How to Use",
+            "content": "<p>Apply directly to lips. One swipe for a soft wash of colour. Two for full pigment. Reapply throughout the day as needed. Pair with our Lip Balm Charm for hydration on the go.</p>",
+            "keep_open": false
+          }
+        },
+        "tab_details": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Details",
+            "content": "<p>• Lip ganache with soft satin finish<br>• Dessert-scented<br>• Full-size<br>• 100% vegan formula<br>• Cruelty-free</p>",
+            "keep_open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Shipping",
+            "content": "<p>Standard shipping within Singapore: 3–5 business days. Free shipping on orders over $80 SGD.</p>",
+            "keep_open": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "tab_whats_inside",
+        "tab_how_to_use",
+        "tab_details",
+        "tab_shipping",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "large",
+        "gallery_layout": "stacked",
+        "image_ratio": "adapt_first",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promo": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "promo_text": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "text": "100% VEGAN · DESSERT SCENTED · CRUELTY FREE · SINGAPORE",
+            "text_size": 18
+          }
+        }
+      },
+      "block_order": ["promo_text"],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#FFF8F0",
+        "colors_text": "#FFF8F0",
+        "colors_background": "#D4838F",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "guarantees_section": {
+      "type": "guarantees",
+      "blocks": {
+        "g_vegan": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "heart",
+            "icon_size": "medium",
+            "title": "100% Vegan",
+            "title_size": "h3",
+            "text": "<p>Every formula, every material.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "g_cruelty": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "leaf",
+            "icon_size": "medium",
+            "title": "Cruelty Free",
+            "title_size": "h3",
+            "text": "<p>Never tested on animals.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "g_small_batch": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "glitter",
+            "icon_size": "medium",
+            "title": "Made in Small Batches",
+            "title_size": "h3",
+            "text": "<p>Crafted with care, not mass-produced.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["g_vegan", "g_cruelty", "g_small_batch"],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 3,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": true,
+        "colors_icon": "#D4838F",
+        "colors_text": "#2D2926",
+        "colors_background": "#FAF0E8",
+        "colors_highlight": "#D4838F",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "testimonials_section": {
+      "type": "testimonials",
+      "blocks": {
+        "t1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>The lip ganache in Raspberry Coulis is my everyday shade. The scent is incredible.</p>",
+            "author": "Satisfied Customer",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "t2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I bought all five flavours. No regrets. The formula is so smooth and creamy.</p>",
+            "author": "Sweet Treat Fan",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "t3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Finally a lip product that smells like actual dessert and lasts all day.</p>",
+            "author": "Lip Ganache Lover",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["t1", "t2", "t3"],
+      "settings": {
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "hide_images": true,
+        "show_divider": false,
+        "heading": "What People Are Saying",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_highlight": "#D4838F",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "complete_ritual": {
+      "type": "rich-text",
+      "blocks": {
+        "ritual_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Complete Your Ritual",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "ritual_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair your Sweet Treat with our Sunday Rituals Hair Oil and a Metallic Lip Balm Charm for the full Analemma experience.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "ritual_button": {
+          "type": "button",
+          "settings": {
+            "button_size": "medium",
+            "button_label": "Shop All",
+            "button_link": "/collections/all",
+            "button_style_secondary": false,
+            "button_alt_label": "",
+            "button_alt_link": "",
+            "button_alt_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["ritual_heading", "ritual_text", "ritual_button"],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#FFF8F0",
+        "colors_button_background": "#D4838F",
+        "colors_text": "#2D2926",
+        "colors_background": "#FAF0E8",
+        "colors_highlight": "#D4838F",
+        "gradient_background": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "product_recs": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "colors_highlight": "#D4838F",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    },
+    "faq_product": {
+      "type": "faq",
+      "blocks": {
+        "pq1": {
+          "type": "question",
+          "settings": {
+            "title": "What does the lip ganache smell like?",
+            "text": "<p>Each flavour is scented to match its dessert namesake using food-grade fragrance oils that are safe for lip application. Raspberry Coulis smells like raspberry, Hot Cocoa smells like cocoa and vanilla, and so on.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "pq2": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe for sensitive lips?",
+            "text": "<p>Our lip ganache is formulated with gentle, vegan ingredients. However, if you have known sensitivities or allergies, we recommend checking the full ingredient list on the product label or contacting us before purchase.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "pq3": {
+          "type": "question",
+          "settings": {
+            "title": "How long does the colour last?",
+            "text": "<p>The soft satin finish typically lasts 3–4 hours with normal wear. For longer-lasting colour, apply two coats and blot between layers. Reapply after eating or drinking.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "pq4": {
+          "type": "question",
+          "settings": {
+            "title": "Are all ingredients vegan?",
+            "text": "<p>Yes, 100%. Every ingredient in our lip ganache formula is vegan and cruelty-free. We never test on animals at any stage of development.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "pq5": {
+          "type": "question",
+          "settings": {
+            "title": "What's the Lip Balm Charm bundle deal?",
+            "text": "<p>When you purchase any Lip Ganache from the Sweet Treat collection, you can add a Lip Balm Charm (Silver or Gold) for $18 instead of the regular price of $22. The discount applies automatically at checkout.</p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": ["pq1", "pq2", "pq3", "pq4", "pq5"],
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Lip Ganache FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_highlight": "#D4838F",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    }
+  },
+  "order": [
+    "empty_space_top",
+    "main",
+    "scrolling_promo",
+    "guarantees_section",
+    "testimonials_section",
+    "complete_ritual",
+    "product_recs",
+    "faq_product"
+  ]
+}

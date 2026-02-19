@@ -10,3 +10,6 @@ shopify_rebuild.py
 shopify-fix.sh
 .linear-token
 .notion-token
+.linear-token
+analemma/update-shopify.sh
+build-calendar.sh

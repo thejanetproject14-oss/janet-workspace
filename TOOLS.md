@@ -26,6 +26,14 @@ Things like:
   - Others: 30beab20-0eed-8088-9865-e17a2be987a9
 - Strategy: Notion = hub/databases/links. Google Drive = long-form docs. Always link GDrive docs back into Notion.
 
+## Linear
+- Workspace: Analemma
+- Team: Analemma (ID: 85f39310-e8c1-479c-b67b-cfeb3168096b)
+- Token stored at: .linear-token (chmod 600)
+- API: GraphQL at https://api.linear.app/graphql
+- User: Janani (analemma.contact@gmail.com)
+- Existing issues: ~10 video/content tasks in Backlog
+
 ## Janet Email
 - thejanetproject14@gmail.com (all Janet logins)
 
