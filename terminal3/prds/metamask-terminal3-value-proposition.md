@@ -45,20 +45,23 @@ terminal 3 provides both **authentication** (login, session management, SSO) and
 **How idOS compares:**
 idOS is a credential storage network. It does not provide authentication, login, session management, or SSO. If MetaMask chose idOS, it would still need to source and integrate a separate authentication provider, build custom session management, and stitch together login + identity across products manually. idOS solves one piece of the puzzle. terminal 3 solves the whole picture.
 
-### 2. Live Data Intelligence (Not Just Storage)
+### 2. Smart Verifiable Credentials + Ongoing Compliance Monitoring
 
-terminal 3 maintains **live, queryable identity state** -- not static snapshots locked in a vault.
+terminal 3 issues **Smart Verifiable Credentials (Smart VCs)** -- living credentials that can be refreshed, revoked, and re-verified over time. This is not static storage. This is compliance as a continuous process.
 
-**What this means for MetaMask:**
-- **Cross-provider risk intelligence:** When a user verified through Transak later tries the MetaMask card, terminal 3 carries their verified identity AND transaction history across. A user with 5 successful Transak orders is a lower risk for the card provider.
-- **Real-time sanctions and fraud monitoring:** If a verified user's wallet hits a sanctions list tomorrow, terminal 3 flags it in real-time. A static credential in a vault cannot.
-- **Conversion optimization:** Returning verified users skip KYC entirely -- zero friction. Early data shows this improves conversion by up to 40% for returning users.
+**What Smart VCs deliver for MetaMask:**
+- **Sanctions and PEP screening:** At onboarding AND on an ongoing basis. terminal 3 screens users against global sanctions lists and politically exposed person (PEP) databases -- built into the platform, not a one-time check.
+- **Scheduled re-verification:** Smart VCs are refreshed on a configurable schedule (e.g., every 12 months). terminal 3 prompts re-verification and reruns key checks. Credentials that fail re-certification are automatically flagged or suspended.
+- **Event-driven re-verification:** When conditions change (new jurisdiction activated, risk threshold crossed), terminal 3 triggers targeted re-verification without requiring a full KYC restart.
+- **Real-time revocation:** If a user is flagged post-verification (sanctions hit, fraud detected), their Smart VC is revoked via the DID registry. Every verifier (Transak, card providers, future partners) checks revocation status before accepting a credential.
+- **Cross-provider risk intelligence:** When a user verified through Transak later tries the MetaMask card, terminal 3 carries their verified identity AND Smart VC status across. A user with 5 successful orders and an active Smart VC is a demonstrably lower risk.
+- **Conversion optimization:** Returning verified users with valid Smart VCs skip KYC entirely -- zero friction.
 
 **How idOS compares:**
-idOS stores encrypted credentials at the point of issuance -- a snapshot frozen in time. There is no mechanism for cross-provider intelligence, no ongoing risk monitoring, and no way to flag a verified user whose wallet later hits a sanctions list. If a credential is issued on a Monday and the user commits fraud on a Tuesday, the idOS credential remains valid. terminal 3's live intelligence catches it.
+idOS stores encrypted credentials at the point of issuance -- a snapshot frozen in time. There is no scheduled re-verification, no event-driven refresh, no sanctions monitoring after initial issuance, and no mechanism to revoke a compromised credential across all consumers simultaneously. If a credential is issued on Monday and the user's identity is compromised on Tuesday, every app consuming that idOS credential must independently discover and handle the problem. With terminal 3's Smart VCs, one revocation propagates to all verifiers instantly via the DID registry.
 
 **Why this matters now:**
-The recent fraud incident through Onfido demonstrated that static, point-in-time KYC is insufficient. Sophisticated fraud requires ongoing intelligence, not just a one-time document check.
+The recent Onfido fraud incident demonstrated that static, point-in-time KYC is insufficient. Sophisticated fraud using stolen identities requires ongoing monitoring. Smart VCs are specifically designed for this.
 
 ### 3. Provider-Agnostic Architecture
 
