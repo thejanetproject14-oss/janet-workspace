@@ -10,6 +10,14 @@
 
 ---
 
+## Document Accuracy Notes
+
+**This document represents proposed architecture. Diagrams show illustrative flows. Actual API contracts, VC schemas, and integration patterns to be finalized during engineering alignment sessions with MetaMask and Transak.**
+
+Features marked as [PROPOSED], [PLANNED], or [TBC] are not currently implemented and require engineering development or partner alignment before availability.
+
+---
+
 ## 1. System Overview
 
 ### 1.1 High-Level Data Flow
@@ -21,14 +29,14 @@ USER (MetaMask Wallet)
     ▼
 METAMASK FRONTEND (no backend)
     │
-    │ [2] Invocation: app_id, env, country, amount?, theme, provider
+    │ [2] SDK Invocation: app_id, env, country, amount?, theme, provider
     ▼
 TERMINAL 3 (Identity Routing & Orchestration Layer)
     │
-    ├── [3] Login: email + OTP & phone + OTP
+    ├── [3] Login: email + OTP [PHONE PLANNED]
     ├── [4] KYC L1/L2/L3 via Veriff
     ├── [5] VC issuance (SD-JWT)
-    ├── [6] VP generation (OID4VP)
+    ├── [6] VP generation [PROPOSED OID4VP mechanism]
     │
     │ [7] VP + auth handoff
     ▼
@@ -36,7 +44,7 @@ TRANSAK (On-ramp Provider)
     │
     │ [8] Payment processing
     │ [9] Crypto fulfillment
-    │ [10] Order status (polled by MetaMask)
+    │ [10] Order status [TBC -- align with Transak's existing pattern]
     ▼
 USER (crypto in wallet)
 ```
@@ -45,20 +53,20 @@ USER (crypto in wallet)
 
 | Party | Owns | Does NOT Own |
 |---|---|---|
-| **MetaMask** | Frontend UX, user consent, wallet connection, order status polling | Backend, KYC state, identity storage, provider routing |
-| **Terminal 3** | Authentication, KYC orchestration & routing, VC issuance, VP generation, DID registry, revocation, regulatory vault, duplicate identity prevention | Payment processing, fiat handling, crypto fulfillment |
+| **MetaMask** | Frontend UX, user consent, wallet connection, Terminal 3 SDK integration | Backend, KYC state, identity storage, provider routing |
+| **Terminal 3** | Authentication, KYC orchestration & routing, VC issuance, VP generation, DID registry, revocation, regulatory vault, duplicate identity prevention [PLANNED] | Payment processing, fiat handling, crypto fulfillment |
 | **Transak** | Payment processing, fiat-to-crypto execution, settlement, compliance (as licensed entity) | KYC collection (delegated to Terminal 3), user authentication |
 
 ---
 
 ## 2. Per-API-Call System Diagram
 
-### Step 1: MetaMask Invocation → Terminal 3
+### Step 1: MetaMask SDK Invocation → Terminal 3
 
 ```
-METAMASK                              TERMINAL 3
+METAMASK FRONTEND                     TERMINAL 3
    │                                      │
-   │  POST /v1/sessions/create            │
+   │  Terminal 3 SDK.initialize()         │
    │  ──────────────────────────────►     │
    │  {                                    │
    │    app_id: "metamask",                │
@@ -69,33 +77,34 @@ METAMASK                              TERMINAL 3
    │    theme: "dark",                     │
    │    provider: "transak"                │
    │  }                                    │
-   │                                      │
+   │                                      │── Internal session creation
+   │                                      │   (MetaMask does NOT receive
+   │                                      │    raw session details)
    │  ◄──────────────────────────────     │
-   │  200 OK                               │
+   │  SDK Response (internal routing)     │
    │  {                                    │
-   │    session_id: "t3_sess_xxx",         │
    │    required_level: "L2",              │
-   │    action: "login",                   │
-   │    login_url: "https://..."           │
+   │    action: "login"                    │
    │  }                                    │
    │                                      │
 ```
 
 **Security notes:**
+- Integration is via Terminal 3 SDK embedded in MetaMask's frontend, not direct API calls
+- SDK handles session creation internally
 - If `amount` is missing, Terminal 3 conservatively assumes L2 KYC required
 - Country is validated against IP (but MetaMask explicit param takes precedence)
 - `app_id` + `env` used for client authentication
 - Session expires after configurable TTL
-- More parameters can be input here from MetaMask, should Transak need information for further risk assessment (e.g., `device_type`)
 
-### Step 2: User Login (Email + OTP & Phone + OTP) -- Phone Verification
+### Step 2: User Login (Email OTP + [PLANNED] Phone OTP) -- Account Creation
 
 ```
 USER                    TERMINAL 3
   │                         │
   │  [UI: Enter email]      │
   │                         │
-  │  POST /v1/auth/login    │
+  │  Email verification     │
   │  ──────────────────►   │
   │  { email: "user@..." }  │
   │                         │── Generate OTP
@@ -103,27 +112,30 @@ USER                    TERMINAL 3
   │  ◄──────────────────   │
   │  { status: "otp_sent" } │
   │                         │
-  │  POST /v1/auth/verify   │
+  │  OTP verification       │
   │  ──────────────────►   │
   │  { email, otp: "123456"}│
-  │                         │── Verify OTP
+  │                         │── Verify OTP (3 min expiry)
   │                         │── Create/lookup account
-  │                         │── Check: account exists? KYC status?
+  │                         │── Create DID if new account
+  │                         │── Issue Email VC
   │  ◄──────────────────   │
   │  {                      │
   │    user_id: "t3_xxx",   │
-  │    auth_token: "jwt...",│
   │    kyc_status: "none",  │  ← or "L1", "L2"
   │    next_action: "kyc"   │  ← or "vp_share" if already verified
-  │  }                      │
+  │  }                      │  (SDK handles internal routing)
   │                         │
 ```
 
 **Security notes:**
-- OTP: 6-digit, 5-minute expiry, 3 max attempts
-- Auth token: JWT, short-lived, signed by Terminal 3
-- If account exists with completed KYC → skip to VP sharing (zero-friction return)
-- If KYC abandoned previously → restart from beginning
+- OTP: 6-digit, **3-minute expiry** (not 5 minutes), 3 max attempts
+- Terminal 3 does **NOT currently issue short-lived JWTs**
+- **Phone verification is [PLANNED] -- not currently implemented**
+- **DID creation happens at account creation (this step), not after KYC**
+- **Email VC is issued upon email verification at this step**
+- **API URLs and input/return formats shown are ILLUSTRATIVE of internal logic, not actual API contracts**
+- **Note: Actual API contracts to be finalized during engineering alignment**
 
 **Decision point:**
 ```
@@ -143,11 +155,11 @@ USER                    TERMINAL 3              VERIFF
   │  [UI: Country of        │                      │
   │   Residence selection]  │                      │
   │                         │                      │
-  │  POST /v1/kyc/l1        │                      │
+  │  L1 KYC Data Collection │                      │
   │  ──────────────────►   │                      │
   │  {                      │                      │
-  │    first_name,          │                      │
-  │    last_name,           │                      │
+  │    first_name,          │  (user-provided,     │
+  │    last_name,           │   unverified)        │
   │    phone,               │                      │
   │    dob,                 │                      │
   │    ssn,                 │                      │
@@ -157,18 +169,18 @@ USER                    TERMINAL 3              VERIFF
   │      zip, country       │                      │
   │    }                    │                      │
   │  }                      │                      │
-  │                         │── SSN + Name match ──►│
+  │                         │── SSN + Name match ──►│ [TBC -- needs verification 
+  │                         │   (for verification) │   that Veriff supports this]
   │                         │◄── Match result ─────│
   │                         │                      │
-  │                         │── Duplicate check     │
-  │                         │   (internal)          │
+  │                         │── Duplicate check     │ [PLANNED -- not currently
+  │                         │   (internal)          │  implemented]
   │                         │                      │
   │  ◄──────────────────   │                      │
-  │  {                      │                      │
-  │    kyc_level: "L1",     │                      │
-  │    next_action: "l2"    │  ← if threshold exceeded  │
-  │    OR "vp_share"        │  ← if within L1 limits    │
-  │  }                      │                      │
+  │  Internal routing to    │                      │
+  │  L2 or VP sharing       │                      │
+  │  (user doesn't receive  │                      │
+  │  KYC level directly)    │                      │
 ```
 
 **Validation rules:**
@@ -176,13 +188,15 @@ USER                    TERMINAL 3              VERIFF
 - `residence_country != "US"` → block (not supported in Phase 1)
 - `residence_country == "US"` AND `document_country != "US"` → can proceed
 - Check against Transak blacklist countries
-- Duplicate identity check: same SSN cannot create multiple Terminal 3 accounts
+- [PLANNED] Duplicate identity check: same SSN cannot create multiple Terminal 3 accounts
+
+**Data Flow Notes:**
+- For L1 KYC data: distinguish between "collected" (user-provided, unverified) and "verified" (checked against a source)
+- Not all L1 fields are verified -- some are self-declared
+- SDK handles routing internally; user doesn't receive KYC level directly
 
 **Decision point -- KYC Level Routing:**
 Terminal 3 handles KYC level routing based on the following inputs: **provider**, **amount**, **payment method type**, and **currency**. The $150 USD Level 1 limit is per transaction, with additional daily, monthly, and yearly cumulative limits for Level 1 KYC.
-
-Full threshold breakdown by jurisdiction, payment method, and currency is maintained by Transak:
-https://transak.notion.site/On-Ramp-Payment-Methods-Fees-Other-Details-b0761634feed4b338a69f4f186d906a5
 
 ```
 IF amount IS NULL OR amount exceeds L1 threshold for given provider/method
@@ -210,8 +224,8 @@ USER                    TERMINAL 3              VERIFF
   │                         │                      │   country, sex, etc.
   │                         │◄── Webhook: result ──│
   │                         │                      │
-  │                         │── Validate:           │
-  │                         │   doc_country == entered_country?
+  │                         │── [PROPOSED validation rule]:
+  │                         │   doc_country == user_input_country?
   │                         │   name matches L1 data?
   │                         │                      │
   │                         │── Store in Regulatory Vault:
@@ -220,14 +234,14 @@ USER                    TERMINAL 3              VERIFF
   │                         │   • Portrait image
   │                         │                      │
   │  ◄──────────────────   │                      │
-  │  {                      │                      │
-  │    kyc_level: "L2",     │                      │
-  │    next_action:         │                      │
-  │      "vp_share"         │                      │
-  │  }                      │                      │
+  │  Internal routing to    │                      │
+  │  VP sharing             │                      │
 ```
 
 **Accepted documents:** National ID, Passport, Driver's License
+
+**[PROPOSED validation rule] Document country vs user input country validation: NOT currently implemented**
+
 **Rejection rules:**
 - If passport issuing country != entered document country → reject with error, redirect to re-do KYC
 - If liveness fails → reject, allow retry
@@ -243,15 +257,21 @@ USER                    TERMINAL 3              VERIFF
 ```
 TERMINAL 3 (internal)
   │
-  │── Issue VC: Email + Phone (SD-JWT)
+  │── Email VC (already issued at Step 2):
   │   {
-  │     type: "EmailPhoneCredential",
+  │     type: "EmailCredential",
   │     email: "user@..." (verified),
+  │     signed_by: "Terminal 3"
+  │   }
+  │
+  │── [PLANNED] Phone VC:
+  │   {
+  │     type: "PhoneCredential", 
   │     phone: "+1..." (verified),
   │     signed_by: "Terminal 3"
   │   }
   │
-  │── Issue VC: KYC (SD-JWT)
+  │── Issue VC: KYC (SD-JWT) [ILLUSTRATIVE FORMAT]:
   │   {
   │     type: "KYCCredential",
   │     kyc_level: 2,
@@ -266,7 +286,7 @@ TERMINAL 3 (internal)
   │     expires_at: "2027-02-20T..."
   │   }
   │
-  │── Register DID
+  │── DID (already created at Step 2):
   │   {
   │     did: "did:t3:user_xxx",
   │     status: "active",
@@ -276,16 +296,25 @@ TERMINAL 3 (internal)
   │
 ```
 
-**VC format:** SD-JWT (selective disclosure)
-**Signing:** Terminal 3 signs on behalf of Veriff
-**DID registry:** Enables verifiers to check issuer authenticity + revocation status
+**Important Notes:**
+- **DID creation happens at Step 2 (account creation), not here**
+- **Email VC is issued at Step 2 when email is verified** 
+- **Phone VC: [PLANNED -- pending phone verification implementation]**
+- **VC schema is illustrative. Actual fields and format to be confirmed with engineering.**
+- **VC format:** SD-JWT (selective disclosure)
+- **Signing:** Terminal 3 signs on behalf of Veriff
 
-### Step 6: VP Sharing with Transak (OID4VP)
+### Step 6: VP Sharing with Transak [PROPOSED OID4VP mechanism]
 
 ```
 TRANSAK                 TERMINAL 3              USER
   │                         │                      │
+  │  [PROPOSED -- subject to│                      │
+  │   Transak engineering   │                      │
+  │   alignment]            │                      │
+  │                         │                      │
   │  OID4VP Request         │                      │
+  │  [TBC mechanism]        │                      │
   │  ──────────────────►   │                      │
   │  {                      │                      │
   │    requested_fields: [  │                      │
@@ -327,41 +356,33 @@ TRANSAK                 TERMINAL 3              USER
   │                         │                      │
 ```
 
+**Important Notes:**
+- **Terminal 3 handles VP generation and sharing**
+- **The mechanism (whether Transak sends an OID4VP request or Terminal 3 pushes the VP) is [TBC with Transak]**
+- **The entire OID4VP mechanism is [PROPOSED -- subject to Transak engineering alignment]**
+
 **Transak verification:**
 - Uses Terminal 3 Verifier SDK
 - Checks: VP signature valid? Issuer trusted? Credential expired? Revoked?
 - Reference: Terminal 3 OID4VP spec (https://docs.terminal3.io/api-reference/openid4vp-vc/openid4vp/authorization)
 
-**Post-VP Flow -- Order Lifecycle (Proposed, TBD after Transak alignment):**
+**Post-VP Flow -- Order Status:**
 
-The following flows handle order status propagation, step-up KYC, and additional data requests between Terminal 3 and Transak after the initial VP is shared.
+Terminal 3 handles ALL KYC routing and step-up BEFORE sharing the VP. Post-VP flow covers only order status (how Terminal 3 learns the order completed).
 
-**Option A: Webhook-Driven (Preferred)**
+**Order Status Mechanism [TBC -- align with Transak's existing pattern]:**
+
 ```
 TRANSAK                 TERMINAL 3
   │                         │
-  │── Webhook: Order        │
-  │   Confirmed             │
+  │── Order Status Update   │
+  │   [TBC mechanism]       │
   │  ──────────────────►   │
   │  { order_id, status:    │
   │    "confirmed" }        │
   │                         │── Log order status
   │                         │
-  │── Webhook: Additional   │
-  │   KYC Required          │
-  │  ──────────────────►   │
-  │  { order_id, status:    │
-  │    "kyc_step_up",       │
-  │    required_level: "L3",│
-  │    required_fields: []} │
-  │                         │── Trigger additional KYC flow
-  │                         │── Issue updated VP
-  │  ◄──────────────────   │
-  │  OID4VP Response        │
-  │  (additional fields)    │
-  │                         │
-  │── Webhook: Order        │
-  │   Completed             │
+  │── Order Completion      │
   │  ──────────────────►   │
   │  { order_id, status:    │
   │    "completed",         │
@@ -370,41 +391,16 @@ TRANSAK                 TERMINAL 3
   │                         │
 ```
 
-**Option B: Polling-Driven (Fallback)**
-```
-TERMINAL 3              TRANSAK
-  │                         │
-  │  GET /v1/orders/status  │
-  │  ──────────────────►   │
-  │  (polling interval      │
-  │   based on txn type)    │
-  │                         │
-  │  ◄──────────────────   │
-  │  { status, next_action }│
-  │                         │
-  │  IF status ==           │
-  │    "additional_info"    │
-  │  ──────────────────►   │
-  │  OID4VP Response        │
-  │  (requested fields)     │
-  │                         │
-```
-
-**Key design decisions (TBD with Transak):**
-- Webhook vs. polling for order status -- webhook preferred for real-time responsiveness
-- How Transak communicates step-up KYC requirements (webhook payload format vs. OID4VP request)
-- Polling interval logic -- varies by payment method (card: minutes, bank transfer: days)
-- Whether Terminal 3 or Transak initiates the additional data request flow
-- Handling of order timeout and cancellation signals
-
 ### Step 7: Transak SSO + Order Execution
 
 ```
 USER                    TERMINAL 3              TRANSAK
   │                         │                      │
   │                         │── Auth Reliance ─────►│
-  │                         │   (user auth token +  │
-  │                         │    verified email)     │
+  │                         │   (Terminal 3 completes│
+  │                         │    KYC, generates VP,   │
+  │                         │    hands off auth +     │
+  │                         │    VP data)            │
   │                         │                      │── Create/login user
   │                         │                      │── Accept VP data
   │                         │                      │
@@ -444,7 +440,7 @@ METAMASK                                    TRANSAK
 |---|---|---|---|---|
 | Wallet address | ✅ has | ✅ has | ✅ receives | — |
 | Email | — | ✅ verified | ✅ receives via VP | — |
-| Phone | — | ✅ collected + verified | ✅ receives via VP | — |
+| Phone | — | ✅ collected + verified [PLANNED] | ✅ receives via VP [PLANNED] | — |
 | First/Last Name | — | ✅ collected + verified | ✅ receives via VP | — |
 | DOB | — | ✅ collected + verified | ✅ receives via VP | — |
 | SSN | — | ✅ collected (L1 match check) | ❌ NOT shared | — |
@@ -459,10 +455,12 @@ METAMASK                                    TRANSAK
 
 | Storage | Method | Access Control |
 |---|---|---|
-| **Terminal 3 Credential Store** | TEE-protected, encrypted at rest | Terminal 3 internal only |
+| **Terminal 3 Credential Store** | Encrypted at rest (standard encryption) | Terminal 3 internal only |
 | **SD-JWT Credentials** | Signed, selective disclosure | User-consented sharing only |
 | **Regulatory Vault** | Encrypted, jurisdiction-aware retention | Regulatory authorities on demand |
 | **DID Registry** | Public metadata (no PII) | Verifiers can check status |
+
+**Note:** TEE-based storage planned with Trinity architecture migration [timeline TBC]. Current state uses encrypted at rest (standard encryption).
 
 ---
 
@@ -484,19 +482,20 @@ START
   NO                         NO
   │                          │
   ▼                          ▼
-[Create account]         [Resume KYC]
+[Create account + DID]   [Resume KYC]
+[Issue Email VC]
   │
   ▼
 [Collect L1: name, phone, DOB, SSN, address]
   │
   ▼
 [SSN + Name match via Veriff]──FAIL──► REJECT + error
-  │
+  │ [TBC -- needs verification that Veriff supports this]
   PASS
   │
   ▼
 [Duplicate identity check]──DUPLICATE──► BLOCK + error
-  │
+  │ [PLANNED -- not currently implemented]
   PASS
   │
   ▼
@@ -520,11 +519,11 @@ VP SHARE  [Veriff: doc upload + liveness]
               │
               ▼
           [Doc country == entered country?]──NO──► REJECT + retry
-              │
+              │ [PROPOSED validation rule -- not currently implemented]
               YES
               │
               ▼
-          [Issue VCs + store in Regulatory Vault]
+          [Issue KYC VC + store in Regulatory Vault]
               │
               ▼
           VP SHARE → TRANSAK
@@ -549,13 +548,13 @@ Phase 2+: intent-based routing (future)
 
 | Scenario | Behavior | User Experience |
 |---|---|---|
-| **OTP expired** | OTP invalid after 5 min | "Code expired. Request a new one." |
+| **OTP expired** | OTP invalid after 3 min | "Code expired. Request a new one." |
 | **OTP max attempts** | 3 failed attempts | "Too many attempts. Please wait 30 minutes." |
 | **SSN match fails** | Veriff SSN+name mismatch | "Information doesn't match records. Please check and retry." |
-| **Duplicate SSN** | Same SSN already in system | "This identity is already registered. Please login instead." |
+| **Duplicate SSN [PLANNED]** | Same SSN already in system | "This identity is already registered. Please login instead." |
 | **Veriff doc rejection** | Document unreadable / fake | "Document could not be verified. Please try again with a clearer image." |
 | **Liveness failure** | Biometric check fails | "Face verification failed. Please try again in good lighting." |
-| **Doc country mismatch** | Passport country != entered country | "Passport does not match selected country. Please re-do KYC." |
+| **Doc country mismatch [PROPOSED]** | Passport country != entered country | "Passport does not match selected country. Please re-do KYC." |
 | **KYC abandoned mid-flow** | User closes before completing | Next visit: restart KYC from beginning |
 | **VP sharing declined** | User refuses consent | Cannot proceed to Transak. Show explanation. |
 | **Transak rejects VP** | VP verification fails | Terminal 3 logs error. User shown retry option. |
@@ -567,7 +566,7 @@ Phase 2+: intent-based routing (future)
 | Trigger | Action |
 |---|---|
 | User at L1 attempts transaction exceeding L1 threshold | Prompt L2 KYC (doc + liveness) |
-| User at L1/L2, Transak requests additional info via webhook | Terminal 3 collects and issues updated VP via OID4VP |
+| User at L1/L2, Transak requests additional info [TBC mechanism] | Terminal 3 collects and issues updated VP |
 | ACH bank transfer (any amount) | Require L2 regardless of amount |
 | Credential expired (>12 months) | Prompt re-verification |
 | Revoked credential | Block + prompt re-verification |
@@ -577,7 +576,7 @@ Phase 2+: intent-based routing (future)
 | Scenario | Owner | Process |
 |---|---|---|
 | Veriff flags for manual review | Veriff | Async review. User notified when complete. |
-| Fraud suspicion (duplicate patterns) | Terminal 3 | Internal review. User blocked pending investigation. |
+| Fraud suspicion (duplicate patterns) [PLANNED] | Terminal 3 | Internal review. User blocked pending investigation. |
 | Regulatory request for Vault data | Terminal 3 | Compliance team provides encrypted access. |
 
 ---
@@ -585,20 +584,20 @@ Phase 2+: intent-based routing (future)
 ## 6. SDK & Integration Points
 
 ### 6.1 Terminal 3 → MetaMask
-- **Integration method:** SDK or URL-based (no MetaMask backend needed)
-- **Auth:** Token-based, frontend-initiated
-- **Data flow:** MetaMask invocation params → Terminal 3 session → KYC flow → redirect to Transak
+- **Integration method:** Terminal 3 SDK embedded in MetaMask's frontend
+- **Auth:** SDK-based, frontend-initiated
+- **Data flow:** MetaMask SDK invocation → Terminal 3 internal session → KYC flow → VP sharing with Transak
 
 ### 6.2 Terminal 3 → Transak
-- **VP sharing:** OID4VP (Terminal 3 spec)
+- **VP sharing:** [PROPOSED OID4VP mechanism -- subject to Transak engineering alignment]
 - **Auth handoff:** Transak Auth Reliance product (email-based)
 - **Verification:** Verifier SDK provided to Transak for VP validation
 - **DID registry:** Public endpoint for Transak to check issuer + revocation
 
 ### 6.3 Transak → Terminal 3
-- **Order status:** Webhook (preferred) or polling (fallback)
-- **Step-up KYC:** Webhook notification triggers OID4VP request for additional data
-- **Order completion:** Webhook confirms final status + tx_hash
+- **Order status:** [TBC -- align with Transak's existing pattern]
+- **Step-up KYC:** [TBC mechanism for additional data requests]
+- **Order completion:** Status notification confirms final status + tx_hash
 
 ### 6.4 Transak → MetaMask
 - **Order status:** Polling (GET every 10s, existing pattern)
@@ -608,7 +607,7 @@ Phase 2+: intent-based routing (future)
 | SDK | Purpose | Consumer |
 |---|---|---|
 | **Verifier SDK** | Validate VP signature, issuer, expiry, revocation | Transak |
-| **Identity SDK** | Login + KYC flow (embedded or redirect) | MetaMask frontend |
+| **Identity SDK** | Login + KYC flow (embedded) | MetaMask frontend |
 
 **Security team benefit:** Only ONE SDK to audit (Terminal 3 Identity SDK) for the MetaMask integration. Transak audits the Verifier SDK separately.
 
@@ -618,18 +617,18 @@ Phase 2+: intent-based routing (future)
 
 | Item | Status | Notes |
 |---|---|---|
-| Data at rest encryption | ✅ TEE-protected | Credential store |
+| Data at rest encryption | ✅ Encrypted at rest | Credential store (TEE planned with Trinity) |
 | Data in transit encryption | ✅ TLS 1.3 | All API calls |
 | PII minimization | ✅ Selective disclosure | SD-JWT reveals only requested fields |
 | SSN handling | ✅ Hash after match | Raw SSN not stored |
 | Biometric data | ✅ Regulatory Vault | Not shared with Transak |
 | Credential revocation | ✅ DID registry | Real-time revocation checking |
-| Duplicate identity prevention | ✅ Built-in | Configurable per client |
+| Duplicate identity prevention | [PLANNED] Built-in | Configurable per client |
 | GDPR right to be forgotten | ✅ Supported | User can revoke credentials + request deletion |
 | Audit trail | ✅ Immutable log | 7-year retention |
 | SOC 2 compliance | ℹ️ Transak is SOC 2 compliant | Terminal 3 status: confirm |
 | Rate limiting | ✅ API gateway | Per-client, per-endpoint |
-| Fraud detection | ✅ Duplicate SSN, document checks | Future: device ID, VPN checks, behavioral signals |
+| Fraud detection | ✅ Document checks | [PLANNED] device ID, VPN checks, behavioral signals |
 
 ---
 
@@ -637,12 +636,12 @@ Phase 2+: intent-based routing (future)
 
 | # | Item | Question for MetaMask Security |
 |---|---|---|
-| 1 | Auth token format | JWT acceptable? Preferred signing algorithm? |
-| 2 | Session TTL | What is acceptable session duration? |
-| 3 | MetaMask invocation auth | How does Terminal 3 validate the invocation is from MetaMask? App ID + env sufficient? |
+| 1 | SDK integration | Terminal 3 Identity SDK -- what level of audit does MetaMask security require? |
+| 2 | Session TTL | What is acceptable session duration for SDK-based sessions? |
+| 3 | MetaMask SDK auth | How does Terminal 3 validate the SDK invocation is from MetaMask? App ID + env sufficient? |
 | 4 | Consent UX | Does MetaMask security need to review the VP consent screen? |
-| 5 | Device signals | MetaMask mentioned device ID and VPN checks. Which signals can MetaMask pass to Terminal 3? |
-| 6 | SDK audit scope | Terminal 3 Identity SDK -- what level of audit does MetaMask security require? |
+| 5 | Device signals | Which signals can MetaMask pass to Terminal 3 for fraud detection? |
+| 6 | OID4VP mechanism | Preference for Terminal 3-initiated VP sharing vs Transak OID4VP request pattern? |
 | 7 | Regulatory Vault access | What is MetaMask's expectation for regulatory access to Vault data? |
 | 8 | Incident response | What is the expected SLA for identity-related incident notification? |
 
