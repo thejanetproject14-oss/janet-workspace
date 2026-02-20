@@ -11,7 +11,7 @@
 
 MetaMask is choosing its identity infrastructure partner -- not just a KYC vendor. This decision will define how MetaMask handles user identity, authentication, compliance, and payment routing across every product line for the next 3-5 years.
 
-This document explains why terminal 3 is the right choice, what MetaMask gains that no alternative can offer, and what MetaMask risks by choosing a narrower solution.
+This document explains why terminal 3 is the right choice, how it compares directly against idOS (the alternative under evaluation), and what MetaMask risks by choosing a narrower solution.
 
 ---
 
@@ -42,8 +42,8 @@ terminal 3 provides both **authentication** (login, session management, SSO) and
 - MetaMask gets its "MetaMask ID" without building backend identity infrastructure
 - One SDK to integrate. One vendor to audit. One relationship to manage.
 
-**What the alternative looks like:**
-Without unified auth + identity, MetaMask would need to integrate a separate authentication provider, a separate KYC vendor, and build custom session management to tie them together -- tripling integration complexity.
+**How idOS compares:**
+idOS is a credential storage network. It does not provide authentication, login, session management, or SSO. If MetaMask chose idOS, it would still need to source and integrate a separate authentication provider, build custom session management, and stitch together login + identity across products manually. idOS solves one piece of the puzzle. terminal 3 solves the whole picture.
 
 ### 2. Live Data Intelligence (Not Just Storage)
 
@@ -53,6 +53,9 @@ terminal 3 maintains **live, queryable identity state** -- not static snapshots 
 - **Cross-provider risk intelligence:** When a user verified through Transak later tries the MetaMask card, terminal 3 carries their verified identity AND transaction history across. A user with 5 successful Transak orders is a lower risk for the card provider.
 - **Real-time sanctions and fraud monitoring:** If a verified user's wallet hits a sanctions list tomorrow, terminal 3 flags it in real-time. A static credential in a vault cannot.
 - **Conversion optimization:** Returning verified users skip KYC entirely -- zero friction. Early data shows this improves conversion by up to 40% for returning users.
+
+**How idOS compares:**
+idOS stores encrypted credentials at the point of issuance -- a snapshot frozen in time. There is no mechanism for cross-provider intelligence, no ongoing risk monitoring, and no way to flag a verified user whose wallet later hits a sanctions list. If a credential is issued on a Monday and the user commits fraud on a Tuesday, the idOS credential remains valid. terminal 3's live intelligence catches it.
 
 **Why this matters now:**
 The recent fraud incident through Onfido demonstrated that static, point-in-time KYC is insufficient. Sophisticated fraud requires ongoing intelligence, not just a one-time document check.
@@ -66,8 +69,8 @@ terminal 3 orchestrates across KYC providers (Veriff, Onfido, Sumsub, and others
 - As MetaMask expands to new regions, terminal 3 activates the best local KYC provider for each jurisdiction
 - MetaMask's security team audits one SDK, not multiple vendor integrations
 
-**Contrast with alternatives:**
-A credential storage network depends entirely on the quality of whatever issuer created the credential. If the issuer fails, the credential is permanently compromised. There is no orchestration layer to reroute or recover.
+**How idOS compares:**
+idOS depends entirely on the quality of whichever issuer created the credential. If the issuer fails (as Onfido recently did), the credential is permanently compromised. There is no orchestration layer to reroute, no ability to switch providers, and no way to re-verify affected users without starting from scratch. With terminal 3, a provider switch is a configuration change. With idOS, it is a re-architecture.
 
 ### 4. Compliance as Infrastructure (Not an Afterthought)
 
@@ -79,8 +82,8 @@ terminal 3 builds compliance into the network layer, not the application layer.
 - **DID Registry + Revocation:** Verifiers (Transak, card providers, future partners) can check credential validity in real-time without accessing underlying personal data
 - **Duplicate identity prevention:** Built-in detection prevents the same government ID from creating multiple accounts -- configurable per client
 
-**Why this is architecturally superior:**
-In networks where compliance is handled at the application layer, every new MetaMask product line must independently implement compliance logic, audit trails, and regulatory reporting. With terminal 3, these are inherited from the infrastructure automatically.
+**How idOS compares:**
+In idOS, compliance is handled at the application layer -- each app that consumes idOS credentials is responsible for its own regulatory checks, audit trails, and reporting. This means every new MetaMask product line (on-ramp, card, trading) must independently build compliance logic. There is no network-level compliance authority and no unified audit view across providers. terminal 3 flips this: compliance is a built-in network role. A regulator or compliance officer gets a verified view across all of MetaMask's identity operations without each product rebuilding it from scratch.
 
 ### 5. PCI DSS Certification and Payment Routing Readiness
 
@@ -91,8 +94,10 @@ terminal 3 is on track for PCI DSS certification, positioning it to handle sensi
 - One partner that grows with MetaMask across the full product roadmap -- from "who is this user" to "how does this user pay"
 - Reduces the number of touchpoints handling sensitive financial data, simplifying MetaMask's security surface
 
-**Why this is rare:**
-Identity providers and payment processors are typically separate vendors with separate integrations, separate audits, and separate compliance obligations. terminal 3 converges these into a single infrastructure partner.
+**How idOS compares:**
+idOS is a credential storage network with zero payment capability. It has no path to PCI DSS, no ability to handle card data, and no role in payment orchestration. As MetaMask scales into cards, trading, and cross-border payments, idOS remains frozen as a KYC storage layer while MetaMask must source and integrate separate payment infrastructure from scratch.
+
+terminal 3 converges identity and payment data handling into a single infrastructure partner -- fewer vendors, fewer audits, smaller security surface.
 
 ### 6. A Richer Data Ecosystem (Beyond KYC)
 
@@ -103,8 +108,29 @@ terminal 3's architecture supports multiple participant types beyond the basic u
 - **Node operators** run infrastructure independently of data providers, creating separation of concerns and reducing trust requirements
 - **Richer data types:** Income history, professional credentials, transaction data, and credit signals can flow through terminal 3 under user consent -- enabling MetaMask to offer premium financial products that require more than just "did this person pass KYC"
 
+**How idOS compares:**
+idOS operates a three-party model: user, KYC verifier, and consuming app. That is the entire ecosystem. There is no mechanism for banks, telcos, or credit bureaus to participate as data providers. The only data that flows through idOS is a credential -- a binary signal that someone passed KYC. terminal 3's multi-participant architecture (users, verifiers, data providers, node operators, compliance authorities) was designed from the ground up for the kind of rich data economy MetaMask needs to power premium financial products.
+
 **The long-term picture:**
-MetaMask's vision of becoming a unified financial platform (like Coinbase but Web3-native) requires identity signals that go far beyond document verification. terminal 3's ecosystem is built for this. A credential storage network is not.
+MetaMask's vision of becoming a unified financial platform (like Coinbase but Web3-native) requires identity signals that go far beyond document verification. terminal 3's ecosystem is built for this. idOS's three-party credential vault is not.
+
+---
+
+## Head-to-Head: terminal 3 vs idOS
+
+| Capability | terminal 3 | idOS |
+|---|---|---|
+| **Authentication (login, SSO)** | ✅ Unified auth across all MetaMask products | ❌ Not offered -- MetaMask needs a separate auth provider |
+| **KYC orchestration** | ✅ Provider-agnostic (Veriff, Onfido, Sumsub) | ⚠️ Depends on individual issuers -- no switching capability |
+| **Live risk intelligence** | ✅ Real-time APIs, cross-provider signals | ❌ Static snapshots only -- no post-issuance monitoring |
+| **Session persistence** | ✅ Returning users skip KYC entirely | ❌ Re-decrypt and re-share for every session |
+| **Compliance infrastructure** | ✅ Network-level: unified audits, regulatory vault, DID registry | ❌ App-level: each product builds its own compliance |
+| **Duplicate identity prevention** | ✅ Built-in, configurable per client | ❌ Not a network feature |
+| **PCI DSS / payment routing** | ✅ Certification in progress | ❌ No payment capability |
+| **Data ecosystem** | ✅ Multi-participant: banks, telcos, credit bureaus as data providers | ❌ Three-party only: user, verifier, consumer |
+| **Integration complexity** | Standard REST APIs -- works with MetaMask's no-backend architecture | Requires blockchain node integration, client-side encryption, wallet signatures |
+| **KYA (agent identity)** | On roadmap -- architecturally planned | ❌ Not offered |
+| **Enterprise SLAs** | ✅ 99.9% uptime, dedicated support | ❌ Decentralized protocol -- community support, no guaranteed response times |
 
 ---
 
