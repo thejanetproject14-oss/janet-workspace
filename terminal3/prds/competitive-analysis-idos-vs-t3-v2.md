@@ -12,11 +12,13 @@
 
 ## The Real Question: KYC Provider vs Identity Infrastructure Partner
 
-This evaluation isn't comparing two KYC providers—it's choosing between:
+This evaluation isn't comparing two KYC providers -- it's choosing between:
 - **idOS:** A decentralized storage primitive for self-custody credentials
 - **terminal 3:** A complete identity infrastructure with live risk intelligence
 
-MetaMask leadership's question "Why pay a platform fee when idOS might do it cheaper?" reveals the core misunderstanding. idOS isn't cheaper—it's incomplete. The real comparison is:
+Note: We have no confirmed integration between idOS and MetaMask. This is currently a competitive check / due diligence exercise, not a known active MetaMask initiative. That said, the platform fee triggered leadership to look at alternatives, and terminal 3 should be prepared to justify value clearly.
+
+MetaMask leadership's question "Why pay a platform fee when idOS might do it cheaper?" reveals the core misunderstanding. idOS isn't cheaper -- it's incomplete. The real comparison is:
 
 | Capability | idOS | terminal 3 |
 |------------|------|------------|
@@ -46,8 +48,8 @@ MetaMask leadership's question "Why pay a platform fee when idOS might do it che
 
 ### 4. KYA Framework (Future-Proofing)
 - **idOS limitation:** No framework for AI agent identity verification.
-- **terminal 3 advantage:** Know Your Agent (KYA) framework ready for the emerging agent economy.
-- **MetaMask impact:** First-mover advantage as AI agents become primary DeFi users.
+- **terminal 3 advantage:** Know Your Agent (KYA) framework on the roadmap -- designed for the emerging agent economy. Not yet built, but architecturally planned into terminal 3's identity layer.
+- **MetaMask impact:** Positions MetaMask for first-mover advantage as AI agents become primary DeFi users. Choosing terminal 3 now means this capability slots in without re-integration.
 
 ### 5. Provider Agnostic Architecture
 - **idOS limitation:** Tied to Kwil blockchain infrastructure and consortium governance.
@@ -146,7 +148,7 @@ Use these bullets in internal MetaMask leadership meetings:
 
 **5. Timeline Reality:** "We need to ship by March 31. terminal 3 integration takes weeks, idOS integration takes months due to blockchain complexity and MetaMask's infrastructure constraints."
 
-**6. Future Optionality:** "terminal 3's KYA framework positions us for the agent economy. As AI agents become primary DeFi users, we'll need identity verification beyond human KYC—something idOS can't provide."
+**6. Future Optionality:** "terminal 3 has KYA (Know Your Agent) on their roadmap -- agent identity verification for the AI economy. As agents become primary DeFi users, we'll need identity beyond human KYC. Choosing terminal 3 now means that capability slots in without re-integration."
 
 ---
 

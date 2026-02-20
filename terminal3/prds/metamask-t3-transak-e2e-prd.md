@@ -717,6 +717,7 @@ MetaMask                    terminal 3                      Transak
 | Regulatory divergence across jurisdictions | Complex policy engine | High | Jurisdiction-aware from day 1 |
 | FX volatility at threshold boundaries | Edge case UX failures | Low-Medium | 5% buffer below thresholds |
 | MetaMask changed account model | KYC attachment complexity (wallet vs account vs address) | Medium | Align with Lorenzo on KYC-to-wallet binding |
+| **Meld orchestration shift** | MetaMask exploring Meld as long-term orchestration layer | Medium | Prove terminal 3 value in Phase 1. Ensure architecture is Meld-compatible if needed. Concerns about single point of failure work in our favor -- terminal 3 as fallback/complement. |
 
 ---
 
@@ -728,7 +729,7 @@ MetaMask                    terminal 3                      Transak
 | **Time to ship** | 12-18 months | Unknown | 8 weeks (Phase 1) |
 | **Identity persistence** | Would need to build from scratch | On-chain -- privacy concerns | TEE-protected, SD-JWT, GDPR compliant |
 | **Multi-provider routing** | Bespoke per provider | Not core focus | Core architecture -- built for this |
-| **Agent authorization (KYA)** | Not on roadmap | Not offered | Native capability -- future-proof |
+| **Agent authorization (KYA)** | Not on roadmap | Not offered | On roadmap -- future-proof |
 | **Compliance** | New liability for MetaMask | Early stage | Enterprise-grade, audit-ready |
 
 ---
