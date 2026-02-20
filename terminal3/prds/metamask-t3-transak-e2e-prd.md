@@ -4,8 +4,18 @@
 **Author:** Janani G, Head of Product — terminal 3
 **Prepared by:** Janet ✦ (Lead PM)
 **Date:** February 20, 2026
-**Status:** Draft v1
+**Status:** Draft v2 — Updated with real project context
 **Classification:** Confidential
+**Target Go-Live:** March 31, 2026 (testing) → April 15-16, 2026 (rollout)
+**Scope:** Native Flow (Deposit) for US & EU via Transak — Mobile + Browser
+**Dependency:** MSA signature required to proceed with Transak engineering conversations
+**Key Stakeholders:**
+- **terminal 3 Product:** Janani Gopalakrishnan, Malcolm Ong
+- **terminal 3 BE:** Truong Nguyen, Edward Fu, Phuc Hoang
+- **terminal 3 FE:** Quang Tran, Matthew Torres
+- **terminal 3 Design:** Ruby Wu, Micho Gunawan
+- **MetaMask Product:** Lorenzo Santos
+- **Transak Product:** Amit Rath
 
 ---
 
@@ -596,21 +606,37 @@ MetaMask                    terminal 3                      Transak
 
 ## 9. Phased Delivery
 
-### Phase 1: Mode 1 -- Minimal Pass-Through (8 weeks)
+### Actual Roadmap (from Master PRD, aligned with MetaMask)
 
-| Week | Milestone | Owner |
-|---|---|---|
-| 1-2 | API spec finalized, Transak alignment | terminal 3 + Transak |
-| 3-4 | Session Manager + Identity Manager (L0/L1) | terminal 3 Eng |
-| 5-6 | Provider Router (Transak integration) | terminal 3 + Transak Eng |
-| 7 | Policy Engine (basic thresholds) | terminal 3 Eng |
-| 8 | Integration testing + MetaMask SDK | All parties |
+| Date | Week | Focus | Milestones |
+|---|---|---|---|
+| Jan 5-9 | Week 1 | Scope lock + Entry conditions + Veriff integration | Finalize MetaMask entry conditions (US, not NY). Confirm mobile + browser scope. Complete Veriff integration. |
+| Jan 12-16 | Week 2 | Identity access + Login + Account state | MetaMask-branded email+OTP login. Account exists logic. Abandoned KYC behavior. Design finalization. |
+| Jan 19-23 | Week 3 | KYC Level 1 + Email/Phone VC issuance | USA L1 capture (name, phone, DOB, SSN, address). SSN+name match via Veriff. SD-JWT VC for email+phone. Duplicate identity prevention. |
+| Jan 26-30 | Week 4 | KYC Level 2 + Regulatory Vault | L2 trigger: amount >$150 OR amount missing. Veriff doc verification + liveness. KYC VC signed by terminal 3 on behalf of Veriff. Regulatory Vault for regulated artifacts. |
+| Feb 2-6 | Week 5 | Transak VP E2E + DID registry + Revocation | OID4VP request from Transak. VP generation with selective disclosure. Verifier SDK for Transak. DID registry + revocation mechanism. |
+| Feb 9-27 | Week 6-8 | Complete flows + E2E testing | Post Transak alignment, clarify open points, complete scope for first delivery. |
+| **Mar 31** | | **Testing go-live** | E2E testing with MetaMask + Transak |
+| **Apr 15-16** | | **Production rollout** | Staggered release via App Store (1 week to 100%). Full adoption: 3-5 weeks. |
+
+### Rollout Strategy (per Lorenzo)
+- Staggered App Store release: ~1 week to reach 100% of users
+- Adoption rate: ~20% per week upgrade
+- New release takes 3-5 weeks for full adoption
+- Available to ALL new users from day 1 (no limiting rollout)
+- User migration (existing KYC users) handled separately in V1.1
+
+### Phase 1: Native Flow -- Deposit via Transak (current scope)
 
 **Deliverables:**
-- User can buy crypto via MetaMask → terminal 3 → Transak
-- Sub-threshold: L1 self-declared, pre-populated in Transak
-- Above-threshold: Transak handles KYC in-widget
-- Returning user: session persistence, no re-entry of L1 data
+- MetaMask-branded login via email + OTP (terminal 3 authentication)
+- KYC L1 + L2 for US & EU via Veriff
+- Verifiable Credentials (SD-JWT) issued for email, phone, and KYC data
+- OID4VP-based VP sharing with Transak
+- Regulatory Vault for sensitive artifacts
+- DID registry + revocation mechanism
+- Duplicate identity prevention
+- Seamless SSO handoff to Transak post-KYC
 
 ### Phase 2: Mode 2 -- Full Verified Profile (12 weeks after Phase 1)
 
@@ -652,16 +678,29 @@ MetaMask                    terminal 3                      Transak
 
 ## 11. Open Questions
 
+### Critical Open Points (from Feb 20 calls)
+
+| # | Question | Context | Needs Input From | Priority |
+|---|---|---|---|---|
+| 1 | Exact invocation parameters from MetaMask | Amount, country, device type, light/dark mode, provider name. Amount may not always be present -- if missing, assume L2. | MetaMask + terminal 3 | P0 |
+| 2 | Order status flow: how does MetaMask notify terminal 3? | MetaMask currently polls Transak every 10s for order status. terminal 3 needs to know if order succeeded for threshold aggregation. Lorenzo suggested terminal 3 only needs signal when additional KYC is required, not every order. | MetaMask + Transak | P0 |
+| 3 | MetaMask ID as common identifier across all transactions | Critical for cross-provider intelligence. Must be present in order status and Transak triggers. Transak may need to create mapping. | All parties | P0 |
+| 4 | KYC attachment: wallet level or account level? | MetaMask changed account model -- wallets contain multiple accounts (EVM + Solana + Bitcoin). KYC attaching to login doesn't map cleanly since MetaMask has no login. | MetaMask | P0 |
+| 5 | Transak KYC Reliance product integration | Transak has Auth Reliance (live) and KYC Reliance (coming soon, currently Sumsub-only, going provider-agnostic). Need compliance teams to align. | Transak Compliance | P0 |
+| 6 | Who bears cost of authentication and KYC? | Lorenzo confirmed: MetaMask bears the cost. | Confirmed | Resolved |
+| 7 | Phone number verification | Transak doesn't currently verify phone (to boost conversion) but plans to add it. terminal 3 should verify phone. No duplicate phone numbers allowed. | terminal 3 + Transak | P1 |
+| 8 | Order reversal impact on threshold calculation | If user reverses an order, terminal 3 may show 3 completed orders while Transak has 2. Status management across three parties is complex. | All parties | P1 |
+| 9 | Tripartite legal agreement structure | Consensys legal has started. terminal 3's licenses and compliance obligations vs Transak's licenses. | Legal teams | P0 |
+
+### Original Transak Questions (still open)
+
 | # | Question | Needs Input From | Priority |
 |---|---|---|---|
-| 1 | Transak threshold: $150 global or jurisdiction-specific? | Transak | P0 |
-| 2 | Per-transaction or rolling window? | Transak | P0 |
-| 3 | Transak API: can we pre-populate user data via partner API? | Transak Eng | P0 |
-| 4 | MetaMask SDK: existing on-ramp SDK or new integration? | MetaMask Eng | P0 |
-| 5 | Transak willingness to trust terminal 3 KYC (Mode 2)? | Transak Compliance | P1 |
-| 6 | Data residency requirements by jurisdiction? | Legal | P1 |
-| 7 | Verification provider preference (Onfido, Jumio, other)? | terminal 3 Eng | P1 |
-| 8 | MetaMask consent UX: who builds the UI? | MetaMask Product | P1 |
+| 10 | Transak threshold: $150 global or jurisdiction-specific? | Transak | P0 |
+| 11 | Per-transaction or rolling window? | Transak | P0 |
+| 12 | Transak L3 KYC requirements (income proofs, additional docs)? | Transak | P1 |
+| 13 | ACH bank transfers requiring L2 regardless of amount? | Transak | P1 |
+| 14 | Deposit button visibility: restricted by region, history? | MetaMask | P1 |
 
 ---
 
@@ -669,11 +708,15 @@ MetaMask                    terminal 3                      Transak
 
 | Risk | Impact | Likelihood | Mitigation |
 |---|---|---|---|
+| **idOS competitive evaluation** | MetaMask leadership exploring alternatives due to platform fee | **HIGH -- ACTIVE** | Deliver competitive analysis + prove platform fee ROI with conversion data. Lorenzo is sympathetic -- give him ammunition. |
+| **zkMe smear campaign** | Baseless legal dispute claims + humanity protocol bot allegations. Could spook Consensys leadership. | Medium | Formal response from legal + Malcolm. Gary calling Consensys investor directly. Get customer references (IMDA, DNP). |
+| **Onfido KYC fraud incident** | All US Transak transactions now require L2 KYC. Conversion dropped. MetaMask leadership rattled about KYC quality. | **Already happened** | Highlight terminal 3 is provider-agnostic (Veriff, not Onfido). Duplicate identity prevention is built-in. |
+| **MSA signature delay** | Blocks Transak engineering conversations | High | Escalate internally. This is the critical path blocker. |
+| **Platform fee pricing perception** | Caught MetaMask off guard. "Bad taste" from 2 weeks ago. | **Already happened** | Justify through smart credentials value prop, not just KYC commodity. |
 | Transak rejects Mode 2 trust model | Stuck on Mode 1 | Medium | Ship Mode 1 with conversion data to build the case |
-| MetaMask changes SDK architecture | Integration rework | Low | Abstract interface layer |
 | Regulatory divergence across jurisdictions | Complex policy engine | High | Jurisdiction-aware from day 1 |
-| idOS or competitor captures MetaMask | Existential for this integration | Medium | Move fast, ship Phase 1, prove value with data |
 | FX volatility at threshold boundaries | Edge case UX failures | Low-Medium | 5% buffer below thresholds |
+| MetaMask changed account model | KYC attachment complexity (wallet vs account vs address) | Medium | Align with Lorenzo on KYC-to-wallet binding |
 
 ---
 
