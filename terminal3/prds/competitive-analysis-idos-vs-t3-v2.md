@@ -23,10 +23,12 @@ MetaMask leadership's question "Why pay a platform fee when idOS might do it che
 | Capability | idOS | terminal 3 |
 |------------|------|------------|
 | KYC credential storage | ✅ Decentralized | ✅ Centralized |
+| Unified authentication (login + SSO) | ❌ Not offered | ✅ Email + OTP, social login, unified MetaMask ID |
 | Live data access | ❌ Snapshot only | ✅ Real-time APIs |
 | Cross-provider intelligence | ❌ Siloed | ✅ Network effects |
 | Session persistence | ❌ Re-verify each time | ✅ Zero-friction returns |
 | Active risk management | ❌ Depends on issuer | ✅ Continuous monitoring |
+| PCI DSS / Payment routing | ❌ No payment capability | ✅ PCI DSS certification in progress |
 | MetaMask backend integration | ❌ Requires blockchain infra | ✅ Standard REST APIs |
 
 ## Platform Fee Justification: 10x Value Over "Free" Alternatives
@@ -51,7 +53,17 @@ MetaMask leadership's question "Why pay a platform fee when idOS might do it che
 - **terminal 3 advantage:** Know Your Agent (KYA) framework on the roadmap -- designed for the emerging agent economy. Not yet built, but architecturally planned into terminal 3's identity layer.
 - **MetaMask impact:** Positions MetaMask for first-mover advantage as AI agents become primary DeFi users. Choosing terminal 3 now means this capability slots in without re-integration.
 
-### 5. Provider Agnostic Architecture
+### 5. Unified Authentication Layer
+- **idOS limitation:** idOS is a storage and credential network. It does not provide user authentication. MetaMask would still need a separate auth solution for login, session management, and unified identity across products (wallet, card, trading).
+- **terminal 3 advantage:** terminal 3 provides a complete authentication service (email + OTP, social login) alongside KYC. MetaMask has confirmed they want terminal 3 to own both login AND identity -- creating a unified "MetaMask ID" across all products including the MetaMask card and future provider integrations.
+- **MetaMask impact:** One vendor for auth + identity vs. having to stitch together idOS (storage) + a separate auth provider + a separate session manager. Fewer integration points, fewer SDKs, less security surface area.
+
+### 6. PCI DSS Certification and Payment Routing
+- **idOS limitation:** idOS is an identity storage network with no payment capabilities. It has no path to handling payment data, card routing, or payment method orchestration.
+- **terminal 3 advantage:** terminal 3 is on track for PCI DSS certification, which positions it to handle payment routing and sensitive payment data handling in addition to identity. This means terminal 3 can eventually serve as both the identity layer AND the payment orchestration layer for MetaMask.
+- **MetaMask impact:** As MetaMask expands beyond on-ramp (trading, card, equities/perps), PCI DSS certification means terminal 3 can grow with them -- handling not just "who is this user" but "how does this user pay" across all product lines. idOS cannot offer this.
+
+### 7. Provider Agnostic Architecture
 - **idOS limitation:** Tied to Kwil blockchain infrastructure and consortium governance.
 - **terminal 3 advantage:** Can switch KYC providers (Onfido → Veriff) without changing MetaMask integration.
 - **MetaMask impact:** Reduces vendor lock-in and provides options if providers fail (like Onfido recently did).
@@ -139,7 +151,9 @@ Use these bullets in internal MetaMask leadership meetings:
 
 **5. Timeline Reality:** "We need to ship by March 31. terminal 3 integration takes weeks, idOS integration takes months due to blockchain complexity and MetaMask's infrastructure constraints."
 
-**6. Future Optionality:** "terminal 3 has KYA (Know Your Agent) on their roadmap -- agent identity verification for the AI economy. As agents become primary DeFi users, we'll need identity beyond human KYC. Choosing terminal 3 now means that capability slots in without re-integration."
+**6. Full Stack, Not Just Storage:** "terminal 3 handles auth AND identity AND is pursuing PCI DSS certification for payment routing. That means one vendor grows with us across card, trading, and future products. idOS is storage only -- we'd still need to find and integrate separate auth, session management, and payment handling."
+
+**7. Future Optionality:** "terminal 3 has KYA (Know Your Agent) on their roadmap -- agent identity verification for the AI economy. As agents become primary DeFi users, we'll need identity beyond human KYC. Choosing terminal 3 now means that capability slots in without re-integration."
 
 ---
 
