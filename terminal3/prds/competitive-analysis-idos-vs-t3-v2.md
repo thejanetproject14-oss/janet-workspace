@@ -64,21 +64,12 @@ MetaMask leadership's question "Why pay a platform fee when idOS might do it che
 - **Workaround complexity:** Would require building a proxy service, managing Kwil SDK integration, and handling wallet signatures for every data request.
 
 ### 2. Integration Complexity
-```javascript
-// idOS integration (simplified)
-const user = await idOS.auth.login(wallet);
-const credential = await user.credentials.get(credentialId);
-const decryptedData = await enclave.decrypt(credential, userPassword);
-const grant = await user.createAccessGrant(consumer, timelock);
-```
 
-```javascript
-// terminal 3 integration
-const verification = await terminal3.verify(userId);
-if (verification.status === 'verified') {
-  // User is good to go
-}
-```
+**idOS integration requires multiple steps:**
+The integrating application must authenticate the user's wallet, retrieve encrypted credentials from the idOS network, decrypt the data client-side using the browser enclave and the user's password, and then create a time-locked access grant for each consuming party. This involves blockchain state management, client-side cryptography, and wallet signature handling -- none of which MetaMask currently has infrastructure for.
+
+**terminal 3 integration is a single verification call:**
+The integrating application sends a user ID and receives a verification status. If verified, the user proceeds. All orchestration, encryption, credential management, and provider communication is handled server-side by terminal 3 via standard REST APIs.
 
 ### 3. Enterprise Readiness Gap
 - **SLAs:** idOS operates on blockchain consensus with no guaranteed response times. terminal 3 provides 99.9% uptime SLAs.
