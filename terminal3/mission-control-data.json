@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "lastUpdated": "2026-02-20T12:30:00+08:00",
+    "lead": "Janet",
+    "reportsTo": "Sunshine"
+  },
+  "agents": [
+    {
+      "id": "arjuna",
+      "name": "Arjuna",
+      "role": "Agentic Payments",
+      "emoji": "🏹",
+      "status": "idle",
+      "currentTask": null,
+      "tasksCompleted": 0,
+      "tasksActive": 0
+    },
+    {
+      "id": "yudhishthira",
+      "name": "Yudhishthira",
+      "role": "KYC & Identity",
+      "emoji": "⚖️",
+      "status": "idle",
+      "currentTask": null,
+      "tasksCompleted": 0,
+      "tasksActive": 0
+    },
+    {
+      "id": "vidura",
+      "name": "Vidura",
+      "role": "Knowledge Base",
+      "emoji": "📜",
+      "status": "idle",
+      "currentTask": null,
+      "tasksCompleted": 0,
+      "tasksActive": 0
+    },
+    {
+      "id": "sahadeva",
+      "name": "Sahadeva",
+      "role": "Stablecoin Networks",
+      "emoji": "🔮",
+      "status": "idle",
+      "currentTask": null,
+      "tasksCompleted": 0,
+      "tasksActive": 0
+    }
+  ],
+  "tasks": [],
+  "priorities": [
+    {"rank": 1, "project": "MetaMask Partnership", "agent": "yudhishthira", "urgency": "fire"},
+    {"rank": 2, "project": "Visa Agent Pay", "agent": "arjuna", "urgency": "high"},
+    {"rank": 3, "project": "KLOOK & Octopus Demos", "agent": "yudhishthira", "urgency": "high"},
+    {"rank": 4, "project": "DNP Japan (Feb 24-28)", "agent": "sahadeva", "urgency": "high"},
+    {"rank": 5, "project": "Hedera Strategy", "agent": "sahadeva", "urgency": "medium"}
+  ]
+}
