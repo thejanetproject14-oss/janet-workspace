@@ -10,14 +10,10 @@ def print_flush(*args, **kwargs):
     print(*args, **kwargs)
     sys.stdout.flush()
 
-# Notion API configuration
-NOTION_TOKEN = ""  # Placeholder for environment variable
-PARENT_PAGE_ID = "30beab20-0eed-80a0-80a1-cf6a2ad73acd"
-HEADERS = {
-    "Authorization": f"Bearer {NOTION_TOKEN}",
-    "Content-Type": "application/json",
-    "Notion-Version": "2022-06-28"
-}
+# Notion API configuration (temporarily disabled)
+NOTION_TOKEN = None
+PARENT_PAGE_ID = None
+HEADERS = {}
 
 def convert_markdown_to_blocks(markdown_text):
     blocks = []
