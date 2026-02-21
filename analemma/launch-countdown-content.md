@@ -1,6 +1,6 @@
 # Analemma Lip Ganache "Sweet Treat" Launch Countdown
 
-## Instagram Content Calendar: Feb 19 -- Mar 8, 2026 (18 Days to Launch)
+## Instagram Content Calendar: Feb 21 -- Mar 15, 2026 (22 Days to Launch)
 
 ---
 
@@ -8,9 +8,9 @@
 
 | Batch Window | Prep For | Notes |
 |---|---|---|
-| **Sun Feb 23** (afternoon) | Mon-Fri Feb 24-28 posts | Edit photoshoot selects, write captions, schedule feed posts. Film any short reels. ~2-3 hrs. |
-| **Sat Mar 1** (morning) | Mon-Thu Mar 2-5 posts | Website screenshot content, countdown graphics, final captions. ~1.5 hrs. |
-| **Fri Mar 6** (evening) | Mar 7-8 final push | Last countdown + launch day assets. ~1 hr. |
+| **Sun Mar 2** (afternoon) | Mon-Fri Mar 3-7 posts | Edit photoshoot selects, write captions, schedule feed posts. Film any short reels. ~2-3 hrs. |
+| **Sat Mar 8** (morning) | Mon-Thu Mar 9-12 posts | Website screenshot content, countdown graphics, final captions. ~1.5 hrs. |
+| **Fri Mar 13** (evening) | Mar 14-15 final push | Last countdown + launch day assets. ~1 hr. |
 
 Weekday posts should be **pre-scheduled** (Later, Planoly, or Meta Business Suite). Stories are quick day-of captures or reposts.
 
@@ -26,11 +26,11 @@ Copy-paste for every post:
 
 ---
 
-## PHASE 1: TEASE & WORLD-BUILD (Days 18-14)
+## PHASE 1: TEASE & WORLD-BUILD (Days 22-18)
 
 ---
 
-### Day 18 -- Wednesday, Feb 19
+### Day 1 -- Friday, Feb 21 (ALREADY POSTED)
 
 **Theme:** The First Whisper
 
@@ -44,13 +44,13 @@ Copy-paste for every post:
   >
   > this isn't just another lip product. this is dessert for your lips -- and we mean that literally.
   >
-  > march 8. mark it.
+  > march 15. mark it.
   >
   > #Analemma #SomethingSweet #ComingSoon #VeganBeauty #LuxuryBeauty #IndieBeauty
 
 **Stories (2):**
 1. **Black screen + white text:** "we have a secret." (tap-through to next)
-2. **Same photoshoot image as feed, but with "03.08.26" overlaid in clean serif font.** Add countdown sticker set to Mar 8.
+2. **Same photoshoot image as feed, but with "03.15.26" overlaid in clean serif font.** Add countdown sticker set to Mar 15.
 
 **Reel:** None
 
@@ -61,7 +61,7 @@ Copy-paste for every post:
 
 ---
 
-### Day 19 -- Thursday, Feb 20
+### Day 2 -- Saturday, Feb 22
 
 **Theme:** The Studio
 
@@ -82,7 +82,7 @@ Copy-paste for every post:
 
 ---
 
-### Day 20 -- Friday, Feb 21
+### Day 3 -- Sunday, Feb 23
 
 **Theme:** Texture & Sensory Tease
 
@@ -98,7 +98,7 @@ Copy-paste for every post:
   >
   > we call it lip ganache -- and once you feel it, you'll understand why.
   >
-  > 16 days.
+  > 20 days.
   >
   > #Analemma #LipGanache #VeganBeauty #CrueltyFreeBeauty #TextureTalk #IndieBeauty #ComingSoon
 
@@ -108,7 +108,7 @@ Copy-paste for every post:
 
 **Reel:** None
 
-**Effort Level:** 🟡 Medium (30 min) -- need to select texture shot carefully. Could film a quick hand swatch at home Friday evening.
+**Effort Level:** 🟡 Medium (30 min) -- need to select texture shot carefully. Could film a quick hand swatch at home Sunday evening.
 
 **Assets Needed:**
 - 1 texture/swatch macro photo from photoshoot OR quick phone swatch
@@ -116,7 +116,7 @@ Copy-paste for every post:
 
 ---
 
-### Day 21 -- Saturday, Feb 22
+### Day 4 -- Monday, Feb 24
 
 **Theme:** The Scent Story
 
@@ -124,8 +124,8 @@ Copy-paste for every post:
 - **Concept:** Carousel (3 slides). Flat-lay or styled shots of real dessert ingredients alongside product (but product still partially hidden). Think: raspberries, cocoa powder, coffee beans, cherries, strawberry jam in a jar.
   - Slide 1: Styled flat-lay of dessert ingredients, warm tones, editorial
   - Slide 2: Close-up of one ingredient (e.g., raspberries scattered on marble)
-  - Slide 3: Text card on brand-colored background: "5 flavors. all real. all vegan. 03.08.26"
-- **Image needed:** If dessert props from shoot exist, use those. Otherwise, quick flat-lay at home Saturday morning with grocery store ingredients. Natural light, clean surface.
+  - Slide 3: Text card on brand-colored background: "5 flavors. all real. all vegan. 03.15.26"
+- **Image needed:** If dessert props from shoot exist, use those. Otherwise, quick flat-lay at home Monday morning with grocery store ingredients. Natural light, clean surface.
 - **Caption:**
   > we didn't do "flavored."
   >
@@ -145,7 +145,7 @@ Copy-paste for every post:
 3. **Quiz sticker:** "One of our flavors is..." with 4 options (include 1 real, 3 fake like "birthday cake" "cotton candy" "mint chip"). Fun engagement.
 
 **Reel:**
-- **Concept:** "Things that inspired our new launch" -- short montage. 5-7 clips, 1-2 seconds each. Desserts in cafes, texture shots, her hand picking up a macaron, coffee being poured, a cherry dropping into something. End with quick flash of product shadow/silhouette + "03.08.26"
+- **Concept:** "Things that inspired our new launch" -- short montage. 5-7 clips, 1-2 seconds each. Desserts in cafes, texture shots, her hand picking up a macaron, coffee being poured, a cherry dropping into something. End with quick flash of product shadow/silhouette + "03.15.26"
 - **Shot list:**
   1. Pour chocolate sauce (kitchen, overhead)
   2. Slice strawberry in half (close-up)
@@ -156,19 +156,19 @@ Copy-paste for every post:
 - **Audio vibe:** Trending audio with a slow, luxurious feel. Search "that girl aesthetic" or "dessert ASMR" trending sounds. If nothing fits, use a sultry jazz instrumental.
 - **Length:** 15-20 seconds max
 
-**Effort Level:** 🔴 High (1.5-2 hrs) -- carousel creation + reel filming + editing. This is the Saturday content day.
+**Effort Level:** 🔴 High (1.5-2 hrs) -- carousel creation + reel filming + editing. This is the Monday content day.
 
 **Assets Needed:**
 - Dessert ingredient flat-lay photos (shoot at home or pull from photoshoot)
-- 5-7 short video clips for reel (film Saturday morning in kitchen with good window light)
+- 5-7 short video clips for reel (film Monday morning in kitchen with good window light)
 - Text card graphic (Canva, 30 sec)
 - Product reaction video for stories
 
-**📌 BATCH NOTE:** After finishing Saturday content, spend 30 min selecting + editing photoshoot photos for Mon-Fri next week. Export 5-6 selects to phone.
+**📌 BATCH NOTE:** After finishing Monday content, spend 30 min selecting + editing photoshoot photos for Tue-Sat next week. Export 5-6 selects to phone.
 
 ---
 
-### Day 22 -- Sunday, Feb 23
+### Day 5 -- Tuesday, Feb 25
 
 **Theme:** Founder Story / Personal Touch
 
@@ -184,12 +184,12 @@ Copy-paste for every post:
   >
   > the sweet treat collection is that gasp.
   >
-  > i can't wait for you to try it. 13 days.
+  > i can't wait for you to try it. 18 days.
   >
   > #Analemma #FounderStory #VeganBeauty #IndieBeauty #SmallBusinessLaunch #LipGanache #SweetTreatCollection
 
 **Stories (2):**
-1. **Casual talking-head story** (film Sunday morning, no makeup or minimal makeup -- authenticity): "Hey, I just want to say thank you to everyone who's been following along. The launch is in less than two weeks and I'm nervous and excited. Just... stay tuned this week. We're revealing everything."
+1. **Casual talking-head story** (film Tuesday morning, no makeup or minimal makeup -- authenticity): "Hey, I just want to say thank you to everyone who's been following along. The launch is in less than three weeks and I'm nervous and excited. Just... stay tuned this week. We're revealing everything."
 2. **Repost the feed post** to stories with "read the caption 🤍" sticker
 
 **Reel:** None (save energy for the week ahead)
@@ -200,27 +200,84 @@ Copy-paste for every post:
 - 1 founder portrait (photoshoot or phone)
 - Quick talking-head story video
 
-**📌 BATCH NOTE: MAJOR BATCH SESSION TODAY.**
-After posting, spend 2-3 hours:
-- Edit + finalize 5 hero product photos (one per flavor) for reveals Mon-Fri
-- Write all 5 reveal captions (see Days 13-8 below)
-- Create countdown graphics in Canva (simple templates: "13 days" through "8 days")
-- Schedule Mon-Fri feed posts via Later/Planoly
-- Film any needed swatch videos for the week
+**📌 BATCH NOTE: NO BATCH SESSION TODAY -- weekend for that.**
 
 ---
 
-## PHASE 2: PRODUCT REVEALS & HYPE (Days 13-8)
+### Day 6 -- Wednesday, Feb 26
+
+**Theme:** Texture Deep Dive
+
+**Feed Post:**
+- **Concept:** Close-up texture shot carousel. Show the product, the texture, the way it applies.
+  - Slide 1: Product tube close-up (cap off, product visible)
+  - Slide 2: Swatch on hand showing texture
+  - Slide 3: Application on lips (from photoshoot)
+- **Image needed:** Texture shots from photoshoot or quick phone macro shots
+- **Caption:**
+  > let's talk texture.
+  >
+  > lip ganache isn't like anything else you own. it's not a gloss -- no sticky finish. it's not a matte -- no drying formula. it's not a balm -- way too pigmented.
+  >
+  > it's like someone took the richest dessert you've ever tasted and turned it into the perfect lip product.
+  >
+  > smooth application. buildable color. comfortable wear. scented like the real thing.
+  >
+  > 17 days until you can feel it for yourself.
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #TextureTalk #VeganBeauty #CrueltyFreeBeauty #IndieBeauty
+
+**Stories (2):**
+1. **"17 DAYS" countdown graphic** + countdown sticker to Mar 15
+2. **Texture video:** Close-up of product being squeezed out of tube or applied to hand. Text: "not your average lip product"
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- use existing texture shots, quick caption
+
+**Assets Needed:**
+- Texture shots from photoshoot
+- Quick countdown graphic
 
 ---
 
-### Day 23 -- Monday, Feb 24
+### Day 7 -- Thursday, Feb 27
 
-**Theme:** Flavor Reveal #1 -- Raspberry Coulis
+**Theme:** Color Preview Tease
+
+**Feed Post:**
+- **Concept:** Abstract color story. Swatches without context, artistic arrangement, maybe on different skin tones if available from photoshoot.
+- **Image needed:** Artistic swatch shots from photoshoot
+- **Caption:**
+  > five colors. each one has a story.
+  >
+  > tomorrow, we start telling them.
+  >
+  > 16 days.
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #ColorStory #VeganBeauty #ComingSoon
+
+**Stories (2):**
+1. **"16 DAYS" countdown graphic**
+2. **Poll:** "Ready for the flavor reveals?" Yes/No -- simple engagement
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- simple post, quick stories
+
+**Assets Needed:**
+- Abstract swatch photos from photoshoot
+- Countdown graphic
+
+---
+
+### Day 8 -- Friday, Feb 28 (BRIDGERTON HOUSE PARTY 🎉)
+
+**Theme:** Flavor Reveal #1 -- Raspberry Coulis + Bridgerton Content Goldmine
 
 **Feed Post:**
 - **Concept:** Hero shot of Lip Ganache in Raspberry Coulis shade. Full product reveal -- packaging visible, shade visible. Styled with fresh raspberries or coulis drizzle in frame. Editorial, luxurious.
-- **Image needed:** Photoshoot hero shot of Raspberry Coulis (should be prepped from Sunday batch)
+- **Image needed:** Photoshoot hero shot of Raspberry Coulis
 - **Caption:**
   > introducing sweet treat flavor no. 1 --
   >
@@ -230,166 +287,14 @@ After posting, spend 2-3 hours:
   >
   > scented like real raspberry coulis -- because we don't do artificial anything.
   >
-  > lip ganache. sweet treat collection. launching march 8.
+  > lip ganache. sweet treat collection. launching march 15.
   >
   > four more to come this week. 💋
   >
   > #Analemma #LipGanache #SweetTreatCollection #RaspberryCoulis #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
 
-**Stories (3):**
-1. **Countdown sticker story:** "13 DAYS" graphic + countdown sticker to Mar 8
-2. **Close-up of the shade** on lips (from photoshoot). Text: "flavor one: raspberry coulis 🍓"
-3. **Swipe-up/link sticker** (if available) or "DM us to get notified when it drops" engagement prompt
-
-**Reel:** None (weekday -- keep it low effort)
-
-**Effort Level:** 🟢 Low (15 min) -- pre-scheduled from Sunday batch. Just post stories day-of.
-
-**Assets Needed:**
-- Hero product shot of Raspberry Coulis (from batch)
-- Lip swatch photo (from photoshoot)
-- "13 days" countdown graphic (from batch)
-
----
-
-### Day 24 -- Tuesday, Feb 25
-
-**Theme:** Flavor Reveal #2 -- Strawberry Jam
-
-**Feed Post:**
-- **Concept:** Hero shot of Strawberry Jam shade. Styled with strawberries, jam jar, or toast with jam. Warmer, sunnier tones than Raspberry Coulis -- differentiate the vibe.
-- **Image needed:** Photoshoot hero shot of Strawberry Jam
-- **Caption:**
-  > sweet treat flavor no. 2 --
-  >
-  > 𝐒𝐓𝐑𝐀𝐖𝐁𝐄𝐑𝐑𝐘 𝐉𝐀𝐌
-  >
-  > the shade that looks like sunday morning. warm. familiar. a little bit nostalgic.
-  >
-  > the kind of color you reach for when you want to feel like yourself -- just sweeter.
-  >
-  > scented like real strawberry jam. because your lips deserve better than artificial fragrance.
-  >
-  > 12 days to launch. which flavor is calling your name?
-  >
-  > #Analemma #LipGanache #SweetTreatCollection #StrawberryJam #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
-
-**Stories (2):**
-1. **"12 DAYS" countdown graphic** + countdown sticker
-2. **Side-by-side story:** Raspberry Coulis vs Strawberry Jam swatches on arm. Text: "sisters, not twins. which one are you?"  Add poll: "Raspberry Coulis" / "Strawberry Jam"
-
-**Reel:** None
-
-**Effort Level:** 🟢 Low (15 min) -- pre-scheduled post. Quick stories.
-
-**Assets Needed:**
-- Hero product shot of Strawberry Jam (from batch)
-- Swatch comparison photo (prep during Sunday batch)
-
----
-
-### Day 25 -- Wednesday, Feb 26
-
-**Theme:** Flavor Reveal #3 -- Hot Cocoa
-
-**Feed Post:**
-- **Concept:** Hero shot of Hot Cocoa shade. This is the warm neutral -- style with cocoa powder, cinnamon sticks, mug, cozy vibes. Moodier lighting than the berry shades.
-- **Image needed:** Photoshoot hero shot of Hot Cocoa
-- **Caption:**
-  > sweet treat flavor no. 3 --
-  >
-  > 𝐇𝐎𝐓 𝐂𝐎𝐂𝐎𝐀
-  >
-  > for the days when you want warmth on your lips and chocolate on your mind.
-  >
-  > a rich, velvety neutral that looks like a cup of something you'd order on a rainy afternoon. comforting. understated. impossible to resist.
-  >
-  > scented like the real thing. marshmallows not included (sorry).
-  >
-  > 11 days. three down, two to go.
-  >
-  > #Analemma #LipGanache #SweetTreatCollection #HotCocoa #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
-
-**Stories (2):**
-1. **"11 DAYS" countdown graphic**
-2. **"POV: you just opened Hot Cocoa"** -- quick video of opening the cap, bringing it to nose, closing eyes. Genuine reaction. Film at home evening before or pull from BTS footage. Text overlay: "i literally can't stop smelling this one"
-
-**Reel:** None
-
-**Effort Level:** 🟢 Low (15 min) -- pre-scheduled + quick stories
-
-**Assets Needed:**
-- Hero product shot of Hot Cocoa (from batch)
-- Quick "smelling" reaction video (film Tues night or pull from existing clips)
-
----
-
-### Day 26 -- Thursday, Feb 27
-
-**Theme:** Flavor Reveal #4 -- Maraschino Cherry
-
-**Feed Post:**
-- **Concept:** Hero shot of Maraschino Cherry. The boldest shade -- style with cherries, cocktail vibes, maybe a coupe glass. Think retro-glam energy. This is the "going out" shade.
-- **Image needed:** Photoshoot hero shot of Maraschino Cherry
-- **Caption:**
-  > sweet treat flavor no. 4 --
-  >
-  > 𝐌𝐀𝐑𝐀𝐒𝐂𝐇𝐈𝐍𝐎 𝐂𝐇𝐄𝐑𝐑𝐘
-  >
-  > she's bold. she knows it. she doesn't apologize for it.
-  >
-  > the red that makes people look twice. scented like the cherry on top of everything you deserve.
-  >
-  > one more flavor left. can you guess it?
-  >
-  > 10 days to launch.
-  >
-  > #Analemma #LipGanache #SweetTreatCollection #MaraschinoCherry #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
-
-**Stories (3):**
-1. **"10 DAYS" countdown graphic**
-2. **Lip swatch on lips** (from photoshoot). Text: "the shade that starts conversations"
-3. **"Guess the final flavor" question box.** "We've shown you 4. There's one more. What do you think it is?" -- collect guesses to repost tomorrow
-
-**Reel:** None
-
-**Effort Level:** 🟢 Low (15 min) -- pre-scheduled + stories
-
-**Assets Needed:**
-- Hero product shot of Maraschino Cherry (from batch)
-- Lip swatch photo (from photoshoot)
-
----
-
-### Day 27 -- Friday, Feb 28 (BRIDGERTON HOUSE PARTY 🎉)
-
-**Theme:** Flavor Reveal #5 -- Tiramisu + Bridgerton Content Goldmine
-
-**Feed Post:**
-- **Concept:** Hero shot of Tiramisu shade. Styled with coffee, cocoa dust, ladyfinger biscuit. The "sophisticated" shade. ALSO: if timing allows, post a second carousel from the Bridgerton party later in the evening (or save for stories/tomorrow).
-- **Image needed:** Photoshoot hero shot of Tiramisu
-- **Caption:**
-  > sweet treat flavor no. 5 -- the finale --
-  >
-  > 𝐓𝐈𝐑𝐀𝐌𝐈𝐒𝐔
-  >
-  > layers and layers and layers. coffee. cocoa. cream. the shade that makes you look like you have a secret -- and you're not telling.
-  >
-  > scented like real tiramisu. sophisticated. indulgent. unforgettable.
-  >
-  > that's all five, loves. the full sweet treat collection:
-  > 🍓 raspberry coulis
-  > 🍓 strawberry jam
-  > 🍫 hot cocoa
-  > 🍒 maraschino cherry
-  > ☕ tiramisu
-  >
-  > 8 days to launch. are you ready?
-  >
-  > #Analemma #LipGanache #SweetTreatCollection #Tiramisu #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty #AllFiveRevealed
-
 **Stories (HEAVY DAY -- 5+ stories from Bridgerton party):**
-1. **Morning: "8 DAYS + final flavor reveal"** -- repost feed to stories
+1. **Morning: "15 DAYS + flavor reveal #1"** -- repost feed to stories
 2. **Getting ready for Bridgerton party:** GRWM clip. Show product application -- use Maraschino Cherry or Tiramisu for the event. "Getting ready for a Bridgerton house party with our new lip ganache ☕👑"
 3. **Arrival/venue shot:** The styled house party setting. "This is giving main character" or similar
 4. **Styled product placement:** Place lip ganache tubes artfully on a table at the party, near teacups, flowers, or period-appropriate decor. Snap several photos. Text: "she fits right in"
@@ -409,10 +314,10 @@ After posting, spend 2-3 hours:
 - **Film during:** actual getting-ready process. Keep DJI Pocket 3 running or prop Fujifilm on tripod.
 - **Note:** This reel can be posted Saturday night or Sunday if editing takes time. Don't rush it.
 
-**Effort Level:** 🔴 High (full day/evening event) -- but it's a Saturday and the content is the experience itself. Just keep cameras accessible.
+**Effort Level:** 🔴 High (full day/evening event) -- but it's a Friday and the content is the experience itself. Just keep cameras accessible.
 
 **Assets Needed:**
-- Hero product shot of Tiramisu (from batch -- post can be pre-scheduled for morning)
+- Hero product shot of Raspberry Coulis (post can be pre-scheduled for morning)
 - DJI Pocket 3 for GRWM video + party clips
 - Phone for stories throughout the party
 - Product tubes to bring for placement shots
@@ -428,11 +333,11 @@ After posting, spend 2-3 hours:
 
 ---
 
-## PHASE 3: WEBSITE TEASE & "ALMOST HERE" (Days 7-4)
+## PHASE 2: PRODUCT REVEALS & HYPE (Days 14-9)
 
 ---
 
-### Day 28 -- Saturday, Mar 1 (or Sunday)
+### Day 9 -- Saturday, Mar 1
 
 **Theme:** The Full Collection Lineup
 
@@ -441,7 +346,7 @@ After posting, spend 2-3 hours:
   - Slide 1: All 5 products in a line or artful arrangement (photoshoot hero shot)
   - Slide 2: Arm swatches of all 5 shades, labeled
   - Slide 3: Flat-lay of all 5 with dessert props
-  - Slide 4: Text card -- "Sweet Treat Collection. 5 flavors. Vegan. Cruelty-free. Launching March 8."
+  - Slide 4: Text card -- "Sweet Treat Collection. 5 flavors. Vegan. Cruelty-free. Launching March 15."
 - **Image needed:** Group photoshoot shots (should have several from the shoot)
 - **Caption:**
   > the full lineup.
@@ -454,14 +359,14 @@ After posting, spend 2-3 hours:
   > 🍒 maraschino cherry -- the unapologetic red
   > ☕ tiramisu -- the layered sophisticate
   >
-  > one week from today, they're yours.
+  > two weeks from today, they're yours.
   >
   > which one are you adding to cart first? tell me below. 👇
   >
   > #Analemma #LipGanache #SweetTreatCollection #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty #LaunchWeek
 
 **Stories (3):**
-1. **"7 DAYS" countdown** -- bigger energy. Maybe a short video of her holding up 7 fingers, smiling. Text: "one. week."
+1. **"14 DAYS" countdown** -- bigger energy. Maybe a short video of her holding up fingers, smiling. Text: "two. weeks."
 2. **Repost carousel** to stories: "the whole family is here 🤍"
 3. **If Bridgerton reel isn't posted yet:** post it today. Share to stories with context.
 
@@ -488,13 +393,168 @@ After posting, spend 2-3 hours:
 
 **📌 BATCH NOTE:** After posting, batch-prep Mon-Thu content:
 - Screenshot/screen-record Shopify website-in-progress for "building" content
-- Create countdown graphics for days 6-3
+- Create countdown graphics for days 13-10
 - Write captions for Mon-Thu
 - Schedule what you can
 
 ---
 
-### Day 29 -- Sunday, Mar 2
+### Day 10 -- Sunday, Mar 2
+
+**Theme:** Flavor Reveal #2 -- Strawberry Jam
+
+**Feed Post:**
+- **Concept:** Hero shot of Strawberry Jam shade. Styled with strawberries, jam jar, or toast with jam. Warmer, sunnier tones than Raspberry Coulis -- differentiate the vibe.
+- **Image needed:** Photoshoot hero shot of Strawberry Jam (should be prepped from Saturday batch)
+- **Caption:**
+  > sweet treat flavor no. 2 --
+  >
+  > 𝐒𝐓𝐑𝐀𝐖𝐁𝐄𝐑𝐑𝐘 𝐉𝐀𝐌
+  >
+  > the shade that looks like sunday morning. warm. familiar. a little bit nostalgic.
+  >
+  > the kind of color you reach for when you want to feel like yourself -- just sweeter.
+  >
+  > scented like real strawberry jam. because your lips deserve better than artificial fragrance.
+  >
+  > 13 days to launch. which flavor is calling your name?
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #StrawberryJam #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
+
+**Stories (2):**
+1. **"13 DAYS" countdown graphic** + countdown sticker
+2. **Side-by-side story:** Raspberry Coulis vs Strawberry Jam swatches on arm. Text: "sisters, not twins. which one are you?"  Add poll: "Raspberry Coulis" / "Strawberry Jam"
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- pre-scheduled post. Quick stories.
+
+**Assets Needed:**
+- Hero product shot of Strawberry Jam (from batch)
+- Swatch comparison photo (prep during Saturday batch)
+
+---
+
+### Day 11 -- Monday, Mar 3
+
+**Theme:** Flavor Reveal #3 -- Hot Cocoa
+
+**Feed Post:**
+- **Concept:** Hero shot of Hot Cocoa shade. This is the warm neutral -- style with cocoa powder, cinnamon sticks, mug, cozy vibes. Moodier lighting than the berry shades.
+- **Image needed:** Photoshoot hero shot of Hot Cocoa
+- **Caption:**
+  > sweet treat flavor no. 3 --
+  >
+  > 𝐇𝐎𝐓 𝐂𝐎𝐂𝐎𝐀
+  >
+  > for the days when you want warmth on your lips and chocolate on your mind.
+  >
+  > a rich, velvety neutral that looks like a cup of something you'd order on a rainy afternoon. comforting. understated. impossible to resist.
+  >
+  > scented like the real thing. marshmallows not included (sorry).
+  >
+  > 12 days. three down, two to go.
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #HotCocoa #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
+
+**Stories (2):**
+1. **"12 DAYS" countdown graphic**
+2. **"POV: you just opened Hot Cocoa"** -- quick video of opening the cap, bringing it to nose, closing eyes. Genuine reaction. Film at home evening before or pull from BTS footage. Text overlay: "i literally can't stop smelling this one"
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- pre-scheduled + quick stories
+
+**Assets Needed:**
+- Hero product shot of Hot Cocoa (from batch)
+- Quick "smelling" reaction video (film Sun night or pull from existing clips)
+
+---
+
+### Day 12 -- Tuesday, Mar 4
+
+**Theme:** Flavor Reveal #4 -- Maraschino Cherry
+
+**Feed Post:**
+- **Concept:** Hero shot of Maraschino Cherry. The boldest shade -- style with cherries, cocktail vibes, maybe a coupe glass. Think retro-glam energy. This is the "going out" shade.
+- **Image needed:** Photoshoot hero shot of Maraschino Cherry
+- **Caption:**
+  > sweet treat flavor no. 4 --
+  >
+  > 𝐌𝐀𝐑𝐀𝐒𝐂𝐇𝐈𝐍𝐎 𝐂𝐇𝐄𝐑𝐑𝐘
+  >
+  > she's bold. she knows it. she doesn't apologize for it.
+  >
+  > the red that makes people look twice. scented like the cherry on top of everything you deserve.
+  >
+  > one more flavor left. can you guess it?
+  >
+  > 11 days to launch.
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #MaraschinoCherry #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty
+
+**Stories (3):**
+1. **"11 DAYS" countdown graphic**
+2. **Lip swatch on lips** (from photoshoot). Text: "the shade that starts conversations"
+3. **"Guess the final flavor" question box.** "We've shown you 4. There's one more. What do you think it is?" -- collect guesses to repost tomorrow
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- pre-scheduled + stories
+
+**Assets Needed:**
+- Hero product shot of Maraschino Cherry (from batch)
+- Lip swatch photo (from photoshoot)
+
+---
+
+### Day 13 -- Wednesday, Mar 5
+
+**Theme:** Flavor Reveal #5 -- Tiramisu
+
+**Feed Post:**
+- **Concept:** Hero shot of Tiramisu shade. Styled with coffee, cocoa dust, ladyfinger biscuit. The "sophisticated" shade.
+- **Image needed:** Photoshoot hero shot of Tiramisu
+- **Caption:**
+  > sweet treat flavor no. 5 -- the finale --
+  >
+  > 𝐓𝐈𝐑𝐀𝐌𝐈𝐒𝐔
+  >
+  > layers and layers and layers. coffee. cocoa. cream. the shade that makes you look like you have a secret -- and you're not telling.
+  >
+  > scented like real tiramisu. sophisticated. indulgent. unforgettable.
+  >
+  > that's all five, loves. the full sweet treat collection:
+  > 🍓 raspberry coulis
+  > 🍓 strawberry jam
+  > 🍫 hot cocoa
+  > 🍒 maraschino cherry
+  > ☕ tiramisu
+  >
+  > 10 days to launch. are you ready?
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #Tiramisu #VeganBeauty #VeganLipstick #CrueltyFreeBeauty #DessertLips #IndieBeauty #AllFiveRevealed
+
+**Stories (3):**
+1. **"10 DAYS + final flavor reveal"** -- repost feed to stories
+2. **Repost any follower guesses** from yesterday (screenshot DMs where people guessed tiramisu correctly). "You knew! 🤍"
+3. **"All 5 revealed" celebration story** with quick montage of all hero shots
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- pre-scheduled post. Quick stories.
+
+**Assets Needed:**
+- Hero product shot of Tiramisu (from batch)
+- Screenshots of follower guesses from yesterday
+
+---
+
+## PHASE 3: WEBSITE TEASE & "ALMOST HERE" (Days 9-4)
+
+---
+
+### Day 14 -- Thursday, Mar 6
 
 **Theme:** Behind the Website
 
@@ -506,7 +566,7 @@ After posting, spend 2-3 hours:
   >
   > the shop is coming together and i keep refreshing my own preview like a customer. is that weird? probably.
   >
-  > 6 days. the sweet treat collection will be available on our brand new site.
+  > 9 days. the sweet treat collection will be available on our brand new site.
   >
   > i'll share more soon. for now -- just know it's going to be worth the wait.
   >
@@ -514,7 +574,7 @@ After posting, spend 2-3 hours:
 
 **Stories (2):**
 1. **Screen recording of scrolling through the website preview** (blurred product images or lorem ipsum for mystery). Text: "she's almost ready 🖤"
-2. **"6 DAYS" graphic** + countdown sticker
+2. **"9 DAYS" graphic** + countdown sticker
 
 **Reel:** None (rest day -- you'll need energy for launch week)
 
@@ -526,7 +586,7 @@ After posting, spend 2-3 hours:
 
 ---
 
-### Day 30 -- Monday, Mar 3
+### Day 15 -- Friday, Mar 7
 
 **Theme:** Ingredient Story / Why Vegan
 
@@ -546,12 +606,12 @@ After posting, spend 2-3 hours:
   >
   > luxury should feel good in every way. on your lips. on your conscience.
   >
-  > 5 days.
+  > 8 days.
   >
   > #Analemma #LipGanache #SweetTreatCollection #VeganBeauty #CleanBeauty #CrueltyFreeBeauty #VeganFormula #ConsciousBeauty #IndieBeauty
 
 **Stories (2):**
-1. **"5 DAYS" graphic** + countdown sticker
+1. **"8 DAYS" graphic** + countdown sticker
 2. **Repost carousel** to stories: "swipe to see what goes into each tube 🌿"
 
 **Reel:** None (weekday low-effort)
@@ -564,7 +624,7 @@ After posting, spend 2-3 hours:
 
 ---
 
-### Day 31 -- Tuesday, Mar 4
+### Day 16 -- Saturday, Mar 8
 
 **Theme:** "It's Almost Here" Energy / Anticipation
 
@@ -572,58 +632,97 @@ After posting, spend 2-3 hours:
 - **Concept:** Aesthetic "almost ready" shot. Product tubes in shipping boxes, being packed. Or product lined up on a shelf with tissue paper. The "we're about to do this" feeling.
 - **Image needed:** Quick styled shot at home -- tubes in a box, tissue paper, branded stickers if she has them. Phone photo with good lighting is fine.
 - **Caption:**
-  > four days and i can barely keep it together.
+  > one week and i can barely keep it together.
   >
   > the boxes are ready. the website is nearly there. the collection is sitting on my shelf and i have to stop myself from just handing them out to strangers.
   >
-  > march 8. we're really doing this.
+  > march 15. we're really doing this.
   >
   > sign up for launch notifications -- link in bio (coming soon).
   >
   > #Analemma #LipGanache #SweetTreatCollection #LaunchWeek #SmallBusinessLaunch #VeganBeauty #IndieBeauty #AlmostTime
 
 **Stories (2):**
-1. **"4 DAYS" graphic** -- energy is building. Use a vibrant color or animated text.
+1. **"7 DAYS" graphic** -- energy is building. Use a vibrant color or animated text.
 2. **Quick video:** Her hands arranging/packing product. ASMR-ish. No face needed. Text: "packing up something sweet for you 🤍"
+
+**Reel:**
+- **Concept:** "One week until launch" montage. Quick cuts of product, ingredients, swatches, her working. Build the anticipation. 15-20 seconds max.
+- **Audio vibe:** Building energy. A countdown or "almost there" trending audio.
+
+**Effort Level:** 🟡 Medium (45 min) -- styled photo + reel editing (use existing assets)
+
+**Assets Needed:**
+- "Packing" styled photo (phone, home, Sat evening or from batch)
+- Short reel montage (existing clips from previous weeks)
+
+**📌 BATCH NOTE: Saturday evening batch (1.5 hrs):**
+- Finalize Sun-Thu content for final countdown week
+- Create countdown graphics for days 6-2
+- Write captions for Sun-Thu
+- Test website one final time
+- Prep "link in bio" link (Linktree or direct Shopify)
+
+---
+
+### Day 17 -- Sunday, Mar 9
+
+**Theme:** Website Preview / The Shop
+
+**Feed Post:**
+- **Concept:** First real look at the website. Screenshot of the homepage or product page (still can be slightly blurred for mystery). 
+- **Caption:**
+  > she's beautiful.
+  >
+  > the shop is almost ready. clean. simple. everything you need to find your new favorite lip ganache.
+  >
+  > 6 days until you can explore every page, every product, every detail.
+  >
+  > march 15. sweet treats for everyone.
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #ShopPreview #VeganBeauty #IndieBeauty
+
+**Stories (2):**
+1. **"6 DAYS" graphic**
+2. **Website tour screen recording** (quick scroll through, can still blur some details)
 
 **Reel:** None
 
-**Effort Level:** 🟢 Low (15 min) -- pre-batched post. Quick packing video for stories (film Tues evening, 5 min).
+**Effort Level:** 🟢 Low (15 min) -- website screenshots + quick stories
 
 **Assets Needed:**
-- "Packing" styled photo (phone, home, Tues evening or from batch)
-- Short packing/arranging video for stories
+- Website screenshots/screen recordings
 
 ---
 
-## PHASE 4: FINAL COUNTDOWN (Days 3-1)
+## PHASE 4: FINAL COUNTDOWN (Days 5-1)
 
 ---
 
-### Day 32 -- Wednesday, Mar 5
+### Day 18 -- Monday, Mar 10
 
-**Theme:** 3 Days -- The Hype is REAL
+**Theme:** 5 Days -- The Hype is REAL
 
 **Feed Post:**
 - **Concept:** Lip close-up from photoshoot -- THE most stunning lip shot from the whole shoot. This is the "save this post" image. Maximum visual impact.
 - **Image needed:** Best lip swatch photo from photoshoot. Heavy editorial. The one that makes people stop scrolling.
 - **Caption:**
-  > three days.
+  > five days.
   >
-  > this is the post you save and come back to on march 8.
+  > this is the post you save and come back to on march 15.
   >
   > lip ganache. sweet treat collection. five dessert-scented shades.
   >
-  > vegan. cruelty-free. launching this sunday.
+  > vegan. cruelty-free. launching this saturday.
   >
   > are you ready? because i've been ready. 🍫🍓🍒☕
   >
-  > #Analemma #LipGanache #SweetTreatCollection #VeganBeauty #VeganLipstick #3DaysToLaunch #CrueltyFreeBeauty #IndieBeauty
+  > #Analemma #LipGanache #SweetTreatCollection #VeganBeauty #VeganLipstick #5DaysToLaunch #CrueltyFreeBeauty #IndieBeauty
 
 **Stories (3):**
-1. **"3 DAYS" big graphic** -- make it feel urgent
+1. **"5 DAYS" big graphic** -- make it feel urgent
 2. **Repost any fan/follower DM reactions** (screenshot DMs where people say they're excited, with permission or blurred names). Text: "you guys 🥹"
-3. **"Set your alarms for March 8"** text story with alarm clock emoji
+3. **"Set your alarms for March 15"** text story with alarm clock emoji
 
 **Reel:** None
 
@@ -635,15 +734,15 @@ After posting, spend 2-3 hours:
 
 ---
 
-### Day 33 -- Thursday, Mar 6
+### Day 19 -- Tuesday, Mar 11
 
-**Theme:** 2 Days -- Founder Vulnerability Moment
+**Theme:** 4 Days -- Founder Vulnerability Moment
 
-**Feed Post:** None (save it for tomorrow and launch day -- don't over-post)
+**Feed Post:** None (save it for countdown days -- don't over-post)
 
 **Stories (3):**
-1. **"2 DAYS" graphic**
-2. **Talking-head story (casual, at home, evening):** "Hey. Two days. I'm going to be honest, I'm nervous. This collection means so much to me. But I also know it's good. Like, really good. I can't wait to share it with you. Sunday. Be there."
+1. **"4 DAYS" graphic**
+2. **Talking-head story (casual, at home, evening):** "Hey. Four days. I'm going to be honest, I'm nervous. This collection means so much to me. But I also know it's good. Like, really good. I can't wait to share it with you. Saturday. Be there."
 3. **Product flat-lay** with text: "final check ✓" as if doing a last inventory/prep
 
 **Reel:** None
@@ -651,20 +750,74 @@ After posting, spend 2-3 hours:
 **Effort Level:** 🟢 Low (15 min) -- talking story + graphics
 
 **Assets Needed:**
-- "2 DAYS" graphic (from batch)
+- "4 DAYS" graphic (from batch)
 - Quick talking-head video (phone, home, 2 min to film)
 - Product flat-lay (phone)
 
-**📌 BATCH NOTE: Friday evening batch (1 hr):**
-- Finalize launch day post caption (see Day 0)
-- Prep all launch day story graphics
-- Test website one final time
-- Prep "link in bio" link (Linktree or direct Shopify)
-- Have launch day reel ready to post (or film Friday night)
+---
+
+### Day 20 -- Wednesday, Mar 12
+
+**Theme:** 3 Days -- Building Anticipation
+
+**Feed Post:**
+- **Concept:** The collection arranged beautifully. Final hero shot before launch.
+- **Caption:**
+  > three days.
+  >
+  > i keep looking at them and thinking -- these are really happening. months of work. dozens of formula tests. countless late nights.
+  >
+  > saturday morning, the sweet treat collection goes live.
+  >
+  > five shades. vegan. cruelty-free. scented like your favorite desserts.
+  >
+  > link goes live at launch. see you there.
+  >
+  > #Analemma #LipGanache #SweetTreatCollection #3Days #VeganBeauty #LaunchWeek
+
+**Stories (2):**
+1. **"3 DAYS" graphic** -- dramatic countdown energy
+2. **Behind-scenes packing video** -- getting ready for launch
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- pre-batched content
+
+**Assets Needed:**
+- Final collection hero shot
+- Packing video for stories
 
 ---
 
-### Day 34 -- Friday, Mar 7
+### Day 21 -- Thursday, Mar 13
+
+**Theme:** 2 Days -- Almost There
+
+**Feed Post:** None (save energy for final countdown)
+
+**Stories (3):**
+1. **"2 DAYS" graphic** 
+2. **"This time Saturday" countdown** text story
+3. **Quick website test video** -- showing it's ready to go
+
+**Reel:** None
+
+**Effort Level:** 🟢 Low (15 min) -- stories only
+
+**Assets Needed:**
+- "2 DAYS" graphic
+- Website demo video
+
+**📌 BATCH NOTE: Thursday evening batch (1 hr):**
+- Finalize launch day post caption (see Day 0)
+- Prep all launch day story graphics  
+- Test website one final time
+- Prep "link in bio" link (Linktree or direct Shopify)
+- Have launch day reel ready to post (or film Thursday night)
+
+---
+
+### Day 22 -- Friday, Mar 14
 
 **Theme:** 1 Day -- Tomorrow Changes Everything
 
@@ -680,7 +833,7 @@ After posting, spend 2-3 hours:
   >
   > tomorrow morning, it's finally yours.
   >
-  > lip ganache. sweet treat collection. march 8. link in bio at launch.
+  > lip ganache. sweet treat collection. march 15. link in bio at launch.
   >
   > i'll see you there. 🖤
   >
@@ -692,7 +845,7 @@ After posting, spend 2-3 hours:
 3. **Final countdown sticker story:** "TOMORROW 🚀" with countdown sticker hitting zero at midnight / launch time
 
 **Reel:**
-- **Concept:** 15-second "teaser trailer" for the collection. Quick cuts of the best photoshoot images and video clips. Text overlays with each flavor name flashing. End on "March 8. Link in bio."
+- **Concept:** 15-second "teaser trailer" for the collection. Quick cuts of the best photoshoot images and video clips. Text overlays with each flavor name flashing. End on "March 15. Link in bio."
 - **Shot list (all from existing footage/photos):**
   1. Quick flash: photoshoot setup (1 sec)
   2. Raspberry Coulis hero shot (1.5 sec)
@@ -704,7 +857,7 @@ After posting, spend 2-3 hours:
   8. Tiramisu (1 sec)
   9. All 5 together (2 sec)
   10. "Tomorrow." text on black (2 sec)
-  11. Analemma logo + "March 8" (2 sec)
+  11. Analemma logo + "March 15" (2 sec)
 - **Audio vibe:** Building, cinematic. A beat drop or crescendo moment. Search trending "reveal" or "glow up" audios.
 - **Edit in:** CapCut or InShot. Use flash transitions. This should feel fast and exciting.
 
@@ -721,7 +874,7 @@ After posting, spend 2-3 hours:
 
 ---
 
-### Day 35 -- Saturday, Mar 8 🚀
+### Day 23 -- Saturday, Mar 15 🚀
 
 **Theme:** IT'S HERE. LAUNCH DAY. FULL BLITZ.
 
@@ -731,7 +884,7 @@ After posting, spend 2-3 hours:
 
 **Stories (pre-launch):**
 1. **"Today" text on black** -- no other words needed
-2. **Quick talking-head video (film while getting ready):** "It's March 8. It's launch day. The website goes live at [TIME]. I'm shaking. Okay, let's do this."
+2. **Quick talking-head video (film while getting ready):** "It's March 15. It's launch day. The website goes live at [TIME]. I'm shaking. Okay, let's do this."
 3. **"Going live at [TIME]" graphic** with countdown sticker to exact launch minute
 
 ---
@@ -828,9 +981,9 @@ After posting, spend 2-3 hours:
 
 ## Post-Launch Notes
 
-**Sunday, Mar 9:** Post a "thank you" story + repost any customer content. Rest. You did it.
+**Sunday, Mar 16:** Post a "thank you" story + repost any customer content. Rest. You did it.
 
-**Week of Mar 9-15:** Shift to customer content, reviews, styled reposts, "how I wear it" content. One feed post every 2-3 days. Stories daily. The hard sprint is over.
+**Week of Mar 16-22:** Shift to customer content, reviews, styled reposts, "how I wear it" content. One feed post every 2-3 days. Stories daily. The hard sprint is over.
 
 ---
 
@@ -838,26 +991,31 @@ After posting, spend 2-3 hours:
 
 | Date | Day | Phase | Feed | Stories | Reel | Effort |
 |------|-----|-------|------|---------|------|--------|
-| Feb 19 (Wed) | 18 | Tease | ✅ Mystery shot | 2 | -- | 🟢 Low |
-| Feb 20 (Thu) | 17 | Tease | -- | 3 | -- | 🟢 Low |
-| Feb 21 (Fri) | 16 | Tease | ✅ Texture tease | 2 | -- | 🟡 Med |
-| Feb 22 (Sat) | 15 | Tease | ✅ Scent carousel | 3 | ✅ Inspo montage | 🔴 High |
-| Feb 23 (Sun) | 14 | Tease | ✅ Founder story | 2 | -- | 🟡 Med |
-| Feb 24 (Mon) | 13 | Reveal | ✅ Raspberry Coulis | 3 | -- | 🟢 Low |
-| Feb 25 (Tue) | 12 | Reveal | ✅ Strawberry Jam | 2 | -- | 🟢 Low |
-| Feb 26 (Wed) | 11 | Reveal | ✅ Hot Cocoa | 2 | -- | 🟢 Low |
-| Feb 27 (Thu) | 10 | Reveal | ✅ Maraschino Cherry | 3 | -- | 🟢 Low |
-| Feb 28 (Sat) | 8 | Reveal | ✅ Tiramisu | 5+ | ✅ GRWM Bridgerton | 🔴 High |
-| Mar 1 (Sat) | 7 | Hype | ✅ Full lineup carousel | 3 | ✅ All swatches | 🔴 High |
-| Mar 2 (Sun) | 6 | Hype | ✅ Website BTS | 2 | -- | 🟡 Med |
-| Mar 3 (Mon) | 5 | Hype | ✅ Ingredients carousel | 2 | -- | 🟢 Low |
-| Mar 4 (Tue) | 4 | Hype | ✅ "Almost ready" | 2 | -- | 🟢 Low |
-| Mar 5 (Wed) | 3 | Countdown | ✅ Best lip shot | 3 | -- | 🟢 Low |
-| Mar 6 (Thu) | 2 | Countdown | -- | 3 | -- | 🟢 Low |
-| Mar 7 (Fri) | 1 | Countdown | ✅ Eve of launch | 3 | ✅ Teaser trailer | 🟡 Med |
-| Mar 8 (Sat) | 0 | LAUNCH | ✅✅ Launch + personal | 8+ | ✅ Day recap | 🔴 High |
+| Feb 21 (Fri) | 1 | Tease | ✅ Mystery shot | 2 | -- | 🟢 Low |
+| Feb 22 (Sat) | 2 | Tease | -- | 3 | -- | 🟢 Low |
+| Feb 23 (Sun) | 3 | Tease | ✅ Texture tease | 2 | -- | 🟡 Med |
+| Feb 24 (Mon) | 4 | Tease | ✅ Scent carousel | 3 | ✅ Inspo montage | 🔴 High |
+| Feb 25 (Tue) | 5 | Tease | ✅ Founder story | 2 | -- | 🟡 Med |
+| Feb 26 (Wed) | 6 | Tease | ✅ Texture deep dive | 2 | -- | 🟢 Low |
+| Feb 27 (Thu) | 7 | Tease | ✅ Color preview | 2 | -- | 🟢 Low |
+| Feb 28 (Fri) | 8 | Reveal | ✅ Raspberry Coulis | 5+ | ✅ GRWM Bridgerton | 🔴 High |
+| Mar 1 (Sat) | 9 | Reveal | ✅ Full lineup carousel | 3 | ✅ All swatches | 🔴 High |
+| Mar 2 (Sun) | 10 | Reveal | ✅ Strawberry Jam | 2 | -- | 🟢 Low |
+| Mar 3 (Mon) | 11 | Reveal | ✅ Hot Cocoa | 2 | -- | 🟢 Low |
+| Mar 4 (Tue) | 12 | Reveal | ✅ Maraschino Cherry | 3 | -- | 🟢 Low |
+| Mar 5 (Wed) | 13 | Reveal | ✅ Tiramisu | 3 | -- | 🟢 Low |
+| Mar 6 (Thu) | 14 | Hype | ✅ Website BTS | 2 | -- | 🟡 Med |
+| Mar 7 (Fri) | 15 | Hype | ✅ Ingredients carousel | 2 | -- | 🟢 Low |
+| Mar 8 (Sat) | 16 | Hype | ✅ "Almost ready" | 2 | ✅ One week reel | 🟡 Med |
+| Mar 9 (Sun) | 17 | Hype | ✅ Website preview | 2 | -- | 🟢 Low |
+| Mar 10 (Mon) | 18 | Countdown | ✅ Best lip shot | 3 | -- | 🟢 Low |
+| Mar 11 (Tue) | 19 | Countdown | -- | 3 | -- | 🟢 Low |
+| Mar 12 (Wed) | 20 | Countdown | ✅ Final collection shot | 2 | -- | 🟢 Low |
+| Mar 13 (Thu) | 21 | Countdown | -- | 3 | -- | 🟢 Low |
+| Mar 14 (Fri) | 22 | Countdown | ✅ Eve of launch | 3 | ✅ Teaser trailer | 🟡 Med |
+| Mar 15 (Sat) | 23 | LAUNCH | ✅✅ Launch + personal | 8+ | ✅ Day recap | 🔴 High |
 
-**Note on Feb 28:** The quick-reference shows Day 8, but Feb 28 is also the Bridgerton house party -- that Friday is actually the biggest content opportunity of the pre-launch period.
+**Note on Feb 28:** The Bridgerton house party remains on Friday Feb 28 as specified, which is now Day 8 of the countdown (instead of the original Day 8).
 
 ---
 
@@ -865,10 +1023,10 @@ After posting, spend 2-3 hours:
 
 - **Feed posts:** 16
 - **Stories:** ~50+ individual story frames
-- **Reels:** 5
+- **Reels:** 6
 - **High-effort days:** 4 (all weekends/Bridgerton)
-- **Low-effort days:** 10 (all weekdays)
+- **Low-effort days:** 13 (most weekdays)
 
 ---
 
-*Calendar created Feb 18, 2026. Adjust as needed based on photoshoot selects and Shopify timeline.*
+*Calendar updated Feb 21, 2026 for March 15 launch. Adjust as needed based on photoshoot selects and Shopify timeline.*
