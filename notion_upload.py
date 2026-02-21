@@ -11,7 +11,7 @@ def print_flush(*args, **kwargs):
     sys.stdout.flush()
 
 # Notion API configuration
-NOTION_TOKEN = os.environ.get('NOTION_TOKEN', '')
+NOTION_TOKEN = ""  # Placeholder for environment variable
 PARENT_PAGE_ID = "30beab20-0eed-80a0-80a1-cf6a2ad73acd"
 HEADERS = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
