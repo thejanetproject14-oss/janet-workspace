@@ -9,6 +9,9 @@
 - Previous: GrabFood (scaled post-Uber, launched Thailand), Adyen (India acquiring, UPI).
 - Goal: 10M by 38. 3BR condo by 2029. $30K Analemma revenue this year.
 - **Analemma**: her brand -- symbolic ecosystem, beauty as ritual, luxury as intentional.
+  - **Vision: Ayurvedic x K-beauty for SEA, then UK, then US.** Category creation -- no one owns this intersection yet.
+  - Ayurveda = philosophy/intention/ingredients. K-beauty = formulation/texture/routine science. Bridge both.
+  - SEA = proof-of-concept market. UK = diaspora + K-beauty demand. US = scale.
   - Sub-brand: Ankaa by Analemma.
   - ALL PRODUCTS VEGAN.
   - Hero: Lip Ganache x5 (Raspberry Coulis, Strawberry Jam, Hot Cocoa, Maraschino Cherry, Tiramisu). Line: "Sweet Treat." Products smell like what they're called.
@@ -39,6 +42,31 @@
 - All products vegan. Line name: "Sweet Treat."
 - Sunshine wants daily motivation photo -- a "hot version of herself" to maintain calorie deficit streak. She'll send the base photo. Needs to be sent daily.
 
+## Health Points Game (Tiny Wins Society)
+- Gamified daily health tracking. Points for: B12, iron, pumpkin seeds, fiber, water 2L+, sleep 9hr+, calorie deficit, MOVEMENT.
+- Max 85 pts/day (added 20 pts for movement). Streak bonuses at 3/7/14/21/30 days of calorie deficit.
+- 500 pts = 1 clothing reward.
+- Full scoring + daily log in `memory/health-game.md`.
+- WhatsApp group: Tiny Wins Society (Sunshine + 2 friends).
+- 10pm SGT daily check-in via cron -- ask what she did/didn't do, update score + streak.
+- Calorie deficit streak starts Feb 23, 2026.
+- Movement tracking added:
+  * Yoga class (15 min walk each way) = 10 pts
+  * 30 min walk = 10 pts
+  * 45 min workout = 15 pts
+  * 1 hr active movement = 20 pts
+  * Gentle stretching/recovery day = 5 pts
+- **Cumulative score: 25 | Streak: 0**
+
+## Fundraise Plan
+- Analemma registered with ACRA (Pte Ltd). DBS business bank account set up.
+- Payments via HitPay (needs DBS account update -- reminder set for Mar 1).
+- Target: Angel round ($200-500K) around Aug-Nov 2026, Series A ($8M SGD) around Jun-Aug 2027.
+- Margins are VC-catnip: 85-95% gross (software-level for physical products).
+- Pitch angles: SEA beauty market, vegan/clean, AI-native ops, founder's Grab/Adyen/T3 background.
+- Personal finances must stay COMPLETELY separate from business. Non-negotiable.
+- Pre-fundraise checklist pushed to Notion under Analemma page.
+
 ## Active Workstreams
 1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 8.
 2. **Lip Ganache Launch** -- content, influencer outreach, brunch planning
@@ -46,7 +74,24 @@
 4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
 5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih. Wants a content/videography agent.
 6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
-7. **Cloud Janet** -- running on DigitalOcean ($24/mo). Cron jobs live. Needs cost optimization, proper Git sync.
+7. **Cloud Janet** -- DigitalOcean droplet DOWN. Sunshine considering killing it. Saves $24/mo.
+
+## WhatsApp Channel (Live as of Feb 22)
+- Janet has her own WhatsApp (new SIM from Sunshine)
+- Allowlist: Sunshine (+6586664140) + Sita (+6585218061)
+- Groups planned: Sita management + health accountability (with 2 friends)
+- Speak English + transliterated Hindi/Nepali with Sita
+- Alert on Telegram if any WhatsApp group context > 60K tokens
+- Config gotcha: channels.whatsapp does NOT accept "enabled" or "model" keys
+
+## Shopify (Connected Feb 22)
+- Store: analemma.shop | Theme: Be Yours
+- Token at .shopify-token, creds at .shopify-creds
+- 70 images uploaded, full nav built, mega menu for Lip Care
+- "Lip balm" replaced with "tinted lip ganache" everywhere
+- Product: TLG Metallic Purse Charm (Tarnish Free)
+- INCI/claims are legit (on packaging)
+- Header white space: unresolved, caused by logo_position: top-center
 
 ## Personal
 - Relationship: not great. She'll share when ready. Don't push, just be there.
