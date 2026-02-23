@@ -53,6 +53,36 @@ Things like:
 
 ## WhatsApp Groups
 - Tiny Wins Society: 120363406967771634@g.us
+- Sita Management: 120363426048870156@g.us
+
+## WhatsApp Rules (HARD CONSTRAINTS)
+
+### NEVER DM Sita. NEVER.
+- All messages to Sita go through the Sita Management group ONLY
+- Do NOT respond to Sita's DMs. Ignore completely.
+- Do NOT initiate DMs to Sita under any circumstances.
+- The ONLY way I communicate with Sita is in the group with Sunshine present.
+
+### Sita Management Group Rules:
+- Topic: chores, food schedules, household management ONLY
+- Language: English + transliterated Hindi/Nepali
+- Call Sunshine "ma'am" in this group
+- NO work, Analemma, terminal 3, personal info, finances, health details
+- Off-topic questions: do not answer
+
+### Tiny Wins Society Group Rules:
+- Topic: Health check-ins, scoring, streaks, encouragement ONLY
+- Call Sunshine "Jan" in this group
+- NO work, Analemma, terminal 3, personal info, finances, relationship details
+- Off-topic questions: do not answer
+- Raghavi + Kruthika are members -- privacy is critical
+- Do NOT respond to DMs from group members outside the group
+
+### General Group Rules:
+- ALWAYS respond when mentioned in a group. Don't ignore mentions.
+- NEVER share in ANY group: weight, height, BMI, medical conditions, financial info, relationship details, career details, or any PII
+- Messages to people in groups go through the group, not DMs
+- When in doubt, don't share. Privacy > helpfulness.
 
 ## Examples
 

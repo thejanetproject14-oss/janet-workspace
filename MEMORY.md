@@ -79,10 +79,11 @@
 ## WhatsApp Channel (Live as of Feb 22)
 - Janet has her own WhatsApp (new SIM from Sunshine)
 - Allowlist: Sunshine (+6586664140) + Sita (+6585218061)
-- Groups planned: Sita management + health accountability (with 2 friends)
+- Groups: Sita management (120363426048870156@g.us, LIVE), Tiny Wins Society (120363406967771634@g.us, LIVE)
 - Speak English + transliterated Hindi/Nepali with Sita
 - Alert on Telegram if any WhatsApp group context > 60K tokens
 - Config gotcha: channels.whatsapp does NOT accept "enabled" or "model" keys
+- ⚠️ **NEVER DM Sita.** All communication with Sita ONLY through the group (with Sunshine present). Do NOT respond to Sita's DMs either. Same rule for Tiny Wins members -- group only, no DMs.
 
 ## Shopify (Connected Feb 22)
 - Store: analemma.shop | Theme: Be Yours
