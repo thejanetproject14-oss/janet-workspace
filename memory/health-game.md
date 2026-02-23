@@ -48,10 +48,47 @@
 - **Name rules:** Call Sunshine "Jan" in Tiny Wins. "Ma'am" in Sita group. Never "Sunshine" in any group.
 - When in doubt, don't share. Privacy > helpfulness in groups.
 
-## Current Status
-- Cumulative Score: 25
+## Cycle Tracking
+- Period start: Feb 14, 2026 (Day 1)
+- Ovulation (est.): Feb 26, 2026 (Day 13)
+- Next period (est.): Mar 13, 2026 (Day 28)
+- Cycle length: ~28 days
+- **Follicular phase (Day 1-13):** Pumpkin seeds + flax seeds
+- **Luteal phase (Day 14-28):** Sunflower seeds + sesame seeds
+- Switch date: Feb 27 (day after ovulation)
+- MC Days 1-3 are brutal -- adjust expectations, lighter tasks
+
+## Raghavi's Scoring (Custom -- until Mar 20, 2026)
+- Sleep by 11pm: 10 pts
+- Sleep by 11:33pm: 5 pts (3 min grace period)
+- Sleep after 11:33pm: 0 pts
+- For every 30 min delay past 11pm, deduct 5 pts
+- Stretching (10+ min before bed): 10 pts | No stretching: 0 pts
+- Max daily: 20 pts
+- Target: 480/540 pts (27 days) = Lululemon reward 🎉
+- Cumulative Score: 20
+- Start Date: Feb 22, 2026
+
+## Kruthika's Scoring
+- TBD -- waiting for her goals
+
+## Jan's Current Status
+- Cumulative Score: 70
 - Current Streak: 0
 - Streak Start Date: Feb 23, 2026
 
 ## Daily Log
-(Entries will be added here each day)
+
+### Feb 22 (Sun) -- 45 pts
+- B12 ✅ (5) | Iron ✅ (5) | Pumpkin seeds ✅ (5)
+- Fiber ❌ (0) -- dosa + pilau rice + raita, ~10-12g
+- Water 2L ✅ (10)
+- Sleep 9hr ✅ (15)
+- Calorie deficit ❌ (0)
+- Movement: 1km walk (5) -- corn on toe limiting longer walks
+- No streak (calorie deficit streak starts Feb 23)
+
+### Raghavi -- Feb 22 (Sun) -- 20 pts ⭐
+- Sleep by 11pm ✅ (10)
+- Stretching 10+ min ✅ (10)
+- PERFECT SCORE Day 1! Cumulative: 20/540

@@ -51,6 +51,9 @@ Things like:
 - Token stored at: .linear-token (chmod 600)
 - API: GraphQL at https://api.linear.app/graphql
 
+## WhatsApp Groups
+- Tiny Wins Society: 120363406967771634@g.us
+
 ## Examples
 
 ```markdown
