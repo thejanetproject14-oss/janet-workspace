@@ -1,10 +1,5 @@
 {
-  "alerts": {
-    "agent:main:main": {
-      "60k": "2026-02-23T19:08:00+08:00",
-      "tokens_at_alert": 68561,
-      "last_checked": "2026-02-23T20:53:00+08:00",
-      "last_token_count": 72841
-    }
-  }
+  "alerts": {},
+  "last_checked": "2026-02-24T02:38:00+08:00",
+  "note": "Only active session is this cron job (~12K tokens). No thresholds exceeded."
 }

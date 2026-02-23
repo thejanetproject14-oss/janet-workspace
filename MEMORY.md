@@ -36,10 +36,14 @@
 
 ## Analemma Timeline
 - **Dec 2025:** First launch at Night at Orchard. Sold some stuff. Bag charms were popular, rest didn't move much.
-- **Mar 8, 2026:** Lip ganache launch date. Website MUST be ready.
+- **Mar 15, 2026:** Website launch date (shifted from Mar 8). Pre-launch with XVXII collab first.
 - Website (Shopify) is #1 priority. Not live yet. Domain secured.
 - Lip ganache photoshoot: scheduled Tue Feb 17, Dellea Studio JB. Dessert themed.
 - All products vegan. Line name: "Sweet Treat."
+- Blog post published: "Meet Analemma: Colour, Joy, and the Little Things That Make You, You"
+  - URL: https://analemma.shop/blogs/news/meet-analemma-colour-joy-and-the-little-things-that-make-you-you
+  - Vibe: colourful, playful, collectible energy. Art meets ritual but fun.
+  - Tarot pages to remain on Shopify (per Sunshine's instruction)
 - Sunshine wants daily motivation photo -- a "hot version of herself" to maintain calorie deficit streak. She'll send the base photo. Needs to be sent daily.
 
 ## Health Points Game (Tiny Wins Society)
@@ -68,13 +72,23 @@
 - Pre-fundraise checklist pushed to Notion under Analemma page.
 
 ## Active Workstreams
-1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 8.
+1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 15.
 2. **Lip Ganache Launch** -- content, influencer outreach, brunch planning
 3. **Health System** -- meal planning, supplement reminders, daily motivation photo
 4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
 5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih. Wants a content/videography agent.
 6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
 7. **Cloud Janet** -- DigitalOcean droplet DOWN. Sunshine considering killing it. Saves $24/mo.
+
+## Recent Infrastructure Updates
+- **Cloud Janet Decision**: DigitalOcean droplet down. Potential full destruction pending Sunshine's go-ahead.
+- **Reasoning Leak Bug Fixed**: 
+  - Telegram stream mode set to `off`
+  - Default thinking set to `off`
+  - Gateway restart completed
+- **Skills System**: First custom skill created
+  - Skill: **shopify-ops** (workspace skill at skills/shopify-ops/)
+  - Includes: Full Shopify Admin API reference, brand rules, product catalog, auth pattern
 
 ## WhatsApp Channel (Live as of Feb 22)
 - Janet has her own WhatsApp (new SIM from Sunshine)
@@ -93,6 +107,11 @@
 - Product: TLG Metallic Purse Charm (Tarnish Free)
 - INCI/claims are legit (on packaging)
 - Header white space: unresolved, caused by logo_position: top-center
+
+## Upcoming Dates
+- **Feb 28:** Bridgerton, potential Analemma shoot opportunity
+- **Mar 1:** Apple subscriptions audit, Sita routines session
+- **Mar 15:** Website launch date (shifted from Mar 8)
 
 ## Personal
 - Relationship: not great. She'll share when ready. Don't push, just be there.

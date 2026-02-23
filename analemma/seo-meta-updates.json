@@ -1,0 +1,169 @@
+[
+  {
+    "type": "homepage",
+    "title": "Analemma | Intentional Luxury Beauty & Accessories | Vegan",
+    "description": "Analemma is a vegan luxury beauty and accessories brand. Shop dessert-scented lip ganache, niche perfumes, handcrafted bags, and accessories made with intention. Based in Singapore."
+  },
+  {
+    "type": "collection",
+    "handle": "lip-care",
+    "title": "Sweet Treat Lip Ganache | Dessert-Scented Vegan Lipstick | Analemma",
+    "description": "Five shades of vegan lip ganache, each named for a dessert and scented to match. Rich, creamy pigment in Raspberry Coulis, Strawberry Jam, Hot Cocoa, Maraschino Cherry, and Tiramisu. Shop now."
+  },
+  {
+    "type": "collection", 
+    "handle": "hair-oil",
+    "title": "Sunday Rituals Hair Oil | Vegan Hair Care | Analemma",
+    "description": "Lightweight, nourishing vegan hair oil designed to turn your routine into a ritual. Botanically formulated for shine, softness, and the kind of morning you look forward to."
+  },
+  {
+    "type": "collection",
+    "handle": "perfume", 
+    "title": "Niche Perfumes | Vegan Eau de Parfum | Analemma",
+    "description": "Five niche fragrances for women who want a scent that's theirs. Vegan, cruelty-free eau de parfum in 15ml and 100ml. Meenakshi, Birthday Cake, Moonchild, Enrosadira, and more."
+  },
+  {
+    "type": "collection",
+    "handle": "cute-stuff",
+    "title": "Accessories | Bag Charms, Enamel Pins, Pouches | Analemma", 
+    "description": "Playful, handcrafted vegan accessories from Analemma. Beaded fruit bag charms, floral enamel pins, cross-woven makeup pouches, and metallic lip balm charms. Small joys, big personality."
+  },
+  {
+    "type": "collection",
+    "handle": "handbags",
+    "title": "Vegan Handbags | Beaded & Cross-Woven Leather | Analemma",
+    "description": "Statement handbags made without leather, without compromise. Handcrafted beaded bags and cross-woven vegan leather bags designed for women who carry their world with intention."
+  },
+  {
+    "type": "collection",
+    "handle": "limited-edition",
+    "title": "Limited Edition | Exclusive Drops | Analemma",
+    "description": "Limited edition beauty and lifestyle pieces from Analemma. Once they're gone, they're gone. Shop exclusive drops, collaborations, and one-time creations."
+  },
+  {
+    "type": "page",
+    "handle": "about",
+    "title": "About Analemma | Beauty as Ritual | Vegan Luxury from Singapore",
+    "description": "Analemma is beauty made with intention. Learn about our philosophy, our commitment to vegan luxury, and why we believe your routine deserves to feel like a ritual."
+  },
+  {
+    "type": "page",
+    "handle": "faq",
+    "title": "FAQ | Frequently Asked Questions | Analemma",
+    "description": "Find answers to common questions about Analemma products, shipping, returns, and our vegan beauty philosophy. Get the details you need before you shop."
+  },
+  {
+    "type": "page", 
+    "handle": "shipping-returns",
+    "title": "Shipping & Returns | Policies | Analemma",
+    "description": "Learn about Analemma's shipping rates, delivery times, and return policy for Singapore. Free shipping on orders over $80. 14-day return window."
+  },
+  {
+    "type": "page",
+    "handle": "get-in-touch", 
+    "title": "Contact Us | Get in Touch | Analemma",
+    "description": "Questions about Analemma products or orders? Get in touch via email or Instagram. We typically respond within 24 hours during business days."
+  },
+  {
+    "type": "page",
+    "handle": "perfume",
+    "title": "Perfume Coming Soon | Niche Fragrances | Analemma", 
+    "description": "Five niche fragrances launching soon from Analemma. Vegan, intentional scents for women who want something uniquely theirs. Sign up to be notified."
+  },
+  {
+    "type": "page",
+    "handle": "free",
+    "title": "Free Downloads Coming Soon | Digital Art & Wallpapers | Analemma",
+    "description": "Free digital downloads, cute art, stickers, and wallpapers coming soon from Analemma. Beauty should be shared. Get notified when our gift corner launches."
+  },
+  {
+    "type": "product",
+    "handle": "lip-ganache-raspberry-coulis",
+    "title": "Raspberry Coulis Lip Ganache | Dessert-Scented Vegan Lipstick | Analemma",
+    "description": "A cool-toned berry lip ganache that reads like fresh raspberries over dark chocolate. Raspberry Coulis is tart, bold, and irresistibly scented. 100% vegan."
+  },
+  {
+    "type": "product", 
+    "handle": "lip-ganache-strawberry-jam",
+    "title": "Strawberry Jam Lip Ganache | Sweet Pink Vegan Lipstick | Analemma",
+    "description": "A warm, juicy pink lip ganache that feels like the first strawberry of summer. Strawberry Jam is bright without being loud, scented like real preserves. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "lip-ganache-hot-cocoa", 
+    "title": "Hot Cocoa Lip Ganache | Nude Brown Vegan Lipstick | Analemma",
+    "description": "A deep, warm nude-brown lip ganache scented with cocoa and vanilla. Hot Cocoa is your everyday indulgence -- understated luxury that melts into your lips. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "lip-ganache-maraschino-cherry",
+    "title": "Maraschino Cherry Lip Ganache | Classic Red Vegan Lipstick | Analemma", 
+    "description": "A vivid, classic red lip ganache with sweet cherry scent. Maraschino Cherry is unapologetic color -- the shade you wear when you mean it. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "lip-ganache-tiramisu",
+    "title": "Tiramisu Lip Ganache | Rose-Mauve Vegan Lipstick | Analemma",
+    "description": "A dusky rose-mauve lip ganache scented with coffee and cream. Tiramisu has the depth of espresso and softness of mascarpone -- sophisticated and layered. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "sunday-rituals-hair-oil",
+    "title": "Sunday Rituals Hair Oil | Vegan Hair Care | Analemma",
+    "description": "Lightweight, deeply nourishing vegan hair oil that turns routine into ritual. Absorbs without heaviness, tames without stiffness, leaves hair blessed with shine."
+  },
+  {
+    "type": "product",
+    "handle": "lip-balm-charm-silver",
+    "title": "Silver Lip Balm Charm | Metallic Clip-On Beauty | Analemma", 
+    "description": "A miniature metallic lip balm in a silver charm that clips to your bag. Practical and pretty -- hydrating vegan balm in a refillable capsule. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "lip-balm-charm-gold",
+    "title": "Gold Lip Balm Charm | Metallic Clip-On Beauty | Analemma",
+    "description": "A warm gold lip balm charm that holds hydrating vegan balm in a refillable capsule. Clips to bags like it was always meant to be there. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "bag-charm-berry-in-love",
+    "title": "Berry in Love Strawberry Bag Charm | Beaded Fruit Charm | Analemma",
+    "description": "A plump, beaded strawberry bag charm for romantics. Berry in Love is handcrafted with glass beads in red and green -- head over heels hanging from your bag. 100% vegan."
+  },
+  {
+    "type": "product", 
+    "handle": "bag-charm-squeeze-the-day",
+    "title": "Squeeze the Day Lemon Bag Charm | Beaded Citrus Charm | Analemma", 
+    "description": "A sunny beaded lemon charm for women who grab mornings by the citrus. Squeeze the Day is cheerful, lightweight, and guaranteed to improve your bag's personality. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "beaded-handbag-jaipur-florals",
+    "title": "The Jaipur Florals Beaded Handbag | Hand-Threaded Evening Bag | Analemma",
+    "description": "Thousands of glass beads hand-threaded into florals inspired by the pink city. The Jaipur Florals is conversation, craftsmanship, and heirloom energy. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "vegan-leather-handbag-wine-lover",
+    "title": "The Wine Lover Cross-Woven Vegan Leather Handbag | Burgundy | Analemma",
+    "description": "Rich burgundy vegan leather, cross-woven with texture that begs to be touched. The Wine Lover is intentional everyday luxury -- no leather, no guilt, all beauty."
+  },
+  {
+    "type": "product",
+    "handle": "makeup-pouch-brighten-your-life", 
+    "title": "Brighten Your Life Makeup Pouch | Orange Cross-Woven | Analemma",
+    "description": "A cross-woven pouch in sunset orange and electric magenta that's almost too beautiful to bury in your bag. Brighten Your Life holds your daily essentials with vibrant energy. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "enamel-pin-sunset-ranunculus",
+    "title": "Sunset Ranunculus Enamel Pin | Floral Pin | Analemma",
+    "description": "Layers of warm-toned petals in peach, coral, and amber. The ranunculus enamel pin captures detail in miniature -- every petal enameled on purpose. 100% vegan."
+  },
+  {
+    "type": "product",
+    "handle": "vegan-brush-set-petrichor-vibes",
+    "title": "Vegan Brush Set by Petrichor Vibes | 5-Piece Limited Edition | Analemma",
+    "description": "Five essential makeup brushes with 100% synthetic bristles in a fabric roll case. Limited collaboration with Petrichor Vibes -- tools for the ritual. 50 units only."
+  }
+]
