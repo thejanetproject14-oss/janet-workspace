@@ -14,6 +14,7 @@
 - Calorie deficit -- 15 pts
 
 #### Movement (NEW!)
+- Small walk (< 30 mins) = 5 pts
 - Yoga class (15 min walk each way) = 10 pts
 - 30 min walk = 10 pts
 - 45 min workout = 15 pts
@@ -69,15 +70,13 @@
 - Cumulative Score: 40
 - Start Date: Feb 22, 2026
 
-## Kruthika's Scoring (Custom)
+## Kruthika's Scoring
 ### Scoring Rules
 - Iron supplement: 10 pts
 - Water ≥ 2L: 15 pts
 - Sleep ≥ 7 hours: 20 pts
 - Calorie deficit: 20 pts
-- Movement (active steps/workout): 15 pts
-  * 30-minute active movement: 10 pts
-  * 1-hour active movement: 15 pts
+- Movement (1-hr walk): 15 pts
 
 ### Daily Scoring Maximum: 80 pts
 
@@ -88,24 +87,20 @@
 - 21 consecutive days: +75 pts
 - 30 consecutive days: +100 pts
 
-### Scoring Verification
-- Self-reported 
-- Emphasis on intentional movement and consistent habits
-
 ### Current Log
-- Daily Score: 50 pts
+- Daily Score: 60 pts
   * Iron supplement: 10 pts
   * 2L Water: 15 pts
-  * Calorie deficit: 15 pts
+  * Calorie deficit: 20 pts
   * 1-hr walk (7000 steps, 4.76KM): 15 pts
 
-- Cumulative Score: 50
+- Cumulative Score: 60
 - Streak: 1 day
 
 ## Jan's Current Status
-- Cumulative Score: 100
+- Cumulative Score: 75
 - Current Streak: 0
-- Streak Start Date: Feb 23, 2026
+- Streak Start Date: Feb 22, 2026
 
 ## Daily Log
 
