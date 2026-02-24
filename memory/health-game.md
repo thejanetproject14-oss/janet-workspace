@@ -67,7 +67,7 @@
 - Stretching (10+ min before bed): 10 pts | No stretching: 0 pts
 - Max daily: 20 pts
 - Target: 480/540 pts (27 days) = Lululemon reward 🎉
-- Cumulative Score: 40
+- Cumulative Score: 60
 - Start Date: Feb 22, 2026
 
 ## Kruthika's Scoring
@@ -98,7 +98,7 @@
 - Streak: 1 day
 
 ## Jan's Current Status
-- Cumulative Score: 75
+- Cumulative Score: 155
 - Current Streak: 0
 - Streak Start Date: Feb 22, 2026
 
@@ -113,9 +113,14 @@
 - Movement: 1km walk (5) -- corn on toe limiting longer walks
 - No streak (calorie deficit streak starts Feb 23)
 
-### Feb 23 (Mon) -- TBD
-- Placeholder for today's log
-- Calorie deficit streak officially starts
+### Feb 23 (Mon) -- 40 pts
+- B12 ✅ (5) | Iron ✅ (5) | Pumpkin seeds ✅ (5)
+- Fiber ❌ (~16g) -- beetroot sabji, carrots, beans, makhana. Close but not 25g.
+- Water 2L ✅ (10)
+- Sleep ❌ (8.5hr)
+- Calorie deficit ❌
+- Movement: stretching + small walk (5)
+- Cumulative: 115 | Streak: 0
 
 ### Raghavi -- Feb 22 (Sun) -- 20 pts ⭐
 - Sleep by 11pm ✅ (10)
@@ -135,3 +140,17 @@
 - Sleep by 11pm ✅ (10)
 - Stretching 10+ min ✅ (10)
 - PERFECT SCORE Day 2! Cumulative: 40/540
+
+### Feb 24 (Tue) -- 40 pts
+- B12 ✅ (5) | Iron ✅ (5) | Pumpkin seeds ✅ (5)
+- Fiber ✅ (10) -- carrot capsicum sandwich, mooli paratha, cucumber raita, rice + 1.5 bowls dal
+- Water 2L ✅ (10)
+- Sleep ❌ (8hr)
+- Calorie deficit ❌
+- Movement: stretching + small walk (5)
+- Cumulative: 155 | Streak: 0
+
+### Raghavi -- Feb 24 (Tue) -- 20 pts ⭐
+- Sleep by 11pm ✅ (10)
+- Stretching 10+ min ✅ (10)
+- PERFECT SCORE Day 3! Cumulative: 60/540
