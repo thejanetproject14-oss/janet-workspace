@@ -88,17 +88,18 @@
 - 30 consecutive days: +100 pts
 
 ### Current Log
-- Daily Score: 60 pts
+- Daily Score: 50 pts
   * Iron supplement: 10 pts
-  * 2L Water: 15 pts
+  * Water (1L): 0 pts
+  * Sleep (8 hours): 20 pts
   * Calorie deficit: 20 pts
-  * 1-hr walk (7000 steps, 4.76KM): 15 pts
+  * Movement (7K+ steps): 0 pts
 
-- Cumulative Score: 60
-- Streak: 1 day
+- Cumulative Score: 110 (60 + 50)
+- Streak: 2 days
 
 ## Jan's Current Status
-- Cumulative Score: 155
+- Cumulative Score: 115
 - Current Streak: 0
 - Streak Start Date: Feb 22, 2026
 
