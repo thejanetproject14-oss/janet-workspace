@@ -1,22 +1,27 @@
 # Tiny Wins Society - Health Points Game
 
-## [Rest of the file remains the same, updating only the latest entry]
+## Janani (Jan) -- Cumulative Scores
+- Feb 22: 45 pts
+- Feb 23: 30 pts
+- Feb 24: 40 pts
+- Feb 25: 40 pts
+- Feb 26: 55 pts
+Total Cumulative: 210 pts
+Current Streak: 1 days
 
-### Feb 25 (Wed) -- 45 pts [FINAL SCORING]
-- B12 ✅ (5) | Iron ✅ (5) | Pumpkin seeds ✅ (5)
-- Fiber ✅ (10)
-- Water 2L ✅ (10)
-- Sleep ❌ (7hr)
-- Calorie deficit ❌
-- Movement: small walk (5) + gentle stretching (5) = 10
-- Cumulative: 200 | Streak: 0
+## Kruthika -- Cumulative Scores
+- Feb 23: 60 pts
+- Feb 24: 50 pts
+- Feb 25: 65 pts
+Total Cumulative: 175 pts
+Current Streak: 2 days
 
-## Raghavi -- Feb 25 (Wed) -- 20 pts ⭐
-- Sleep by 11pm ✅ (10)
-- Stretching 10+ min ✅ (10)
-- PERFECT SCORE Day 3! Cumulative: 60/540
+## Raghavi -- Cumulative Scores
+- Feb 22: 20 pts
+- Feb 23: 20 pts
+- Feb 24: 20 pts
+- Feb 25: 20 pts
+Total Cumulative: 80 pts
+Current Streak: 3 days
 
-## Kruthika's Status
-- Daily Score: 50 pts
-- Cumulative Score: 110 pts
-- Streak: 2 days
+### Last Updated: Feb 26, 11:59 PM SGT
