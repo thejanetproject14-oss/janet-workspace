@@ -60,7 +60,7 @@
   * 45 min workout = 15 pts
   * 1 hr active movement = 20 pts
   * Gentle stretching/recovery day = 5 pts
-- **Cumulative score: 115 | Streak: 0**
+- **Cumulative score: 200 | Streak: 0**
 
 ## Fundraise Plan
 - Analemma registered with ACRA (Pte Ltd). DBS business bank account set up.
