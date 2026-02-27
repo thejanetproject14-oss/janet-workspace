@@ -73,12 +73,33 @@
 
 ## Active Workstreams
 1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 15.
-2. **Lip Ganache Launch** -- content, influencer outreach, brunch planning
+2. **Lip Ganache Launch** -- content + PR only for Q1. No brunch in Q1 (moved to Q2 with perfume).
+   - 30 PR boxes (up from 15). Lock box concept. Aggressive seeding.
+   - Cinematic storyline content (not just product shots)
+   - UGC strategy needs framework
+   - Content calendar restructured: tease don't reveal pre-launch, controlled reveals launch week (Mar 10-14)
 3. **Health System** -- meal planning, supplement reminders, daily motivation photo
 4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
-5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih. Wants a content/videography agent.
+5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih.
 6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
-7. **Cloud Janet** -- DigitalOcean droplet DOWN. Sunshine considering killing it. Saves $24/mo.
+7. **T3 Agentic Auth Positioning** -- XAA/OAuth gap analysis done. T3 = decentralized agent identity layer (KYA) beneath Okta's XAA. Pitch targets: Okta, Microsoft, Anthropic, OIDF, JPMorgan, Mastercard/Visa.
+
+## Analemma Product Roadmap
+- **Mar 15:** Website + lip ganache launch
+- **April:** Artbox event
+- **May:** Reality check (what's working). Perfume line arrives. Korea trip (COSMOBEAUTY Seoul May 27-29).
+- **June:** Potential perfume launch. Brunch event (with perfume sampling + lip ganache restock proof point).
+- ALL products vegan.
+
+## Lip Ganache INCI (from packaging)
+Ethylhexyl Palmitate, Octyldodecanol, Polyisobutene, Ethylene/Propylene/Styrene Copolymer, Bis(16-Methylheptadecyl) Malate, Squalane, Hyaluronic Acid, Butyrospermum Parkii (Shea Butter) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Theobroma Cacao (Cocoa) Seed Butter, Tocopherol, Palmitoyl Tripeptide-1, Mica, Mild Flavor.
+Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa Butter, Vitamin E, Jojoba Oil
+
+## Analemma Blog Posts Live
+1. "Meet Analemma: Colour, Joy, and the Little Things That Make You, You"
+2. "What Even Is a Lip Ganache?"
+3. "Sunday Rituals: The Hair Oil That Turns a Routine Into a Moment"
+4. "What's Actually Inside Your Lip Ganache (And Why It Matters)" -- published Feb 27
 
 ## Recent Infrastructure Updates
 - **Cloud Janet Decision**: DigitalOcean droplet down. Potential full destruction pending Sunshine's go-ahead.
@@ -109,9 +130,14 @@
 - Header white space: unresolved, caused by logo_position: top-center
 
 ## Upcoming Dates
-- **Feb 28:** Bridgerton, potential Analemma shoot opportunity
-- **Mar 1:** Apple subscriptions audit, Sita routines session
-- **Mar 15:** Website launch date (shifted from Mar 8)
+- **Feb 28:** Bridgerton house party (1:30pm arrival, 3pm start). Analemma content shoot opportunity. PJs gifted.
+- **Mar 1:** Apple subscriptions audit, Sita routines session, HitPay DBS account update
+- **Mar 15:** Website + lip ganache launch
+- **April:** Artbox
+- **May 22-31:** Korea trip (COSMOBEAUTY Seoul May 27-29)
+- **May:** Perfume line arrives
+- **June:** Potential perfume launch + brunch event
+- **Jul 4-5:** Parents' Shashtiaptapoorti in Bangalore (NON-NEGOTIABLE)
 
 ## Personal
 - Relationship: not great. She'll share when ready. Don't push, just be there.
