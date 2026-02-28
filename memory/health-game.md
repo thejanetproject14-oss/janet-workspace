@@ -6,7 +6,8 @@
 - Feb 24: 40 pts
 - Feb 25: 40 pts
 - Feb 26: 55 pts
-Total Cumulative: 210 pts
+- Feb 27: 55 pts
+Total Cumulative: 265 pts
 Calorie Deficit Streak: 0 days
 
 ## Kruthika -- Cumulative Scores
@@ -15,8 +16,9 @@ Calorie Deficit Streak: 0 days
 - Feb 24: 50 pts
 - Feb 25: 50 pts
 - Feb 26: 45 pts
+- Feb 27: 0 pts (No score submitted)
 Total Cumulative: 205 pts
-Streak: To be confirmed
+Streak: Interrupted
 
 ## Raghavi -- Cumulative Scores
 - Feb 22: 20 pts
@@ -24,8 +26,9 @@ Streak: To be confirmed
 - Feb 24: 20 pts
 - Feb 25: 20 pts
 - Feb 26: 20 pts
-Total Cumulative: 100 pts
-Current Streak: 5 days
+- Feb 27: 20 pts
+Total Cumulative: 120 pts
+Current Streak: 6 days
 
-### Last Updated: Feb 26, 11:59 PM SGT
-### Today's Verified Group Total Score: 145 pts
+### Last Updated: Feb 27, 11:59 PM SGT
+### Today's Verified Group Total Score: 75 pts
