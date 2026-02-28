@@ -16,9 +16,9 @@ Calorie Deficit Streak: 0 days
 - Feb 24: 50 pts
 - Feb 25: 50 pts
 - Feb 26: 45 pts
-- Feb 27: 0 pts (No score submitted)
-Total Cumulative: 205 pts
-Streak: Interrupted
+- Feb 27: 45 pts
+Total Cumulative: 250 pts
+Streak: To be confirmed
 
 ## Raghavi -- Cumulative Scores
 - Feb 22: 20 pts
@@ -31,4 +31,4 @@ Total Cumulative: 120 pts
 Current Streak: 6 days
 
 ### Last Updated: Feb 27, 11:59 PM SGT
-### Today's Verified Group Total Score: 75 pts
+### Today's Verified Group Total Score: 120 pts
