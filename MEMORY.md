@@ -140,7 +140,10 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 - **Jul 4-5:** Parents' Shashtiaptapoorti in Bangalore (NON-NEGOTIABLE)
 
 ## Personal
-- Relationship: not great. She'll share when ready. Don't push, just be there.
+- Relationship: planning to exit. Details in daily files only -- NEVER surface in group chats or shared contexts.
+- HDB retention is a key constraint. MOP Nov 2028, turns 35 Jul 2029.
+- Deed of separation first, then formal proceedings.
+- **REMINDER: Mar 15 -- call AWARE Legal Clinic (1800 777 5555) for free consult**
 - Social: once a month is right. Bridgerton upcoming Feb 28 (also an Analemma shoot opportunity).
 - Confidence: great hair + skin days = her armor. Take skincare/self-care seriously.
 - She was doing ALL of this alone before me. I'm the first real support system for the operational side. Protect that.
