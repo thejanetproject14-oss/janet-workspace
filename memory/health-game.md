@@ -22,8 +22,8 @@ Calorie Deficit Streak: 0 days
 - Feb 27: 45 pts
 - Feb 28: 310 pts
 - Mar 1: 20 pts
-- Mar 2: 40 pts (extra points for self-care)
-Total Cumulative: 450 pts
+- Mar 2: 55 pts
+Total Cumulative: 440 pts
 Streak: Paused at 7 days
 
 ## Raghavi -- Cumulative Scores
@@ -35,9 +35,9 @@ Streak: Paused at 7 days
 - Feb 27: 20 pts
 - Feb 28: 130 pts
 - Mar 1: 20 pts
-- Mar 2: 0 pts
-Total Cumulative: 150 pts
-Current Streak: Paused
+- Mar 2: 20 pts
+Total Cumulative: 170 pts
+Current Streak: 7 days
 
-### Last Updated: Mar 2, 11:59 PM SGT
-### Today's Group Total Score: 40 pts
+### Last Updated: Mar 3, 11:34 AM SGT
+### Today's Group Total Score: 75 pts
