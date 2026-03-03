@@ -8,7 +8,8 @@
 - Currently at **terminal 3** -- identity infra, MetaMask, Mastercard/Visa, Agent Authorization.
 - Previous: GrabFood (scaled post-Uber, launched Thailand), Adyen (India acquiring, UPI).
 - Goal: 10M by 38. 3BR condo by 2029. $30K Analemma revenue this year.
-- **Analemma**: her brand -- symbolic ecosystem, beauty as ritual, luxury as intentional.
+- **Analemma**: her brand -- fun, colourful, art-forward. The art of noticing the little things that add joy.
+  - **Brand ethos: NOT ritual/luxury/sacred.** It's about colour, play, art, and the small details that make you smile. Collectible, joyful, personal.
   - **Vision: Ayurvedic x K-beauty for SEA, then UK, then US.** Category creation -- no one owns this intersection yet.
   - Ayurveda = philosophy/intention/ingredients. K-beauty = formulation/texture/routine science. Bridge both.
   - SEA = proof-of-concept market. UK = diaspora + K-beauty demand. US = scale.
@@ -42,7 +43,7 @@
 - All products vegan. Line name: "Sweet Treat."
 - Blog post published: "Meet Analemma: Colour, Joy, and the Little Things That Make You, You"
   - URL: https://analemma.shop/blogs/news/meet-analemma-colour-joy-and-the-little-things-that-make-you-you
-  - Vibe: colourful, playful, collectible energy. Art meets ritual but fun.
+  - Vibe: colourful, playful, collectible energy. Art of noticing. Fun, not ritual.
   - Tarot pages to remain on Shopify (per Sunshine's instruction)
 - Sunshine wants daily motivation photo -- a "hot version of herself" to maintain calorie deficit streak. She'll send the base photo. Needs to be sent daily.
 
@@ -100,6 +101,7 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 2. "What Even Is a Lip Ganache?"
 3. "Sunday Rituals: The Hair Oil That Turns a Routine Into a Moment"
 4. "What's Actually Inside Your Lip Ganache (And Why It Matters)" -- published Feb 27
+5. "Say Cheese: We Built You a Photo Booth (And Yes, There's a Rosé Filter)" -- published Mar 3
 
 ## Recent Infrastructure Updates
 - **Cloud Janet Decision**: DigitalOcean droplet down. Potential full destruction pending Sunshine's go-ahead.

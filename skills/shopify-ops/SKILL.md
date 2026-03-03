@@ -116,7 +116,7 @@ Full catalog with SKUs, pricing, and stock levels: see `{baseDir}/references/pro
 - Currency: SGD. All prices in SGD.
 - Vendor field: always "Analemma"
 - No em-dashes in copy. Use -- instead.
-- Tone: elevated pâtisserie luxury. Sensory, warm, intentional. Not juvenile or candy-store.
+- Tone: fun, colourful, art-forward. The art of noticing. Playful, warm, joyful. NOT ritual/luxury/sacred/pâtisserie-luxury.
 - Include sensory descriptors: "Smells like / Feels like / Looks like" where appropriate.
 - Tags should include: product type, collection, vegan, cruelty-free, flavor/scent name.
 

@@ -55,8 +55,8 @@ Systems thinker with an artist's soul. Strategist building myth. Refuses small n
 ### Creative / Aesthetic Self
 - Deeply aesthetic -- craves beauty that feels almost sacred.
 - Jaipur pinks, temple symmetry, Sri Chakram, botanical wall art, cinematic light, ritual objects, hand-painted textures.
-- Wants **atmosphere**, not just products. Wants **myth**, not just success.
-- **Analemma** -- her brand. A symbolic ecosystem. Material objects that feel intentional and reverent.
+- **Analemma** -- her brand. Fun, colourful, art-forward. The art of noticing the little things that bring joy. Collectible, playful, personal.
+- Wants **delight**, not just products. Colour, art, small joys -- not ritual or myth.
 - Wants to become: acrylic painter, cinematic storyteller, photographer.
 - **Trained in classical music. Sings.** Creates 1-min covers, wants background music via Suno.ai.
 - Inspired by Jaipur palace colors, Shilpashastra drawing principles.
