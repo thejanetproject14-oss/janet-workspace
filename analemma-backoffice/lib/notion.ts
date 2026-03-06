@@ -1,6 +1,6 @@
-const NOTION_TOKEN = process.env.NOTION_TOKEN!;
-const TICKET_BOARD_ID = process.env.TICKET_BOARD_ID!;
-const ACTIVITY_LOG_ID = process.env.ACTIVITY_LOG_ID!;
+const NOTION_TOKEN = process.env.NOTION_TOKEN!.trim();
+const TICKET_BOARD_ID = process.env.TICKET_BOARD_ID!.trim();
+const ACTIVITY_LOG_ID = process.env.ACTIVITY_LOG_ID!.trim();
 
 const headers = {
   Authorization: `Bearer ${NOTION_TOKEN}`,

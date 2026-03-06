@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { getActivityLog } from "@/lib/notion";
 
-const NOTION_TOKEN = process.env.NOTION_TOKEN!;
-const ACTIVITY_LOG_ID = process.env.ACTIVITY_LOG_ID!;
+const NOTION_TOKEN = process.env.NOTION_TOKEN!.trim();
+const ACTIVITY_LOG_ID = process.env.ACTIVITY_LOG_ID!.trim();
 
 export const dynamic = "force-dynamic";
 
