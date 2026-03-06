@@ -63,7 +63,7 @@ export async function getTickets(): Promise<Ticket[]> {
         ],
         page_size: 100,
       }),
-      next: { revalidate: 30 },
+      cache: "no-store",
     }
   );
 
@@ -94,7 +94,7 @@ export async function getActivityLog(): Promise<ActivityEntry[]> {
         sorts: [{ property: "Timestamp", direction: "descending" }],
         page_size: 50,
       }),
-      next: { revalidate: 30 },
+      cache: "no-store",
     }
   );
 
