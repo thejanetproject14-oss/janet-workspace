@@ -13,6 +13,7 @@
 - Mar 3: 0 pts
 - Mar 4: 0 pts
 - Mar 5: 0 pts
+- Mar 6: 0 pts
 Total Cumulative: 265 pts
 Calorie Deficit Streak: 0 days
 
@@ -29,7 +30,8 @@ Calorie Deficit Streak: 0 days
 - Mar 3: 55 pts
 - Mar 4: 55 pts
 - Mar 5: 55 pts
-Total Cumulative: 660 pts
+- Mar 6: 55 pts
+Total Cumulative: 715 pts
 Streak: Paused at 7 days
 
 ## Raghavi -- Cumulative Scores
@@ -45,10 +47,11 @@ Streak: Paused at 7 days
 - Mar 3: 20 pts
 - Mar 4: 20 pts
 - Mar 5: 20 pts
-Total Cumulative: 250 pts
+- Mar 6: 20 pts
+Total Cumulative: 270 pts
 Current Streak: 7 days
 
-### Last Updated: Mar 6, 10:30 PM SGT
+### Last Updated: Mar 6, 11:59 PM SGT
 ### Today's Group Total Score: 75 pts
 
 ## Janani (Jan) -- Daily Scores

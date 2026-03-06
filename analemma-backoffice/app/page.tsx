@@ -44,54 +44,52 @@ const TYPE_BADGES: Record<string, string> = {
 };
 
 const AGENT_COLORS: Record<string, string> = {
-  "Hermione (Janet)": "text-purple-400",
   Janet: "text-purple-400",
-  "Luna (Content)": "text-blue-400",
+  Luna: "text-blue-400",
   "Content Agent": "text-blue-400",
-  "Neville (Research)": "text-green-400",
+  Neville: "text-green-400",
   "Research Agent": "text-green-400",
-  "Percy (SEO)": "text-yellow-400",
+  Percy: "text-yellow-400",
   "SEO Agent": "text-yellow-400",
-  "Gilderoy (PR)": "text-orange-400",
+  Gilderoy: "text-orange-400",
   "PR Agent": "text-orange-400",
-  "Sirius (Writer)": "text-red-400",
+  Sirius: "text-red-400",
   "Writer Agent": "text-red-400",
-  "Arthur (Shopify)": "text-neutral-300",
+  Arthur: "text-neutral-300",
   "Shopify Agent": "text-neutral-300",
-  "McGonagall (DevOps)": "text-pink-400",
+  McGonagall: "text-pink-400",
   "DevOps Agent": "text-pink-400",
   Sunshine: "text-pink-300",
 };
 
 const AGENT_EMOJIS: Record<string, string> = {
-  "Hermione (Janet)": "🟣",
   Janet: "🟣",
-  "Luna (Content)": "🔵",
+  Luna: "🔵",
   "Content Agent": "🔵",
-  "Neville (Research)": "🟢",
+  Neville: "🟢",
   "Research Agent": "🟢",
-  "Percy (SEO)": "🔍",
+  Percy: "🔍",
   "SEO Agent": "🔍",
-  "Gilderoy (PR)": "📣",
+  Gilderoy: "📣",
   "PR Agent": "📣",
-  "Sirius (Writer)": "✍️",
+  Sirius: "✍️",
   "Writer Agent": "✍️",
-  "Arthur (Shopify)": "🛒",
+  Arthur: "🛒",
   "Shopify Agent": "🛒",
-  "McGonagall (DevOps)": "⚙️",
+  McGonagall: "⚙️",
   "DevOps Agent": "⚙️",
   Sunshine: "🩷",
 };
 
 const AGENTS = [
-  { name: "Hermione (Janet)", emoji: "🟣", model: "Claude Opus 4.6", role: "Orchestrator" },
-  { name: "Luna (Content)", emoji: "🔵", model: "Claude Sonnet 4", role: "Content" },
-  { name: "Neville (Research)", emoji: "🟢", model: "Claude Sonnet 4", role: "Research" },
-  { name: "Percy (SEO)", emoji: "🔍", model: "Claude Sonnet 4", role: "SEO" },
-  { name: "Gilderoy (PR)", emoji: "📣", model: "Claude Sonnet 4", role: "PR" },
-  { name: "Sirius (Writer)", emoji: "✍️", model: "Claude Sonnet 4", role: "Writer" },
-  { name: "Arthur (Shopify)", emoji: "🛒", model: "Claude Sonnet 4", role: "Shopify" },
-  { name: "McGonagall (DevOps)", emoji: "⚙️", model: "Claude Sonnet 4", role: "DevOps" },
+  { name: "Janet", emoji: "🟣", model: "Claude Opus 4.6", role: "Orchestrator" },
+  { name: "Luna", emoji: "🔵", model: "Claude Sonnet 4", role: "Content" },
+  { name: "Neville", emoji: "🟢", model: "Claude Sonnet 4", role: "Research" },
+  { name: "Percy", emoji: "🔍", model: "Claude Sonnet 4", role: "SEO" },
+  { name: "Gilderoy", emoji: "📣", model: "Claude Sonnet 4", role: "PR" },
+  { name: "Sirius", emoji: "✍️", model: "Claude Sonnet 4", role: "Writer" },
+  { name: "Arthur", emoji: "🛒", model: "Claude Sonnet 4", role: "Shopify" },
+  { name: "McGonagall", emoji: "⚙️", model: "Claude Sonnet 4", role: "DevOps" },
 ];
 
 function fmtTime(ts: string | null) {
@@ -130,7 +128,7 @@ function TicketModal({
     setPosting(true);
     const body = {
       agent: "Sunshine",
-      activity: tagHermione ? `@Hermione ${comment}` : comment,
+      activity: tagHermione ? `@Janet ${comment}` : comment,
       ticket: ticket.linearId,
       details: "",
       type: "Comment",
@@ -255,7 +253,7 @@ function TicketModal({
                     onChange={(e) => setTagHermione(e.target.checked)}
                     className="accent-purple-500"
                   />
-                  Tag <span className="text-purple-400">@Hermione</span> for review
+                  Tag <span className="text-purple-400">@Janet</span> for review
                 </label>
                 <button
                   onClick={postComment}
@@ -361,7 +359,7 @@ function AgentCard({ name, emoji, model, role, ticketCount }: { name: string; em
 
 function ActivityRow({ entry }: { entry: ActivityEntry }) {
   const ref = entry.ticket || entry.ticketRef;
-  const isTagged = entry.activity.startsWith("@Hermione");
+  const isTagged = entry.activity.startsWith("@Janet");
   return (
     <div className="flex items-start gap-2.5 py-2.5 border-b border-neutral-800/40 last:border-0">
       <span className="text-sm flex-shrink-0 mt-0.5">{AGENT_EMOJIS[entry.agent] || "💬"}</span>
@@ -371,7 +369,7 @@ function ActivityRow({ entry }: { entry: ActivityEntry }) {
           {ref && <span className="text-[10px] font-mono text-neutral-600 flex-shrink-0">{ref}</span>}
         </div>
         {isTagged && (
-          <span className="inline-block text-[10px] bg-purple-500/20 text-purple-400 border border-purple-500/30 px-1.5 py-0.5 rounded mt-1">@Hermione tagged</span>
+          <span className="inline-block text-[10px] bg-purple-500/20 text-purple-400 border border-purple-500/30 px-1.5 py-0.5 rounded mt-1">@Janet tagged</span>
         )}
         {entry.details && <p className="text-[11px] text-neutral-500 mt-0.5 leading-relaxed">{entry.details}</p>}
         <div className="flex gap-2 mt-1 text-[10px] text-neutral-600">

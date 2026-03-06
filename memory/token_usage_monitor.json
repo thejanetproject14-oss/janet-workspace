@@ -1,6 +1,7 @@
 {
-    "last_check": "2026-03-06T23:04:00+08:00",
-    "sessions_alerted": {
+    "last_check": "2026-03-07T00:04:00+08:00",
+    "sessions_checked": [],
+    "alerts_sent": {
         "60k_threshold": [],
         "100k_threshold": []
     }
