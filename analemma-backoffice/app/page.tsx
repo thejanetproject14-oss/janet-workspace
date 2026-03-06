@@ -57,7 +57,8 @@ const AGENT_COLORS: Record<string, string> = {
   "PR Agent": "text-orange-400",
   "Writer Agent": "text-red-400",
   "Shopify Agent": "text-neutral-400",
-  Sunshine: "text-pink-400",
+  "DevOps Agent": "text-pink-400",
+  Sunshine: "text-pink-300",
 };
 
 const AGENT_EMOJIS: Record<string, string> = {
@@ -68,6 +69,7 @@ const AGENT_EMOJIS: Record<string, string> = {
   "PR Agent": "📣",
   "Writer Agent": "✍️",
   "Shopify Agent": "🛒",
+  "DevOps Agent": "⚙️",
   Sunshine: "🩷",
 };
 
@@ -251,7 +253,7 @@ export default async function Dashboard() {
           <span><span className="text-purple-400 font-medium">{totalReview}</span> in review</span>
           <div className="flex items-center gap-1.5">
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-            <span>7 agents live</span>
+            <span>8 agents live</span>
           </div>
         </div>
       </div>
@@ -268,6 +270,7 @@ export default async function Dashboard() {
             { name: "PR Agent", emoji: "📣", model: "Claude Sonnet 4" },
             { name: "Writer Agent", emoji: "✍️", model: "Claude Sonnet 4" },
             { name: "Shopify Agent", emoji: "🛒", model: "Claude Sonnet 4" },
+            { name: "DevOps Agent", emoji: "⚙️", model: "Claude Sonnet 4" },
           ].map((agent) => (
             <AgentStatusCard
               key={agent.name}
