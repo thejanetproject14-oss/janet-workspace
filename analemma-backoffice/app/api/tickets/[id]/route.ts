@@ -19,7 +19,7 @@ export async function PATCH(
 ) {
   const { id } = await params;
   const body = await req.json();
-  const { status, assignedTo, priority } = body;
+  const { status, assignedTo, priority, outputUrl } = body;
 
   if (!id) {
     return NextResponse.json({ error: "Missing ticket id" }, { status: 400 });
@@ -36,6 +36,7 @@ export async function PATCH(
   if (status) properties["Status"] = { select: { name: status } };
   if (assignedTo) properties["Assigned To"] = { select: { name: assignedTo } };
   if (priority) properties["Priority"] = { select: { name: priority } };
+  if (outputUrl) properties["Output URL"] = { url: outputUrl };
 
   if (Object.keys(properties).length === 0) {
     return NextResponse.json({ error: "Nothing to update" }, { status: 400 });

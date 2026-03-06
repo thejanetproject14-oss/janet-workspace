@@ -19,6 +19,7 @@ export interface Ticket {
   dueDate: string | null;
   linearId: string;
   notes: string;
+  outputUrl: string | null;
 }
 
 export interface ActivityEntry {
@@ -82,6 +83,7 @@ export async function getTickets(): Promise<Ticket[]> {
     dueDate: getDateValue(page.properties["Due Date"]),
     linearId: getRichTextValue(page.properties["Linear ID"]),
     notes: getRichTextValue(page.properties["Notes"]),
+    outputUrl: page.properties["Output URL"]?.url ?? null,
   }));
 }
 

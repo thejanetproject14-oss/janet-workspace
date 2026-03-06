@@ -199,6 +199,21 @@ function TicketModal({
             )}
           </div>
 
+          {/* Output link */}
+          {ticket.outputUrl && (
+            <div className="px-5 py-4 border-b border-neutral-800/60 bg-green-950/20">
+              <p className="text-[11px] font-semibold uppercase tracking-wider text-green-600 mb-2">✓ Output Delivered</p>
+              <a
+                href={ticket.outputUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-green-400 hover:text-green-300 underline underline-offset-2 break-all"
+              >
+                {ticket.outputUrl}
+              </a>
+            </div>
+          )}
+
           {/* Brief / Notes */}
           {ticket.notes && (
             <div className="px-5 py-4 border-b border-neutral-800/60">
@@ -279,9 +294,17 @@ function TicketCard({ ticket, onClick }: { ticket: Ticket; onClick: () => void }
       onClick={onClick}
       className={`p-3 rounded-lg border ${STATUS_COLORS[ticket.status] || "bg-neutral-900 border-neutral-800"} hover:border-neutral-500 transition-colors cursor-pointer group`}
     >
-      {ticket.linearId && (
-        <p className="text-[10px] text-neutral-600 font-mono mb-1">{ticket.linearId}</p>
-      )}
+      <div className="flex items-center justify-between mb-1">
+        {ticket.linearId && (
+          <p className="text-[10px] text-neutral-600 font-mono">{ticket.linearId}</p>
+        )}
+        {ticket.outputUrl && (
+          <span className="text-[10px] text-green-400 flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
+            output
+          </span>
+        )}
+      </div>
       <p className="text-sm font-medium leading-snug mb-2 group-hover:text-white transition-colors">{ticket.task}</p>
       <div className="flex flex-wrap gap-1.5 mb-1.5">
         {ticket.priority && (

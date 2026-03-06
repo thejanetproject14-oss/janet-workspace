@@ -7,67 +7,121 @@ Sunshine request / Janet initiative
         ↓
    Linear issue created (ANA-XXX)
         ↓
-   Janet assigns to sub-agent
+   Janet assigns to sub-agent via sessions_spawn
         ↓
-   Sub-agent executes (Sonnet)
+   Agent calls: agent_update.py start → ticket → In Progress
         ↓
-   Output pushed to Notion (under Analemma)
+   Agent executes work
         ↓
-   Linear issue → Done
+   Agent pushes output to Notion (under Analemma parent page)
         ↓
-   Notion ticket board updated
+   Agent calls: agent_update.py done <notion_url> → ticket → Janet Review
+        ↓
+   Janet reviews output quality
+        ↓
+   Janet calls: PATCH /api/tickets/:id {"status": "Sunshine Approval", "outputUrl": <url>}
+        ↓
+   Sunshine reviews on backoffice portal
+        ↓
+   Ticket → Done. Linear issue → Done.
 ```
 
-## Rules
+## Mandatory Agent Protocol (NON-NEGOTIABLE)
 
-1. **Every task gets a Linear issue.** No invisible work. Format: `[Agent Name] Task description`
-2. **Every deliverable goes to Notion.** Content calendars, research reports, copy -- all pushed to the relevant Notion parent page.
-3. **Linear = tracking. Notion = deliverables.** Linear tells you what's happening. Notion holds the actual output.
-4. **Janet reviews before Sunshine sees.** Sub-agents deliver to Janet. Janet reviews quality, then pushes to Notion and closes the Linear issue.
-5. **Ticket board (Notion) mirrors Linear.** The backoffice Kanban board shows current state across all agents.
+### On task start:
+```bash
+python3 /Users/janet/.openclaw/workspace/scripts/agent_update.py start \
+  "<notion_ticket_page_id>" \
+  "<LINEAR-ID>" \
+  "<Agent Name>" \
+  "<one-line description of what you're doing>"
+```
+
+### On task completion:
+```bash
+python3 /Users/janet/.openclaw/workspace/scripts/agent_update.py done \
+  "<notion_ticket_page_id>" \
+  "<LINEAR-ID>" \
+  "<Agent Name>" \
+  "<one-line summary of what was delivered>" \
+  "https://www.notion.so/<output-page-id-no-dashes>" \
+  "<optional: additional details for Janet>"
+```
+
+### On blocked:
+```bash
+python3 /Users/janet/.openclaw/workspace/scripts/agent_update.py block \
+  "<notion_ticket_page_id>" \
+  "<LINEAR-ID>" \
+  "<Agent Name>" \
+  "<reason for block>"
+```
+Then: escalate to Janet via sessions_send. Never go to Sunshine directly.
+
+### Notion output URL format:
+Every Notion page ID like `31beab20-0eed-8129-943e-fcdabcc91561` becomes:
+`https://www.notion.so/31beab200eed8129943efcdabcc91561`
+(remove the dashes)
+
+## Review Flow
+
+```
+Agent delivers → Janet Review
+Janet approves → Sunshine Approval (output URL attached)
+Sunshine approves → Done
+Janet rejects → back to In Progress with comment
+```
+
+**Janet NEVER forwards sub-agent output to Sunshine without reviewing it first.**
+**Sunshine only sees "Sunshine Approval" tickets -- everything else is Janet's problem.**
+
+## Finding Your Ticket's Notion Page ID
+
+```bash
+python3 /Users/janet/.openclaw/workspace/scripts/find_ticket.py ANA-172
+# Returns: Notion ID, task name, current status
+```
 
 ## Agent Roster
 
-| Agent | Model | What it does | Linear prefix |
-|---|---|---|---|
-| Janet | Opus 4.6 | Orchestrates, reviews, delegates | (no prefix) |
-| Content Agent | Sonnet 4 | Content calendars, captions, blog drafts | `[Content Agent]` |
-| Research Agent | Sonnet 4 | Competitor analysis, influencer scouting, trends | `[Research Agent]` |
-| SEO Agent | Sonnet 4 | Keywords, meta copy, blog posts, search strategy | `[SEO Agent]` |
-| PR Agent | Sonnet 4 | Media outreach, influencer comms, pitches | `[PR Agent]` |
-| Writer Agent | Sonnet 4 | Product copy, brand narrative, hero captions | `[Writer Agent]` |
-| Shopify Agent | Sonnet 4 | Store maintenance, product pages, bug fixes | `[Shopify Agent]` |
-
-## Creating a Task
-
-### Janet auto-creates:
-When Sunshine says "Task:" → logged to Notion master task list.
-When Janet delegates to a sub-agent → Linear issue created with agent prefix.
-
-### Manual creation:
-1. Create Linear issue under Analemma team
-2. Prefix with agent name: `[Content Agent] Write 3 blog posts`
-3. Set priority (P1-P4)
-4. Janet picks it up and delegates
+| Agent | HP Name | Model | Role | Linear prefix |
+|---|---|---|---|---|
+| Janet | Janet | Opus 4.6 | Orchestrator | (none) |
+| content-agent | Luna | Sonnet 4 | Content calendars, captions, blog drafts | `[Luna]` |
+| research-agent | Neville | Sonnet 4 | Competitor analysis, influencer scouting, trends | `[Neville]` |
+| seo-agent | Percy | Sonnet 4 | Keywords, meta copy, blog posts, search | `[Percy]` |
+| pr-agent | Gilderoy | Sonnet 4 | Media outreach, influencer comms, pitches | `[Gilderoy]` |
+| writer-agent | Sirius | Sonnet 4 | Product copy, brand narrative, captions | `[Sirius]` |
+| shopify-agent | Arthur | Sonnet 4 | Store maintenance, product pages, bug fixes | `[Arthur]` |
+| devops-agent | McGonagall | Sonnet 4 | Backoffice portal, scripts, infrastructure | `[McGonagall]` |
 
 ## Output Routing
 
-| Agent | Output goes to |
-|---|---|
-| Content Agent | Analemma page on Notion |
-| Research Agent | Analemma page on Notion |
-| Janet (direct work) | Appropriate Notion section |
+All agent outputs go to Notion under the **Analemma parent page** (30beab20-0eed-80a0-80a1-cf6a2ad73acd).
+
+Name pages clearly: `ANA-XXX: [Task Name] -- [Month Year]`
+Example: `ANA-172: Keyword Research -- March 2026`
 
 ## Model Cost Rules
 
 - **Opus**: Janet only. Strategy, review, judgment.
-- **Sonnet**: Content + Research agents. Execution work.
-- **Haiku**: Tiny Wins Society, Sita management, routine responses.
+- **Sonnet**: All sub-agents. Execution work.
 - Agents NEVER self-upgrade to a higher model.
 - Janet sets the model in the task brief.
 
-## Escalation
+## Escalation Rules
 
-- Sub-agents escalate to Janet, not Sunshine.
-- Janet escalates to Sunshine only for: brand decisions, pricing, partnerships, external comms.
-- All escalations logged in Linear comments.
+- Sub-agents → Janet only (never Sunshine)
+- Janet → Sunshine for: brand decisions, pricing, partnerships, external comms, anything that leaves the machine
+- All escalations logged in backoffice activity feed
+
+## Backoffice Portal
+
+Live at: https://analemma-backoffice.vercel.app
+API docs: see devops-agent SOUL.md
+
+Key APIs:
+- `GET /api/tickets` -- all tickets
+- `GET /api/activity` -- last 50 activity entries
+- `PATCH /api/tickets/:id` -- update status, outputUrl, priority, assignedTo
+- `POST /api/activity` -- log agent action or comment
