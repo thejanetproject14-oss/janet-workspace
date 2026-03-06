@@ -29,6 +29,10 @@ const AGENT_COLORS: Record<string, string> = {
   Janet: "text-purple-400",
   "Content Agent": "text-blue-400",
   "Research Agent": "text-green-400",
+  "SEO Agent": "text-yellow-400",
+  "PR Agent": "text-orange-400",
+  "Writer Agent": "text-red-400",
+  "Shopify Agent": "text-neutral-400",
   Sunshine: "text-pink-400",
 };
 
@@ -36,6 +40,10 @@ const AGENT_EMOJIS: Record<string, string> = {
   Janet: "🟣",
   "Content Agent": "🔵",
   "Research Agent": "🟢",
+  "SEO Agent": "🔍",
+  "PR Agent": "📣",
+  "Writer Agent": "✍️",
+  "Shopify Agent": "🛒",
   Sunshine: "🩷",
 };
 
@@ -227,7 +235,7 @@ export default async function Dashboard() {
         <h2 className="text-sm font-semibold uppercase tracking-wider text-neutral-500 mb-3">
           Agents
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
           <AgentStatusCard
             name="Janet"
             emoji="🟣"
@@ -248,6 +256,34 @@ export default async function Dashboard() {
             model="Claude Sonnet 4"
             status="● Live"
             ticketCount={agentTicketCounts["Research Agent"] || 0}
+          />
+          <AgentStatusCard
+            name="SEO Agent"
+            emoji="🔍"
+            model="Claude Sonnet 4"
+            status="● Live"
+            ticketCount={agentTicketCounts["SEO Agent"] || 0}
+          />
+          <AgentStatusCard
+            name="PR Agent"
+            emoji="📣"
+            model="Claude Sonnet 4"
+            status="● Live"
+            ticketCount={agentTicketCounts["PR Agent"] || 0}
+          />
+          <AgentStatusCard
+            name="Writer Agent"
+            emoji="✍️"
+            model="Claude Sonnet 4"
+            status="● Live"
+            ticketCount={agentTicketCounts["Writer Agent"] || 0}
+          />
+          <AgentStatusCard
+            name="Shopify Agent"
+            emoji="🛒"
+            model="Claude Sonnet 4"
+            status="● Live"
+            ticketCount={agentTicketCounts["Shopify Agent"] || 0}
           />
         </div>
       </section>

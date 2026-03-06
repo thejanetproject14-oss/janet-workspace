@@ -33,6 +33,10 @@ Sunshine request / Janet initiative
 | Janet | Opus 4.6 | Orchestrates, reviews, delegates | (no prefix) |
 | Content Agent | Sonnet 4 | Content calendars, captions, blog drafts | `[Content Agent]` |
 | Research Agent | Sonnet 4 | Competitor analysis, influencer scouting, trends | `[Research Agent]` |
+| SEO Agent | Sonnet 4 | Keywords, meta copy, blog posts, search strategy | `[SEO Agent]` |
+| PR Agent | Sonnet 4 | Media outreach, influencer comms, pitches | `[PR Agent]` |
+| Writer Agent | Sonnet 4 | Product copy, brand narrative, hero captions | `[Writer Agent]` |
+| Shopify Agent | Sonnet 4 | Store maintenance, product pages, bug fixes | `[Shopify Agent]` |
 
 ## Creating a Task
 
