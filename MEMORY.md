@@ -105,14 +105,25 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 5. "Say Cheese: We Built You a Photo Booth (And Yes, There's a Rosé Filter)" -- published Mar 3
 
 ## Recent Infrastructure Updates
-- **Cloud Janet Decision**: DigitalOcean droplet down. Potential full destruction pending Sunshine's go-ahead.
-- **Reasoning Leak Bug Fixed**: 
-  - Telegram stream mode set to `off`
-  - Default thinking set to `off`
-  - Gateway restart completed
-- **Skills System**: First custom skill created
-  - Skill: **shopify-ops** (workspace skill at skills/shopify-ops/)
-  - Includes: Full Shopify Admin API reference, brand rules, product catalog, auth pattern
+- **DigitalOcean droplet**: DESTROYED (Mar 6). Saving $24/mo. Running on MacBook only.
+- **Claude Direct API** (Mar 6): Switched from OpenRouter to Anthropic direct.
+  - Primary: anthropic/claude-opus-4.6 (direct)
+  - Fallback: openrouter/anthropic/claude-opus-4.6
+- **Brave Search API** (Mar 6): Configured and working. 50 req/sec, unlimited monthly.
+- **Skills System**: 3 custom workspace skills
+  - **shopify-ops**: Shopify Admin API, brand rules, product catalog
+  - **notion-ops** (Mar 6): Notion API patterns, workspace map, task protocol
+  - **analemma-brand** (Mar 6): Brand strategy, voice, products, competitive landscape, founder story
+- **Multi-Agent System** (Mar 6):
+  - Content Agent (Sonnet 4): content calendars, captions, blog drafts
+  - Research Agent (Sonnet 4): competitor analysis, influencer scouting, trends
+  - SOP: Linear (task tracking) → Agent executes → Output to Notion → Linear closed
+  - See SOP-AGENTS.md for full workflow
+- **Notion Backoffice** (Mar 6):
+  - 🎛️ Agent Backoffice page: 31beab20-0eed-81e0-a888-e004cd1d0f97
+  - 📋 Ticket Board DB: 31beab20-0eed-8121-8f5c-d70671e58b1a
+  - 📡 Agent Activity Log DB: 31beab20-0eed-81c1-9b46-ec4172020b6d
+- **Vercel Backoffice Portal**: Next.js app built at workspace/analemma-backoffice/. Pending deploy (needs `vercel login`). Target: backoffice.analemma.shop
 
 ## WhatsApp Channel (Live as of Feb 22)
 - Janet has her own WhatsApp (new SIM from Sunshine)
