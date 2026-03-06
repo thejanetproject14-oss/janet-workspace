@@ -17,6 +17,8 @@ export interface Ticket {
   type: string;
   raisedBy: string;
   dueDate: string | null;
+  linearId: string;
+  notes: string;
 }
 
 export interface ActivityEntry {
@@ -25,6 +27,8 @@ export interface ActivityEntry {
   agent: string;
   type: string;
   ticketRef: string;
+  ticket: string;
+  details: string;
   timestamp: string | null;
   modelUsed: string;
 }
@@ -54,9 +58,10 @@ export async function getTickets(): Promise<Ticket[]> {
       headers,
       body: JSON.stringify({
         sorts: [
-          { property: "Priority", direction: "ascending" },
           { property: "Status", direction: "ascending" },
+          { property: "Priority", direction: "ascending" },
         ],
+        page_size: 100,
       }),
       next: { revalidate: 30 },
     }
@@ -74,6 +79,8 @@ export async function getTickets(): Promise<Ticket[]> {
     type: getSelectValue(page.properties["Type"]),
     raisedBy: getSelectValue(page.properties["Raised By"]),
     dueDate: getDateValue(page.properties["Due Date"]),
+    linearId: getRichTextValue(page.properties["Linear ID"]),
+    notes: getRichTextValue(page.properties["Notes"]),
   }));
 }
 
@@ -85,7 +92,7 @@ export async function getActivityLog(): Promise<ActivityEntry[]> {
       headers,
       body: JSON.stringify({
         sorts: [{ property: "Timestamp", direction: "descending" }],
-        page_size: 20,
+        page_size: 50,
       }),
       next: { revalidate: 30 },
     }
@@ -100,6 +107,8 @@ export async function getActivityLog(): Promise<ActivityEntry[]> {
     agent: getSelectValue(page.properties["Agent"]),
     type: getSelectValue(page.properties["Type"]),
     ticketRef: getRichTextValue(page.properties["Ticket Ref"]),
+    ticket: getRichTextValue(page.properties["Ticket"]),
+    details: getRichTextValue(page.properties["Details"]),
     timestamp: getDateValue(page.properties["Timestamp"]),
     modelUsed: getSelectValue(page.properties["Model Used"]),
   }));
