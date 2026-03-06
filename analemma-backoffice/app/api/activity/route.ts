@@ -13,7 +13,7 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const { agent, activity, ticket, details, type, modelUsed } = body;
+  const { agent, activity, ticket, details, type, modelUsed, tagged } = body;
 
   if (!agent || !activity) {
     return NextResponse.json({ error: "agent and activity are required" }, { status: 400 });
@@ -31,6 +31,7 @@ export async function POST(req: Request) {
   if (details) props["Details"] = { rich_text: [{ text: { content: String(details).slice(0, 2000) } }] };
   if (type) props["Type"] = { select: { name: String(type) } };
   if (modelUsed) props["Model Used"] = { select: { name: String(modelUsed) } };
+  if (tagged !== undefined) props["Tagged"] = { checkbox: Boolean(tagged) };
 
   const res = await fetch("https://api.notion.com/v1/pages", {
     method: "POST",

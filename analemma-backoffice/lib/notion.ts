@@ -31,6 +31,7 @@ export interface ActivityEntry {
   details: string;
   timestamp: string | null;
   modelUsed: string;
+  tagged: boolean;
 }
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -111,5 +112,6 @@ export async function getActivityLog(): Promise<ActivityEntry[]> {
     details: getRichTextValue(page.properties["Details"]),
     timestamp: getDateValue(page.properties["Timestamp"]),
     modelUsed: getSelectValue(page.properties["Model Used"]),
+    tagged: page.properties["Tagged"]?.checkbox ?? false,
   }));
 }
