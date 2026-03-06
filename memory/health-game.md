@@ -48,5 +48,14 @@ Streak: Paused at 7 days
 Total Cumulative: 250 pts
 Current Streak: 7 days
 
-### Last Updated: Mar 5, 11:59 PM SGT
+### Last Updated: Mar 6, 10:30 PM SGT
 ### Today's Group Total Score: 75 pts
+
+## Janani (Jan) -- Daily Scores
+- Mar 6: 0 pts
+
+## Kruthika -- Daily Scores
+- Mar 6: 55 pts
+
+## Raghavi -- Daily Scores
+- Mar 6: 20 pts

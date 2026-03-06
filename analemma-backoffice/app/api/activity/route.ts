@@ -4,7 +4,7 @@ import { getActivityLog } from "@/lib/notion";
 const NOTION_TOKEN = process.env.NOTION_TOKEN!;
 const ACTIVITY_LOG_ID = process.env.ACTIVITY_LOG_ID!;
 
-export const revalidate = 30;
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   const entries = await getActivityLog();
