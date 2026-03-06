@@ -71,6 +71,7 @@ See `references/products.md` for full catalog with descriptions, pricing, and co
 - Cinematic, scripted, intentional -- NOT casual/unfiltered
 - Style references: Nirmal Pillai (narrative warmth), Life of Riza (cinematic intimacy), Chloe Shih (jump-cut energy)
 - No AI-generated social videos
+- For script writing: see `references/nirmal-pillai-scripts.md` for tone/structure reference (17 transcribed videos)
 - Dessert/food metaphors are on-brand (the whole line is dessert-named)
 - Singapore context is strength, not limitation
 - Edit in Final Cut Pro or CapCut
