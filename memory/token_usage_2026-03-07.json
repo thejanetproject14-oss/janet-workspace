@@ -1,0 +1,12 @@
+{
+    "timestamp": "2026-03-07T07:04:00+08:00",
+    "sessions": [
+        {
+            "key": "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19",
+            "total_tokens": 20000,
+            "context_tokens": 200000,
+            "alerted_60k": false,
+            "alerted_100k": false
+        }
+    ]
+}

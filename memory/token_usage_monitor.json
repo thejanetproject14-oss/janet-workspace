@@ -1,8 +1,9 @@
 {
-    "last_check": "2026-03-07T00:04:00+08:00",
-    "sessions_checked": [],
-    "alerts_sent": {
-        "60k_threshold": [],
-        "100k_threshold": []
+    "last_check": 1772850865,
+    "sessions": {
+        "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19": {
+            "total_tokens": 20000,
+            "alerts_sent": []
+        }
     }
 }

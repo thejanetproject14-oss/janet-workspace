@@ -1,0 +1,11 @@
+{
+  "60k_alerted_sessions": [],
+  "100k_alerted_sessions": [],
+  "last_checked": {
+    "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19": {
+      "total_tokens": 19346,
+      "context_tokens": 200000,
+      "timestamp": 1772876065771
+    }
+  }
+}

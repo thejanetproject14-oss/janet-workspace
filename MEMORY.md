@@ -129,7 +129,7 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
   - 🎛️ Agent Backoffice page: 31beab20-0eed-81e0-a888-e004cd1d0f97
   - 📋 Ticket Board DB: 31beab20-0eed-8121-8f5c-d70671e58b1a
   - 📡 Agent Activity Log DB: 31beab20-0eed-81c1-9b46-ec4172020b6d
-- **Vercel Backoffice Portal**: Next.js app built at workspace/analemma-backoffice/. Pending deploy (needs `vercel login`). Target: backoffice.analemma.shop
+- **Vercel Backoffice Portal**: DEPLOYED ✅ -- https://analemma-backoffice.vercel.app/
 
 ## WhatsApp Channel (Live as of Feb 22)
 - Janet has her own WhatsApp (new SIM from Sunshine)
