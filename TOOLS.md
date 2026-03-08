@@ -109,3 +109,26 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## Token Usage Monitoring Workflow
+
+### Alerts Strategy
+1. Check all active sessions
+2. Track alerts in `/memory/token_usage_alerts.json`
+3. Alert thresholds:
+   - Warning: 60,000 tokens
+   - Urgent: 100,000 tokens
+4. Send alerts via WhatsApp
+5. Ensure only one alert per threshold per session
+
+### Alert JSON Structure
+```json
+{
+    "60k_alerted_sessions": ["session_key1", "session_key2"],
+    "100k_alerted_sessions": ["session_key3"]
+}
+```
+
+### Recommended Cron Frequency
+- Every 30 minutes during active work hours
+- Hourly during off-peak times
