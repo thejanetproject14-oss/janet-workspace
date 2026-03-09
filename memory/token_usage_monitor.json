@@ -1,17 +1,11 @@
 {
   "last_check": {
-    "timestamp": "2026-03-08T07:34:00+08:00",
-    "active_sessions": 1,
-    "max_tokens": 21000,
-    "alert_sent": false,
-    "sessions": [
-      {
-        "key": "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19",
-        "total_tokens": 21000,
-        "alerts": {
-          "60k_warning_sent": false,
-          "100k_urgent_sent": false
-        }
+    "timestamp": "2026-03-08T23:34:00+08:00",
+    "sessions": {
+      "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19": {
+        "total_tokens": 20000,
+        "alerts_triggered": []
       }
-    ]
+    }
+  }
 }

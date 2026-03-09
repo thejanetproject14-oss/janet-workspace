@@ -1,0 +1,7 @@
+{
+    "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19": {
+        "last_60k_alert": null,
+        "last_100k_alert": null,
+        "last_known_token_count": 20384
+    }
+}

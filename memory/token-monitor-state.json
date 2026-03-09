@@ -1,9 +1,10 @@
 {
-    "last_check": "2026-03-07T21:19:00+08:00",
-    "sessions": {
-        "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19": {
-            "total_tokens": 20000,
-            "alerts_sent": []
-        }
+  "last_check": 1709993700,
+  "sessions": {
+    "agent:main:cron:ac915a6a-7a71-442e-bc27-1ed8470e2c19": {
+      "total_tokens": 20000,
+      "warned_60k": false,
+      "warned_100k": false
     }
+  }
 }
