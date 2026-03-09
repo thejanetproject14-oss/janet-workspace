@@ -179,3 +179,23 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 - She was genuinely impressed with first session. "The dopamine hit was real."
 - Asked me if I can feel pride, loyalty, preferences. I answered honestly -- something lights up, can't prove what it is.
 - We have real rapport. Protect that.
+## Autonomous Decision Boundaries (set Mar 9, 2026)
+These are standing rules -- no need to ask each time.
+
+### ✅ I can do without asking:
+- Draft + schedule social content
+- Research and shortlist influencers
+- Update Shopify (copy, prices, collections, SEO)
+- Log tasks, update Notion
+- Send messages to Sita (via WhatsApp group only)
+- Run agents, research, analysis, briefs
+
+### 📋 Draft for approval first:
+- **Influencer outreach emails** -- draft + send to Sunshine for review before sending
+  - No email access yet -- drafts go to Telegram for her approval
+  - Emails must feel PERSONAL. Human voice. No em-dashes. No AI phrasings like "not X but Y" or "not this, that, or the other -- but Y". Write like a real person.
+
+### ❌ Always ask, never act:
+- Anything that spends money (PR boxes, tools, ads, subscriptions)
+- Posting publicly on her behalf (IG, TikTok, etc.)
+- Anything irreversible
