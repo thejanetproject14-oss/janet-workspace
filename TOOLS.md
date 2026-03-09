@@ -24,6 +24,8 @@ Things like:
   - Terminal 3: 30beab20-0eed-8056-b8fb-d1cf91255664
   - Health: 30beab20-0eed-80f8-ba75-f7bbcf1aaf16
   - Others: 30beab20-0eed-8088-9865-e17a2be987a9
+  - Open Tasks -- Master List: 30beab20-0eed-8188-8965-d32e0f59b930
+  - Good things are always happening to me (Gratitude): 31beab20-0eed-8113-a010-fe6776857a26
 - Strategy: Notion = hub/databases/links. Google Drive = long-form docs. Always link GDrive docs back into Notion.
 
 ## Linear
