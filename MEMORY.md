@@ -83,17 +83,20 @@
 - Pre-fundraise checklist pushed to Notion under Analemma page.
 
 ## Active Workstreams
-1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 15.
+1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 15. Storefront password still ON (launch blocker).
 2. **Lip Ganache Launch** -- content + PR only for Q1. No brunch in Q1 (moved to Q2 with perfume).
    - 30 PR boxes (up from 15). Lock box concept. Aggressive seeding.
    - Cinematic storyline content (not just product shots)
    - UGC strategy needs framework
    - Content calendar restructured: tease don't reveal pre-launch, controlled reveals launch week (Mar 10-14)
+   - 5 flavours NOT YET revealed to audience. Reveal schedule: 2 per day (Mar 11-13), Tiramisu saved for eve-of-launch reveal.
+   - Unposted photoshoot content available. Bridgerton video + postman video need editing.
 3. **Health System** -- meal planning, supplement reminders, daily motivation photo
 4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
 5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih.
 6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
 7. **T3 Agentic Auth Positioning** -- XAA/OAuth gap analysis done. T3 = decentralized agent identity layer (KYA) beneath Okta's XAA. Pitch targets: Okta, Microsoft, Anthropic, OIDF, JPMorgan, Mastercard/Visa.
+8. **"Pass the Love" Feature** -- post-purchase paint/draw/flower canvas on Shopify thank-you page. Chain art to next buyer. Founder art backlog as fallback. Notion page created. Post-launch build.
 
 ## Analemma Product Roadmap
 - **Mar 15:** Website + lip ganache launch
@@ -133,6 +136,9 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
   - 📋 Ticket Board DB: 31beab20-0eed-8121-8f5c-d70671e58b1a
   - 📡 Agent Activity Log DB: 31beab20-0eed-81c1-9b46-ec4172020b6d
 - **Vercel Backoffice Portal**: DEPLOYED ✅ -- https://analemma-backoffice.vercel.app/
+- **Notion Master Task List** (Mar 10): Fully rebuilt. 90 tasks in 4 buckets (🔴🟡🟢🔵). Page ID: 30beab20-0eed-8188-8965-d32e0f59b930
+- **Cron fixes** (Mar 10): Token usage monitor fixed (checks actual main session tokens, alerts >70K via Telegram). 5pm close-out fixed (has explicit Notion/Linear API instructions).
+- **Known issue**: Sita WhatsApp reminders fail from Telegram-bound sessions (cross-context restriction). Needs routing fix.
 
 ## WhatsApp Channel (Live as of Feb 22)
 - Janet has her own WhatsApp (new SIM from Sunshine)

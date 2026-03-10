@@ -17,7 +17,7 @@
 - Mar 7: 15 pts
 - Mar 8: 45 pts
 - Mar 9: 50 pts
-Total Cumulative: 670 pts
+Total Cumulative: 610 pts
 Calorie Deficit Streak: 4 days
 
 ## Kruthika -- Cumulative Scores
@@ -37,7 +37,7 @@ Calorie Deficit Streak: 4 days
 - Mar 7: 60 pts
 - Mar 8: 40 pts
 - Mar 9: 0 pts
-Total Cumulative: 525 pts
+Total Cumulative: 485 pts
 Streak: Paused at 7 days
 
 ## Raghavi -- Cumulative Scores
@@ -57,7 +57,7 @@ Streak: Paused at 7 days
 - Mar 7: 15 pts
 - Mar 8: 35 pts
 - Mar 9: 20 pts
-Total Cumulative: 370 pts
+Total Cumulative: 290 pts
 Current Streak: 9 days
 
 ### Last Updated: Mar 9, 11:59 PM SGT
@@ -65,18 +65,18 @@ Current Streak: 9 days
 
 ## Janani (Jan) -- Daily Scores
 - Mar 6: 0 pts
-- Mar 7: 15 pts (B12: 5, Iron: 5, Small Walk: 5, No Sleep/Water/Fiber Points)
-- Mar 8: 45 pts (Water: 10, 8k Steps: 20, Calorie Deficit: 15, No B12/Iron/Fiber/Sleep Points)
-- Mar 9: 50 pts (B12: 5, Iron: 5, 8k Steps: 20, Water: 10, Calorie Deficit: 10)
+- Mar 7: 15 pts
+- Mar 8: 45 pts
+- Mar 9: 85 pts (Details to be confirmed)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
 - Mar 7: 60 pts
-- Mar 8: 40 pts (Steps: 20, Water: 5, Sleep: 15, No Iron/Calorie Deficit Points)
-- Mar 9: 0 pts
+- Mar 8: 40 pts
+- Mar 9: 0 pts (Needs update)
 
 ## Raghavi -- Daily Scores
 - Mar 6: 20 pts
 - Mar 7: 15 pts
-- Mar 8: 35 pts (Stretches Done, Preparing for Sleep)
-- Mar 9: 20 pts (Evening Stretches Complete, Sleep Routine On Track)
+- Mar 8: 35 pts
+- Mar 9: 15 pts (Details to be confirmed)

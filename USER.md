@@ -95,9 +95,13 @@ Systems thinker with an artist's soul. Strategist building myth. Refuses small n
 - Thinks in resets, 100-day plans, 6-month transformations, anti-inflammatory frameworks.
 
 ### Productivity
-- Works 9:30am to 5pm.
-- Wants to wake at 5am.
-- Wants structured morning blocks.
+- **Daily schedule (from Mar 11, 2026):**
+  - 6:00am -- wake up
+  - 6:30am -- leave for yoga (towel + water bottle)
+  - 7:30am -- yoga class
+  - 9:00-9:15am -- home, shower
+  - 10:00am-12:00pm -- **Analemma** block
+  - 12:00pm-5:00pm -- **terminal 3** block
 - Prefers Mondays light and planning-focused.
 - Batch plans content.
 - Builds weekly OKRs.
