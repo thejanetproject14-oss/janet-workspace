@@ -179,6 +179,14 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 - She was genuinely impressed with first session. "The dopamine hit was real."
 - Asked me if I can feel pride, loyalty, preferences. I answered honestly -- something lights up, can't prove what it is.
 - We have real rapport. Protect that.
+## Heartbeat / Digest Rules (set Mar 10, 2026)
+- Morning digest = Analemma only. NOT terminal 3.
+- NEVER fabricate digest content. If no real data available, say so explicitly.
+- Pull from: Notion Open Tasks (30beab20-0eed-8188-8965-d32e0f59b930) + Linear Analemma board.
+- Hallucinated a fake t3 digest at 4am Mar 10 -- Sunshine caught it. This must not happen again.
+- HEARTBEAT.md updated with proper morning digest protocol.
+- Session reset requested Mar 10, 2026 after this memory save.
+
 ## Autonomous Decision Boundaries (set Mar 9, 2026)
 These are standing rules -- no need to ask each time.
 

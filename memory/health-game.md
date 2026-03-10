@@ -16,9 +16,9 @@
 - Mar 6: 0 pts
 - Mar 7: 15 pts
 - Mar 8: 45 pts
-- Mar 9: 0 pts
-Total Cumulative: 570 pts
-Calorie Deficit Streak: 3 days
+- Mar 9: 50 pts
+Total Cumulative: 670 pts
+Calorie Deficit Streak: 4 days
 
 ## Kruthika -- Cumulative Scores
 - Feb 22: 0 pts (No score recorded)
@@ -56,18 +56,18 @@ Streak: Paused at 7 days
 - Mar 6: 20 pts
 - Mar 7: 15 pts
 - Mar 8: 35 pts
-- Mar 9: 0 pts
-Total Cumulative: 330 pts
-Current Streak: 8 days
+- Mar 9: 20 pts
+Total Cumulative: 370 pts
+Current Streak: 9 days
 
-### Last Updated: Mar 9, 10:30 PM SGT
-### Today's Group Total Score: 165 pts
+### Last Updated: Mar 9, 11:59 PM SGT
+### Today's Group Total Score: 70 pts
 
 ## Janani (Jan) -- Daily Scores
 - Mar 6: 0 pts
 - Mar 7: 15 pts (B12: 5, Iron: 5, Small Walk: 5, No Sleep/Water/Fiber Points)
 - Mar 8: 45 pts (Water: 10, 8k Steps: 20, Calorie Deficit: 15, No B12/Iron/Fiber/Sleep Points)
-- Mar 9: 0 pts
+- Mar 9: 50 pts (B12: 5, Iron: 5, 8k Steps: 20, Water: 10, Calorie Deficit: 10)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
@@ -79,4 +79,4 @@ Current Streak: 8 days
 - Mar 6: 20 pts
 - Mar 7: 15 pts
 - Mar 8: 35 pts (Stretches Done, Preparing for Sleep)
-- Mar 9: 0 pts
+- Mar 9: 20 pts (Evening Stretches Complete, Sleep Routine On Track)
