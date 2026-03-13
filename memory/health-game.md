@@ -19,8 +19,9 @@
 - Mar 9: 50 pts
 - Mar 10: 85 pts
 - Mar 11: 75 pts
-Total Cumulative: 725 pts
-Calorie Deficit Streak: 5 days
+- Mar 12: 75 pts
+Total Cumulative: 775 pts
+Calorie Deficit Streak: 6 days
 
 ## Kruthika -- Cumulative Scores
 - Feb 22: 0 pts (No score recorded)
@@ -61,12 +62,13 @@ Streak: Paused at 7 days
 - Mar 9: 20 pts
 - Mar 10: 0 pts
 - Mar 11: 40 pts
-Total Cumulative: 325 pts
-Current Streak: 1 day (reset — no data Mar 10)
+- Mar 12: 40 pts
+Total Cumulative: 345 pts
+Current Streak: 3 days
 
-### Last Updated: Mar 11, 11:59 PM SGT
-### Mar 11 Group Total Score: 115 pts (Jan: 75 + Raghavi: 40 + Kruthika: 0)
-### Note: Kruthika has not submitted scores since Mar 8. Mar 9 daily totals still pending confirmation.
+### Last Updated: Mar 12, 11:59 PM SGT
+### Mar 12 Group Total Score: 115 pts (Jan: 75 + Raghavi: 40 + Kruthika: 0)
+### Note: Kruthika has not submitted scores since Mar 8 (Mar 9–12 all 0 pts). Mar 9 Jan daily total inconsistency noted (cumulative shows 50 pts, daily section shows 85 pts — needs verification).
 
 ## Janani (Jan) -- Daily Scores
 - Mar 6: 0 pts
@@ -75,6 +77,7 @@ Current Streak: 1 day (reset — no data Mar 10)
 - Mar 9: 85 pts (Details to be confirmed)
 - Mar 10: 85 pts (Sleep: 9hrs +40, Hydration: 2L +20, Food goals: +25, Wart recovery: no penalty)
 - Mar 11: 75 pts (Sleep: 8hrs +30, Hydration: 2L +20, Food goals: +25, Wart recovery: no penalty)
+- Mar 12: 75 pts (Partial achievements, yoga +20, water & sleep still missed)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
@@ -83,6 +86,7 @@ Current Streak: 1 day (reset — no data Mar 10)
 - Mar 9: 0 pts (No data received)
 - Mar 10: 0 pts (No data received)
 - Mar 11: 0 pts (No data received)
+- Mar 12: 0 pts (No data received)
 
 ## Raghavi -- Daily Scores
 - Mar 6: 20 pts
@@ -91,3 +95,4 @@ Current Streak: 1 day (reset — no data Mar 10)
 - Mar 9: 15 pts (Details to be confirmed)
 - Mar 10: 0 pts (No data received)
 - Mar 11: 40 pts (Stretches done +15, Sleeping on time +25)
+- Mar 12: 40 pts (Stretches done +15, Sleeping on time +25)
