@@ -69,7 +69,7 @@ Streak: Paused at 7 days
 - Mar 11: 40 pts
 - Mar 12: 40 pts
 - Mar 13: 15 pts
-Total Cumulative: 360 pts
+Total Cumulative: 355 pts
 Current Streak: 0 days (reset)
 
 ### Last Updated: Mar 13, 11:59 PM SGT
