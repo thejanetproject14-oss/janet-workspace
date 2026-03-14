@@ -1,0 +1,225 @@
+/* Analemma custom styles */
+
+/* =============================================
+   FONTS
+   ============================================= */
+@font-face {
+  font-family: "Perfectly Nineties";
+  src: url("{{ \"PerfectlyNineties-Regular.ttf\" | asset_url }}") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Perfectly Nineties";
+  src: url("{{ \"PerfectlyNineties-Italic.ttf\" | asset_url }}") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Perfectly Nineties", serif !important;
+  font-weight: 400 !important;
+}
+
+body, p, li:not(.header__menu-item):not(.list-menu__item),
+.rte, .product__description, .cart-item__details, .footer__content {
+  font-family: "Perfectly Nineties", serif !important;
+  font-weight: 400 !important;
+}
+
+.slideshow__slide h2 em,
+.slideshow__slide h1 em,
+.slideshow__text-wrapper h2 em,
+.slideshow__text-wrapper h1 em {
+  font-style: italic !important;
+}
+
+/* =============================================
+   TEXT TRANSFORM
+   ============================================= */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, li, .button, .card__heading,
+.card-information__text, .sweet-marquee__heading,
+label, add-to-cart, .atc__label, .atc__price,
+.price, .price-item {
+}
+
+/* =============================================
+   SLIDESHOW BUTTON
+   ============================================= */
+.slideshow__button .button,
+.slideshow__button .button--large {
+  border-radius: 9999px !important;
+  background-color: #003320 !important;
+  color: #fffff0 !important;
+  border-color: #003320 !important;
+}
+
+.slideshow__button .button:hover,
+.slideshow__button .button--large:hover {
+  background-color: #dfb5ff !important;
+  border-color: #dfb5ff !important;
+  color: #003320 !important;
+}
+
+/* =============================================
+   ADD TO CART BUTTON
+   ============================================= */
+add-to-cart.button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-radius: 9999px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+add-to-cart.button svg.icon-cart {
+  display: none !important;
+}
+
+add-to-cart.button .atc__label {
+  flex: 1 1 auto;
+  text-align: left;
+  white-space: nowrap;
+}
+
+add-to-cart.button .atc__price {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding-left: 0.75rem;
+  margin-left: 0.5rem;
+  border-left: 1px solid rgba(255,255,255,0.45);
+}
+
+/* =============================================
+   SWEET TREAT MARQUEE
+   ============================================= */
+
+/* Shade hover -- purple heading */
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__heading,
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__heading em {
+  color: #dfb5ff !important;
+}
+
+/* Transparent card backgrounds on shade hover */
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__card .card-wrapper,
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__card .card-information,
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__card .card-information__wrapper,
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__card use-animate,
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__card .card--product {
+  background-color: transparent !important;
+  --color-background: transparent !important;
+}
+
+/* Second image hidden at rest, shown on hover */
+[id*="sweet_treat_marquee"] .sweet-marquee__card .media.media--hover-effect > picture + picture {
+  opacity: 0 !important;
+}
+[id*="sweet_treat_marquee"] .sweet-marquee__card:hover .media.media--hover-effect > picture + picture {
+  opacity: 1 !important;
+}
+[id*="sweet_treat_marquee"] .sweet-marquee__card .media.media--hover-effect > picture:first-child {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+[id*="sweet_treat_marquee"] .sweet-marquee__card:hover .media.media--hover-effect > picture:first-child {
+  opacity: 0 !important;
+}
+
+/* Price hidden in marquee (shown in button) */
+#shopify-section-sweet_treat_marquee .price,
+#shopify-section-sweet_treat_marquee .price__container,
+#shopify-section-sweet_treat_marquee .card__information .price {
+  display: none !important;
+}
+/* Letter-spacing -0.02em on all text elements only */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, li, a, label, input, textarea, select,
+.button, .card__heading, .card__heading a,
+.card-information__text, .card-information__wrapper a,
+.price, .price-item, .price__regular,
+.caption, .caption-large, small,
+.header__menu-item a, .list-menu__item a,
+.mega-menu__link, .mega-menu__list a,
+.atc__label, .atc__price,
+.rte, .rte p, .footer__content,
+.accordion__title, .accordion__content {
+  letter-spacing: -0.02em !important;
+}
+
+
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__heading,
+[id*="sweet_treat_marquee"][class*="shade-active"] .sweet-marquee__heading em,
+[id*="sweet_treat_marquee"][class*="shade-active"] .card__heading,
+[id*="sweet_treat_marquee"][class*="shade-active"] .card__heading a,
+[id*="sweet_treat_marquee"][class*="shade-active"] .card-information__text,
+[id*="sweet_treat_marquee"][class*="shade-active"] .atc__label,
+[id*="sweet_treat_marquee"][class*="shade-active"] .atc__price,
+[id*="sweet_treat_marquee"][class*="shade-active"] .price,
+[id*="sweet_treat_marquee"][class*="shade-active"] .price-item {
+  color: #ffffff !important;
+}
+
+
+/* Remove white box/background from marquee product tiles */
+#shopify-section-sweet_treat_marquee .card--product,
+#shopify-section-sweet_treat_marquee .card-wrapper,
+#shopify-section-sweet_treat_marquee .card-information,
+#shopify-section-sweet_treat_marquee .card-information__wrapper,
+#shopify-section-sweet_treat_marquee use-animate,
+#shopify-section-sweet_treat_marquee .sweet-marquee__card {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  --color-background: transparent !important;
+}
+/* Remove white border around product images in marquee */
+#shopify-section-sweet_treat_marquee .media,
+#shopify-section-sweet_treat_marquee .media--square,
+#shopify-section-sweet_treat_marquee .media--portrait,
+#shopify-section-sweet_treat_marquee .card__media,
+#shopify-section-sweet_treat_marquee .card__media .media {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+/* Strikethrough compare-at price -- dark green */
+.price__sale .price-item--regular,
+.price--on-sale .price-item--regular,
+s.price-item--regular,
+.price del,
+.price s {
+  color: #003320 !important;
+  text-decoration-color: #003320 !important;
+}
+
+/* text-transform reset -- normal English case everywhere */
+*, *::before, *::after {
+  text-transform: none !important;
+}
+/* Marquee product titles -- match featured collection text (normal weight, serif) */
+html body #shopify-section-sweet_treat_marquee .card__heading,
+html body #shopify-section-sweet_treat_marquee .card__heading a,
+html body #shopify-section-sweet_treat_marquee .card__heading a:hover,
+html body #shopify-section-sweet_treat_marquee .card-information__text,
+html body #shopify-section-sweet_treat_marquee .card-information__wrapper a {
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  font-family: "Perfectly Nineties", serif !important;
+}
+/* ATC button text -- force ivory visible on all screen sizes */
+#shopify-section-sweet_treat_marquee add-to-cart.button,
+#shopify-section-sweet_treat_marquee add-to-cart.button .atc__label,
+#shopify-section-sweet_treat_marquee add-to-cart.button .atc__price {
+  color: #fffff0 !important;
+}

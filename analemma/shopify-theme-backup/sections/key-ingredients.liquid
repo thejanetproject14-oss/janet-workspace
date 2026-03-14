@@ -1,0 +1,242 @@
+{% comment %} Analemma -- Key Ingredients v3 (Rare Beauty inspired) {% endcomment %}
+
+<style>
+  .ana-ing { background: #ffffff; padding: 80px 0; overflow: hidden; border-top: 1px solid #f0e8e0; }
+  .ana-ing__header { max-width: 1200px; margin: 0 auto; padding: 0 40px 32px; }
+  .ana-ing__header-label { font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #d4838f; margin: 0 0 8px; }
+  .ana-ing__header-title { font-size: 28px; font-weight: 400; color: #2d2926; margin: 0; line-height: 1.2; }
+  .ana-ing__inner { max-width: 1200px; margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: 200px 1fr; gap: 64px; align-items: start; }
+  .ana-ing__label { font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #d4838f; margin: 0 0 28px; }
+  .ana-ing__pill { display: block; width: 100%; text-align: left; background: none; border: none; padding: 13px 0; font-size: 20px; color: #888; cursor: pointer; border-bottom: 1px solid #f0e8e0; transition: all 0.2s; font-family: inherit; font-weight: 400; letter-spacing: 0.01em; }
+  .ana-ing__pill:first-of-type { border-top: 1px solid #f0e8e0; }
+  .ana-ing__pill--active { color: #2d2926; font-weight: 600; }
+  .ana-ing__pill--active::after { content: " ↗"; font-size: 11px; }
+  .ana-ing__right { position: relative; }
+  .ana-ing__track-wrap { overflow: hidden; border-radius: 20px; }
+  .ana-ing__track { display: flex; gap: 16px; transition: transform 0.45s cubic-bezier(0.25,0.46,0.45,0.94); will-change: transform; }
+  .ana-ing__card { flex: 0 0 calc(50% - 8px); border-radius: 20px; padding: 36px 32px; min-height: 280px; display: flex; flex-direction: column; justify-content: space-between; border: 1.5px solid #f0e8e0; background: #ffffff; transition: border-color 0.2s; }
+  .ana-ing__card:hover { border-color: #d4838f; }
+  .ana-ing__card--pink { background: #fdf0f2; border-color: #f0d0d8; }
+  .ana-ing__card--blush { background: #fdf5f0; border-color: #edddd4; }
+  .ana-ing__card--sand { background: #faf5ee; border-color: #e8ddd0; }
+  .ana-ing__card--deep { background: #f5f0ec; border-color: #e0d8d0; }
+  .ana-ing__card h3 { font-size: 33px; font-weight: 400; color: #2d2926; margin: 0 0 12px; line-height: 1.2; letter-spacing: -0.01em; }
+  .ana-ing__card p { font-size: 18px; line-height: 1.75; color: #666; margin: 0 0 24px; flex: 1; }
+  .ana-ing__card-footer { display: flex; flex-wrap: wrap; gap: 8px; }
+  .ana-ing__tag { background: #fff8f0; border: 1px solid #e8d5c8; border-radius: 30px; padding: 5px 14px; font-size: 15px; font-weight: 600; letter-spacing: 0.04em; color: #2d2926; }
+  .ana-ing__card--pink .ana-ing__tag { background: #fce8ec; border-color: #f0c8d0; }
+  .ana-ing__card--blush .ana-ing__tag { background: #faeae0; border-color: #e8d0c0; }
+  .ana-ing__card--sand .ana-ing__tag { background: #f5eedd; border-color: #e0d0b8; }
+  .ana-ing__nav { display: flex; align-items: center; gap: 12px; margin-top: 20px; }
+  .ana-ing__nav-btn { width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid #e0d0c8; background: white; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; color: #2d2926; }
+  .ana-ing__nav-btn:hover { border-color: #2d2926; background: #2d2926; color: white; }
+  .ana-ing__counter { font-size: 11px; color: #aaa; letter-spacing: 0.1em; }
+  @media (max-width: 749px) {
+    .ana-ing__inner { grid-template-columns: 1fr; gap: 28px; padding: 0 20px; }
+    .ana-ing__card { flex: 0 0 82vw; }
+  }
+</style>
+
+<div class="ana-ing">
+  <div class="ana-ing__header">
+    <p class="ana-ing__header-label">Formulated With</p>
+    <h2 class="ana-ing__header-title">What's Inside</h2>
+  </div>
+  <div class="ana-ing__inner">
+
+    <div class="ana-ing__left">
+      <button class="ana-ing__pill ana-ing__pill--active" onclick="anaIngFilter(this,'all')">All Ingredients</button>
+      <button class="ana-ing__pill" onclick="anaIngFilter(this,'moisture')">2 Hydrators</button>
+      <button class="ana-ing__pill" onclick="anaIngFilter(this,'condition')">2 Lip Conditioners</button>
+      <button class="ana-ing__pill" onclick="anaIngFilter(this,'nourish')">3 Nourishing Butters</button>
+      <button class="ana-ing__pill" onclick="anaIngFilter(this,'protect')">1 Antioxidant</button>
+      <div style="margin-top:28px;">
+        <a href="javascript:void(0)" onclick="
+  var accordions = document.querySelectorAll('accordion-tab');
+  var target = null;
+  accordions.forEach(function(a) {
+    var heading = a.querySelector('.accordion__title, summary');
+    if (heading && heading.textContent.toLowerCase().indexOf('inside') > -1) target = a;
+  });
+  if (!target) {
+    var details = document.querySelectorAll('details');
+    details.forEach(function(d) {
+      if (d.textContent.toLowerCase().indexOf('inside') > -1) target = d;
+    });
+  }
+  if (target) {
+    var det = target.tagName === 'DETAILS' ? target : target.querySelector('details');
+    if (det) det.open = true;
+    target.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+" style="font-size:18px;color:#aaa;text-decoration:none;letter-spacing:0.05em;cursor:pointer;">View full ingredient list &#8594;</a>
+      </div>
+    </div>
+
+    <div class="ana-ing__right">
+      <div class="ana-ing__track-wrap">
+        <div class="ana-ing__track" id="ana-ing-track">
+
+          <div class="ana-ing__card ana-ing__card--pink" data-cat="moisture">
+            <div>
+              <h3>Hyaluronic Acid</h3>
+              <p>Draws moisture to the lips and locks it in all day. That plump, dewy look without a gram of stickiness.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">All-day moisture</span>
+              <span class="ana-ing__tag">Dewy finish</span>
+              <span class="ana-ing__tag">Lip hydrator</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card" data-cat="moisture">
+            <div>
+              <h3>Plant Squalane</h3>
+              <p>Skin-identical, plant-derived. Seals hydration in without any heaviness. The ingredient your lips didn't know they needed.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Lightweight barrier</span>
+              <span class="ana-ing__tag">Vegan</span>
+              <span class="ana-ing__tag">Seals moisture</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card ana-ing__card--blush" data-cat="condition">
+            <div>
+              <h3>Peptides</h3>
+              <p>Palmitoyl Tripeptide-1 -- amino acids that condition and smooth the lip surface over time. Works while you wear it.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Conditioning</span>
+              <span class="ana-ing__tag">Smoothing</span>
+              <span class="ana-ing__tag">Lip repair</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card ana-ing__card--sand" data-cat="condition">
+            <div>
+              <h3>Jojoba Oil</h3>
+              <p>Technically a liquid wax that mirrors your skin's own sebum. Silky slip, zero grease. Lips drink this up.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Conditioning</span>
+              <span class="ana-ing__tag">Smooth glide</span>
+              <span class="ana-ing__tag">Skin-identical</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card ana-ing__card--pink" data-cat="nourish">
+            <div>
+              <h3>Shea Butter</h3>
+              <p>Rich, creamy, deeply nourishing. Melts on contact and leaves lips soft for hours. The comfort ingredient.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Deep nourishment</span>
+              <span class="ana-ing__tag">Softening</span>
+              <span class="ana-ing__tag">Healing</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card ana-ing__card--blush" data-cat="nourish">
+            <div>
+              <h3>Cocoa Butter</h3>
+              <p>Smells like chocolate. Works like a treatment. Melts in and builds a shield against moisture loss.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Moisture barrier</span>
+              <span class="ana-ing__tag">Healing</span>
+              <span class="ana-ing__tag">Dessert-scented</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card ana-ing__card--sand" data-cat="nourish">
+            <div>
+              <h3>Ethylhexyl Palmitate</h3>
+              <p>The secret behind the ganache texture. A silky emollient that makes it glide on smooth and sit without budging.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Silky texture</span>
+              <span class="ana-ing__tag">Non-sticky</span>
+              <span class="ana-ing__tag">Smooth glide</span>
+            </div>
+          </div>
+
+          <div class="ana-ing__card ana-ing__card--deep" data-cat="protect">
+            <div>
+              <h3>Vitamin E</h3>
+              <p>Antioxidant shield. Protects lips from environmental stress, supports repair, keeps the formula fresh longer.</p>
+            </div>
+            <div class="ana-ing__card-footer">
+              <span class="ana-ing__tag">Antioxidant</span>
+              <span class="ana-ing__tag">Lip repair</span>
+              <span class="ana-ing__tag">Protective</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="ana-ing__nav">
+        <button class="ana-ing__nav-btn" onclick="anaIngSlide(-1)" aria-label="Previous">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="ana-ing__nav-btn" onclick="anaIngSlide(1)" aria-label="Next">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+        <span class="ana-ing__counter" id="ana-ing-counter">1 / 8</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var offset = 0;
+  function getVisible() {
+    return Array.from(document.querySelectorAll('#ana-ing-track .ana-ing__card')).filter(function(c) {
+      return c.style.display !== 'none';
+    });
+  }
+  function updateCounter() {
+    var visible = getVisible();
+    var cardW = visible[0] ? visible[0].offsetWidth + 16 : 380;
+    var idx = Math.round(offset / cardW) + 1;
+    var el = document.getElementById('ana-ing-counter');
+    if (el) el.textContent = Math.min(idx, visible.length) + ' / ' + visible.length;
+  }
+  window.anaIngSlide = function(dir) {
+    var visible = getVisible();
+    if (!visible.length) return;
+    var cardW = visible[0].offsetWidth + 16;
+    var maxOffset = Math.max(0, (visible.length - 2) * cardW);
+    offset = Math.min(Math.max(offset + dir * cardW, 0), maxOffset);
+    document.getElementById('ana-ing-track').style.transform = 'translateX(-' + offset + 'px)';
+    updateCounter();
+  };
+  window.anaIngFilter = function(btn, cat) {
+    offset = 0;
+    document.getElementById('ana-ing-track').style.transform = 'translateX(0)';
+    document.querySelectorAll('#ana-ing-track .ana-ing__card').forEach(function(c) {
+      var show = cat === 'all' || c.dataset.cat === cat;
+      c.style.display = show ? 'flex' : 'none';
+      if (show) { c.style.flexDirection = 'column'; c.style.justifyContent = 'space-between'; }
+    });
+    document.querySelectorAll('.ana-ing__pill').forEach(function(p) { p.classList.remove('ana-ing__pill--active'); });
+    btn.classList.add('ana-ing__pill--active');
+    updateCounter();
+  };
+  document.querySelectorAll('#ana-ing-track .ana-ing__card').forEach(function(c) {
+    c.style.display = 'flex'; c.style.flexDirection = 'column'; c.style.justifyContent = 'space-between';
+  });
+  updateCounter();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Key Ingredients",
+  "settings": [],
+  "presets": [{"name": "Key Ingredients"}]
+}
+{% endschema %}

@@ -1,0 +1,188 @@
+{
+  "name": "t:sections.header-group.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_9eWGNj": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": "",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "9518463a-71f9-42b5-b5ef-174a4f08e081": {
+          "type": "announcement",
+          "settings": {
+            "text": "Launching March 15, 2026. Singapore's sweetest lip treatment is almost here →",
+            "text_on_mobile": "Launching March 15, 2026 →",
+            "text_size": 11,
+            "link": "",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_9eWGNj",
+        "9518463a-71f9-42b5-b5ef-174a4f08e081"
+      ],
+      "disabled": true,
+      "settings": {
+        "only_homepage": false,
+        "layout": "default",
+        "mobile_layout": "carousel",
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "show_navigation": true,
+        "direction": "left",
+        "speed": 1.6,
+        "colors_text": "#2d2926",
+        "colors_background": "#f5e6d0",
+        "gradient_background": "",
+        "colors_highlight": "#ffb503",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "23ac3cc1-1fc4-42a6-8e72-c6fad0b13420": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Lip Care",
+            "narrow": false,
+            "show_menu_image": true,
+            "promo_image_1": "shopify:\/\/shop_images\/raspberry3.jpg",
+            "promo_image_ratio_1": "square",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "Tinted Lip Ganache",
+            "promo_text_1": "Five dessert-scented shades",
+            "promo_overlay_content_1": false,
+            "promo_link_1": "\/collections\/sweet-treat",
+            "promo_image_2": "shopify:\/\/shop_images\/bag_charm_hanging_out_of_a_bag.jpg",
+            "promo_image_ratio_2": "square",
+            "promo_image_position_2": "center center",
+            "promo_heading_2": "TLG Metallic Purse Charm",
+            "promo_text_2": "Tarnish-free. 18k plated. Pretty meets practical.",
+            "promo_overlay_content_2": false,
+            "promo_link_2": "https:\/\/analemma.shop\/products\/metallic-lip-balm-charm"
+          }
+        },
+        "seasonal_deal_iyWjpq": {
+          "type": "seasonal_deal",
+          "disabled": true,
+          "settings": {
+            "image_ratio": "adapt",
+            "layout": "layout-bottom",
+            "text_box_position": "middle-center",
+            "text_alignment": "center",
+            "heading": "THE PERFECT PRESENT",
+            "subheading": "",
+            "description": "<p>Enhance your beauty routine with our luxurious cream gift box. Includes a cuddly teddy bear for added charm. Limited availability.<\/p>",
+            "button_label": "BUY NOW",
+            "button_link": "",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "description_color": "#000000",
+            "background_color": "#f7eedd",
+            "colors_overlay_opacity": 92
+          }
+        },
+        "seasonal_deal_fTVMTi": {
+          "type": "seasonal_deal",
+          "disabled": true,
+          "settings": {
+            "image_ratio": "landscape",
+            "layout": "layout-left",
+            "text_box_position": "middle-center",
+            "text_alignment": "center",
+            "heading": "MEET OUR NEW BAE!",
+            "subheading": "",
+            "description": "<p>Introducing our latest beauty cream for radiant, glowing skin. <\/p>",
+            "button_label": "EXPLORE",
+            "button_link": "",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "description_color": "#000000",
+            "background_color": "#a8e8e2",
+            "colors_overlay_opacity": 40
+          }
+        },
+        "seasonal_deal_ffwHEh": {
+          "type": "seasonal_deal",
+          "disabled": true,
+          "settings": {
+            "image_ratio": "square",
+            "layout": "overlay-opacity",
+            "text_box_position": "top-right",
+            "text_alignment": "right",
+            "heading": "Organic ingredients?",
+            "subheading": "",
+            "description": "<p>Curious about the effectiveness of organic ingredients? Learn how our products harness nature’s potential for real results.<\/p>",
+            "button_label": "WHAT WE DO",
+            "button_link": "",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "description_color": "#000000",
+            "background_color": "#ffffff",
+            "colors_overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "23ac3cc1-1fc4-42a6-8e72-c6fad0b13420",
+        "seasonal_deal_iyWjpq",
+        "seasonal_deal_fTVMTi",
+        "seasonal_deal_ffwHEh"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/textlogo-light-background.png",
+        "logo_height": 48,
+        "mobile_logo_height": 30,
+        "logo_position": "top-center",
+        "menu": "main-menu-1",
+        "menu_mobile": "main-menu-1",
+        "enable_dropdown_menu": true,
+        "show_line_separator": false,
+        "uppercase_menu_items": true,
+        "cart_icon": "bag",
+        "icon_weight": "1.5",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_sticky_header": true,
+        "show_sticky_header_scroll_up": true,
+        "transparent_logo": "shopify:\/\/shop_images\/textlogo-dark-background.png",
+        "mobile_transparent_logo": "shopify:\/\/shop_images\/textlogo-dark-background.png",
+        "enable_transparent_header": true,
+        "enable_transparent_header_collection": true,
+        "enable_transparent_header_custom": "",
+        "show_transparent_header_border": false,
+        "transparent_text_color": "#ffffff",
+        "enable_highlight": true,
+        "highlight_labels": "Skincare",
+        "highlight_style": "sketch-underline",
+        "enable_sidebar": true,
+        "sidebar_heading": "Must-see this week",
+        "mobile_logo_position": "center",
+        "colors_text": "#282828",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "colors_highlight": "#b6bff1",
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

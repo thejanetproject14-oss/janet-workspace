@@ -1,0 +1,71 @@
+{% comment %} Analemma -- Product Media Gallery v2 {% endcomment %}
+<style>
+  .ana-gallery { background: #ffffff; overflow: hidden; border-top: 1px solid #f0e8e0; }
+  .ana-gallery__grid { display: grid; grid-template-columns: 1fr 1fr 1fr; min-height: 560px; }
+  .ana-gallery__text { background: #fff8f0; display: flex; align-items: center; justify-content: center; padding: 60px 48px; }
+  .ana-gallery__text-inner { max-width: 280px; }
+  .ana-gallery__eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #d4838f; margin: 0 0 20px; }
+  .ana-gallery__heading { font-size: 30px; font-weight: 400; color: #2d2926; margin: 0 0 20px; line-height: 1.3; }
+  .ana-gallery__heading em { font-style: italic; color: #d4838f; }
+  .ana-gallery__body { font-size: 14px; color: #888; line-height: 1.8; margin: 0 0 32px; }
+  .ana-gallery__btn { display: inline-block; border: 1.5px solid #2d2926; border-radius: 30px; padding: 12px 28px; font-size: 13px; font-weight: 600; color: #2d2926; text-decoration: none; transition: all 0.2s; }
+  .ana-gallery__btn:hover { background: #2d2926; color: #fff8f0; }
+  .ana-gallery__media { overflow: hidden; position: relative; }
+  .ana-gallery__media img, .ana-gallery__media video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .ana-gallery__placeholder { width: 100%; min-height: 560px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #c4a882; text-align: center; padding: 20px; }
+  @media (max-width: 749px) {
+    .ana-gallery__grid { grid-template-columns: 1fr; }
+    .ana-gallery__media { min-height: 360px; }
+    .ana-gallery__text { padding: 48px 24px; }
+  }
+</style>
+<div class="ana-gallery">
+  <div class="ana-gallery__grid">
+    <div class="ana-gallery__text">
+      <div class="ana-gallery__text-inner">
+        {%- if section.settings.eyebrow != blank -%}<p class="ana-gallery__eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+        <h2 class="ana-gallery__heading">{{ section.settings.heading | default: 'How to Use' }}<br><em>{{ section.settings.heading_italic | default: 'Tinted Lip Ganache' }}</em></h2>
+        <p class="ana-gallery__body">{{ section.settings.body_text | default: 'Apply onto lips for a dewy, glazed finish with a dash of tint. Use throughout the day for instant hydration, or as an overnight lip mask for deep repair and restoration.' }}</p>
+        {%- if section.settings.button_label != blank -%}<a href="{{ section.settings.button_link | default: '#' }}" class="ana-gallery__btn">{{ section.settings.button_label }}</a>{%- endif -%}
+      </div>
+    </div>
+    <div class="ana-gallery__media">
+      {%- if section.settings.media_image != blank -%}
+        <img src="{{ section.settings.media_image | image_url: width: 800 }}" alt="{{ section.settings.media_image_alt | default: 'Product' }}" loading="lazy" />
+      {%- else -%}
+        <div class="ana-gallery__placeholder">Add photo in Theme Editor</div>
+      {%- endif -%}
+    </div>
+    <div class="ana-gallery__media">
+      {%- if section.settings.media_video_url != blank -%}
+        <video autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;"><source src="{{ section.settings.media_video_url }}" type="video/mp4" /></video>
+      {%- elsif section.settings.media_video_image != blank -%}
+        <img src="{{ section.settings.media_video_image | image_url: width: 800 }}" alt="{{ section.settings.media_video_alt | default: 'Product' }}" loading="lazy" />
+      {%- else -%}
+        <div class="ana-gallery__placeholder">Add video or photo in Theme Editor</div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Product Media Gallery",
+  "settings": [
+    {"type": "header", "content": "Text Panel"},
+    {"type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "The Sweet Treat Way"},
+    {"type": "text", "id": "heading", "label": "Heading line 1", "default": "How to Use"},
+    {"type": "text", "id": "heading_italic", "label": "Heading line 2 (italic)", "default": "Tinted Lip Ganache"},
+    {"type": "textarea", "id": "body_text", "label": "Body text", "default": "Apply onto lips for a dewy, glazed finish with a dash of tint. Use throughout the day for instant hydration, or as an overnight lip mask for deep repair and restoration."},
+    {"type": "text", "id": "button_label", "label": "Button label (optional)"},
+    {"type": "url", "id": "button_link", "label": "Button link"},
+    {"type": "header", "content": "Middle Column (Image)"},
+    {"type": "image_picker", "id": "media_image", "label": "Photo"},
+    {"type": "text", "id": "media_image_alt", "label": "Alt text"},
+    {"type": "header", "content": "Right Column (Video or Photo)"},
+    {"type": "text", "id": "media_video_url", "label": "Video MP4 URL (optional)"},
+    {"type": "image_picker", "id": "media_video_image", "label": "Fallback photo (if no video)"},
+    {"type": "text", "id": "media_video_alt", "label": "Alt text"}
+  ],
+  "presets": [{"name": "Product Media Gallery"}]
+}
+{% endschema %}

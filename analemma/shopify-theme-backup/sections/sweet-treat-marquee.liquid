@@ -1,0 +1,227 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    overflow: hidden;
+    transition: background-color 0.35s ease;
+  }
+
+  #shopify-section-{{ section.id }} .card__heading,
+  #shopify-section-{{ section.id }} .card__heading a,
+  #shopify-section-{{ section.id }} .card-information__text,
+  #shopify-section-{{ section.id }} .card-information__wrapper a {
+    font-style: normal !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+  }
+
+    #shopify-section-{{ section.id }} .sweet-marquee__heading {
+    padding: 0 4rem 2rem;
+    font-family: "Perfectly Nineties", serif !important;
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    text-align: center;
+    color: inherit;
+    letter-spacing: -0.02em !important;
+    transition: color 0.35s ease;
+  }
+
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__heading,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__heading em,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .card__heading,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .card__heading a,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .card-information__text,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .atc__label,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .atc__price,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .price,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .price-item,
+  #shopify-section-{{ section.id }}[class*="shade-active"] p,
+  #shopify-section-{{ section.id }}[class*="shade-active"] a,
+  #shopify-section-{{ section.id }}[class*="shade-active"] span {
+    color: #ffffff !important;
+  }
+
+  #shopify-section-{{ section.id }} .sweet-marquee__track-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  #shopify-section-{{ section.id }} .sweet-marquee__track {
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+    animation: sweet-scroll {{ section.settings.speed }}s linear infinite;
+    padding: 1rem 0 1.5rem;
+  }
+
+  #shopify-section-{{ section.id }} .sweet-marquee__track-wrapper:hover .sweet-marquee__track {
+    animation-play-state: paused;
+  }
+
+  @keyframes sweet-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  #shopify-section-{{ section.id }} .sweet-marquee__card {
+    flex: 0 0 260px;
+    width: 260px;
+    overflow: hidden;
+    padding-bottom: 0.75rem;
+    transition: box-shadow 0.35s ease;
+    isolation: isolate;
+  }
+
+  /* Kill any white backgrounds inside the card on hover */
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__card .card-wrapper,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__card .card-information,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__card .card-information__wrapper,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__card .card-information__button {
+    background: transparent !important;
+  }
+
+  /* Shadow on hovered card */
+  #shopify-section-{{ section.id }}.shade-active-tiramisu          .sweet-marquee__card:hover { box-shadow: 0 12px 40px rgba(44,26,14,0.7); }
+  #shopify-section-{{ section.id }}.shade-active-maraschino-cherry .sweet-marquee__card:hover { box-shadow: 0 12px 40px rgba(200,53,42,0.6); }
+  #shopify-section-{{ section.id }}.shade-active-hot-cocoa         .sweet-marquee__card:hover { box-shadow: 0 12px 40px rgba(155,107,74,0.6); }
+  #shopify-section-{{ section.id }}.shade-active-strawberry-jam    .sweet-marquee__card:hover { box-shadow: 0 12px 40px rgba(255,45,75,0.6); }
+  #shopify-section-{{ section.id }}.shade-active-raspberry-coulis  .sweet-marquee__card:hover { box-shadow: 0 12px 40px rgba(184,77,90,0.6); }
+
+
+
+  /* Hide price from card info -- it lives in the button */
+  #shopify-section-{{ section.id }} .price,
+  #shopify-section-{{ section.id }} .price__container {
+    display: none !important;
+  }
+
+  /* Smaller product title */
+  #shopify-section-{{ section.id }} .card__information .card__heading {
+    font-size: 0.82rem !important;
+    margin-bottom: 0.15rem !important;
+  }
+
+  #shopify-section-{{ section.id }} .card__information {
+    padding: 0.5rem 0.75rem 0 !important;
+  }
+
+  /* Product title -- black default, purple on hover, tighter */
+  #shopify-section-{{ section.id }} .card__information .card__heading a,
+  #shopify-section-{{ section.id }} .card-information__text,
+  #shopify-section-{{ section.id }} .card-information__wrapper a {
+    color: #1a1b18 !important;
+    font-style: italic !important;
+    letter-spacing: -0.02em !important;
+    line-height: 1.2 !important;
+    transition: color 0.35s ease;
+  }
+
+  #shopify-section-{{ section.id }} .sweet-marquee__card:hover .card__information .card__heading a,
+  #shopify-section-{{ section.id }} .sweet-marquee__card:hover .card-information__text,
+  #shopify-section-{{ section.id }} .sweet-marquee__card:hover .card-information__wrapper a {
+    color: #dfb5ff !important;
+  }
+
+  /* Full row shade hover colours */
+  #shopify-section-{{ section.id }}.shade-active-tiramisu          { background-color: #2C1A0E; }
+  #shopify-section-{{ section.id }}.shade-active-maraschino-cherry { background-color: #C8352A; }
+  #shopify-section-{{ section.id }}.shade-active-hot-cocoa         { background-color: #9B6B4A; }
+  #shopify-section-{{ section.id }}.shade-active-strawberry-jam    { background-color: #FF2D4B; }
+  #shopify-section-{{ section.id }}.shade-active-raspberry-coulis  { background-color: #B84D5A; }
+
+  /* White text on whole section when shade active */
+  #shopify-section-{{ section.id }}[class*="shade-active"] .sweet-marquee__heading,
+  #shopify-section-{{ section.id }}[class*="shade-active"] .card__information .card__heading a {
+    color: #ffffff !important;
+  }
+{%- endstyle -%}
+
+<h2 class="sweet-marquee__heading"><em>Sweet Treat</em> Collection</h2>
+
+  <div class="sweet-marquee__track-wrapper">
+  <div class="sweet-marquee__track">
+    {%- assign col = collections[section.settings.collection] -%}
+
+    {%- for pass in (1..2) -%}
+      {%- for product in col.products limit: section.settings.products_to_show -%}
+        {%- liquid
+          assign shade_key = ''
+          if product.handle contains 'tiramisu'
+            assign shade_key = 'tiramisu'
+          elsif product.handle contains 'maraschino'
+            assign shade_key = 'maraschino-cherry'
+          elsif product.handle contains 'hot-cocoa'
+            assign shade_key = 'hot-cocoa'
+          elsif product.handle contains 'strawberry'
+            assign shade_key = 'strawberry-jam'
+          elsif product.handle contains 'raspberry'
+            assign shade_key = 'raspberry-coulis'
+          endif
+          assign product_price = product.price | money
+        -%}
+        <div class="sweet-marquee__card"
+             data-shade="{{ shade_key }}"
+             data-price="{{ product_price }}"
+             {% if pass == 2 %}aria-hidden="true"{% endif %}>
+          {%- render 'card-product',
+            card_product: product,
+            card_collection: col,
+            media_size: 'portrait',
+            show_secondary_image: true,
+            show_quick_buy: true,
+            show_vendor: false,
+            show_rating: false,
+            enable_quick_view: false,
+            enable_color_swatches: false,
+            enable_countdown: false,
+            enable_image_fill: true,
+            lazy_load: true,
+            section_id: section.id
+          -%}
+        </div>
+      {%- endfor -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+(function() {
+  var section = document.getElementById('shopify-section-{{ section.id }}');
+  if (!section) return;
+
+  // Inject price into add-to-cart buttons from parent card data-price
+  section.querySelectorAll('.sweet-marquee__card').forEach(function(card) {
+    var price = card.dataset.price;
+    var btn = card.querySelector('add-to-cart.button, .card__footer .button');
+    if (btn && price) btn.setAttribute('data-price', price);
+
+    // Shade hover on full section
+    var shade = card.dataset.shade;
+    if (!shade) return;
+    card.addEventListener('mouseenter', function() {
+      section.className = section.className.replace(/\bshade-active-\S+/g, '').trim();
+      section.classList.add('shade-active-' + shade);
+    });
+    card.addEventListener('mouseleave', function() {
+      section.className = section.className.replace(/\bshade-active-\S+/g, '').trim();
+    });
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Sweet Treat Marquee",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "The Sweet Treat Collection" },
+    { "type": "collection", "id": "collection", "label": "Collection" },
+    { "type": "range", "id": "products_to_show", "label": "Products to show", "min": 2, "max": 12, "step": 1, "default": 5 },
+    { "type": "range", "id": "speed", "label": "Scroll speed (seconds)", "min": 10, "max": 60, "step": 5, "default": 25 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding top", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding bottom", "default": 36 }
+  ],
+  "presets": [{ "name": "Sweet Treat Marquee" }]
+}
+{% endschema %}

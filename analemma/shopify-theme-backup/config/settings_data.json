@@ -1,0 +1,34 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#fffff0",
+    "colors_accent": "#003320",
+    "colors_background": "#ffffff",
+    "colors_text": "#212326",
+    "colors_heading": "#212326",
+    "colors_price": "#1a1b18",
+    "colors_sale_price": "#dfb5ff",
+    "colors_sale_badge_background": "#dfb5ff",
+    "colors_outline_button_labels": "#1a1b18",
+    "colors_border": "#d2d5d9",
+    "colors_reviews": "#dfb5ff",
+    "colors_img_background": "#ffffff",
+    "colors_overlay": "#003320",
+    "colors_keyboard_focus": "#dfb5ff",
+    "colors_shadow": "#dfb5ff",
+    "colors_highlight": "#dfb5ff",
+    "type_navigation_font": "body",
+    "type_navigation_size": 16,
+    "type_button_font": "body",
+    "type_button_size": 16,
+    "cart_recommendations_enabled": true,
+    "cart_recommendations_heading": "You May Also Like",
+    "cart_recommendations_show_vendor": false,
+    "cart_recommendations_show_price": true,
+    "cart_recommendations_products": [
+      "carry-your-world-brighten-your-life",
+      "carry-your-world-its-giving",
+      "carry-your-world-very-your-aura"
+    ],
+    "content_for_index": []
+  }
+}

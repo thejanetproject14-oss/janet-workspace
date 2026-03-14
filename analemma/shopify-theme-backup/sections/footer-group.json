@@ -1,0 +1,71 @@
+{
+  "name": "t:sections.footer-group.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "col_shop": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "footer",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "col_about": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About",
+            "menu": "",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "col_help": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "col_shop",
+        "col_about",
+        "col_help"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_divider": true,
+        "newsletter_enable": true,
+        "newsletter_heading": "Stay in the loop",
+        "newsletter_text": "<p>Be the first to know about new drops, limited editions, and exclusive offers from Analemma.<\/p>",
+        "return_url": "",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "social_heading": "Follow us",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "copyright_text": "Analemma. All rights reserved.",
+        "colors_text": "#2d2926",
+        "colors_heading": "#2d2926",
+        "colors_link": "#d4838f",
+        "colors_border": "#e8ddd5",
+        "colors_background": "#fff8f0",
+        "gradient_background": "",
+        "colors_highlight": "#d4838f",
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

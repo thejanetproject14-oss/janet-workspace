@@ -118,3 +118,17 @@ See `references/products.md` for full catalog with descriptions, pricing, and co
 - **Instagram:** ~950 followers (target: aggressive growth)
 - **Payments:** HitPay
 - **Business:** ACRA registered Pte Ltd, DBS business bank account
+
+---
+
+## Lip Ganache Shade Colours (Marquee Hover)
+
+| Shade | Hex | Notes |
+|---|---|---|
+| Tiramisu | `#C4956A` | Warm espresso cream |
+| Maraschino Cherry | `#C8352A` | Deep cherry red |
+| Hot Cocoa | `#9B6B4A` | Warm caramel brown |
+| Strawberry Jam | `#FF2D4B` | Vivid hot pink-red |
+| Raspberry Coulis | `#B84D5A` | Dusky rose-red |
+
+Confirmed by Sunshine Mar 14 2026. Used for marquee section hover backgrounds on analemma.shop homepage.

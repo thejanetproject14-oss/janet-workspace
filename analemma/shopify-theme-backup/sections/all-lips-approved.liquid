@@ -1,0 +1,85 @@
+{% comment %} Analemma -- Discover [Shade] v5 -- Summer Fridays style, full-width 4-up {% endcomment %}
+
+<style>
+  .ana-discover {
+    background: #ffffff;
+    padding: 48px 0 0;
+  }
+  .ana-discover__heading {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2d2926;
+    margin: 0 0 16px;
+    padding: 0 40px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .ana-discover__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .ana-discover__img {
+    overflow: hidden;
+    background: #f2ede8;
+  }
+  .ana-discover__img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .ana-discover__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #c4a882;
+    text-align: center;
+    padding: 12px;
+  }
+  @media (max-width: 749px) {
+    .ana-discover__heading { padding: 0 20px; }
+    .ana-discover__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+<div class="ana-discover">
+  {%- assign shade_name = section.settings.shade_name | default: product.title | remove: " Tinted Lip Ganache" -%}
+  <p class="ana-discover__heading">Discover {{ shade_name }}</p>
+
+  <div class="ana-discover__grid">
+    {%- assign photos = section.settings.photo_1 | append: "|||" | append: section.settings.photo_2 | append: "|||" | append: section.settings.photo_3 | append: "|||" | append: section.settings.photo_4 -%}
+    {%- assign photo_arr = photos | split: "|||" -%}
+    {%- for photo in photo_arr -%}
+      <div class="ana-discover__img">
+        {%- if photo != blank and photo != "" -%}
+          <img src="{{ photo }}" alt="{{ shade_name }} shade {{ forloop.index }}" loading="lazy" />
+        {%- else -%}
+          <div class="ana-discover__placeholder">Photo {{ forloop.index }}</div>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Discover Shade",
+  "settings": [
+    {
+      "type": "text",
+      "id": "shade_name",
+      "label": "Shade name override",
+      "info": "Leave blank to auto-detect from product title"
+    },
+    {"type": "header", "content": "Skin Tone Photos"},
+    {"type": "text", "id": "photo_1", "label": "Photo 1 URL"},
+    {"type": "text", "id": "photo_2", "label": "Photo 2 URL"},
+    {"type": "text", "id": "photo_3", "label": "Photo 3 URL"},
+    {"type": "text", "id": "photo_4", "label": "Photo 4 URL"}
+  ],
+  "presets": [{"name": "Discover Shade"}]
+}
+{% endschema %}

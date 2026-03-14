@@ -1,0 +1,281 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "newsletter_zDTpzU": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_CDEQ4t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_tag": "h2",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "paragraph_FemMDf": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "email_form_GqAqnn": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_CDEQ4t",
+        "paragraph_FemMDf",
+        "email_form_GqAqnn"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "return_url": "",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "colors_text": "#1a1b18",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#efefef",
+        "gradient_background": "",
+        "colors_highlight": "#ffb503",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ace of Cups",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Core theme for 2026<\/h3><p>Let your heart be open to new changes. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ace_of_cups_2.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "colors_highlight": "#ffb503",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 0,
+        "mobile_height": 48
+      }
+    },
+    "rich_text_wf3zcm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FYaXN9": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "text_PJxJEe": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>You received the Ace of Cups because your heart is open to starting something new. <\/h3><h3>This card appears at the beginning of emotional renewal. You may have gone through emotional exhaustion, disappointment, or closure. But all your healing has created space for fresh feeling.<\/h3><h3>You are ready to receive again, and to do so openly. Your vulnerability and your wisdom are working together, and an emotional reset is underway. Whether through love, creativity, or self-connection, something pure is beginning.<\/h3><h3>The Ace of Cups reminds you that emotional beginnings need not be dramatic. Be sincere, and welcome change with big arms and a bright spirit. <br\/><br\/><\/h3><h3>On Love<\/h3><p>You will likely have a fresh start in love. This could be a new person, or a new direction in an existing relationship. There will be intimacy to an extent you have not experienced before.<\/p><h3>On Health<\/h3><p>Your emotional healing will give you more balance and improve your physical health. <\/p><h3>On Money \/ Career<\/h3><p>You must allow yourself to be led by passion and take on new opportunities or roles with the same drive you have given for your healing process. Money will follow where your heart is. <\/p><h3>How to work with this energy<\/h3><p>Receive openly! Joy is not made to be a crumb. <\/p><h3>Recommended products<\/h3><ol><li>Sunday Rituals Hair Repair & Growth Oil – Renewal ritual<\/li><li>Berry in Love Bag Charm (Strawberry) – Big hopeless romantic energy<br\/><\/li><\/ol><p>You can find these in our pop-up booth at Night At Orchard, along the outdoor pathway between Ngee Ann City & Ion Orchard between 26-28 Dec, 3pm onwards <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "button_nzcYFF": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_size": "medium",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_alt_label": "",
+            "button_alt_link": "",
+            "button_alt_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FYaXN9",
+        "text_PJxJEe",
+        "button_nzcYFF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#ffb503",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "gallery_XriPWP": {
+      "type": "gallery",
+      "blocks": {
+        "image_pjVbfA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03514.jpg",
+            "image_position": "center center",
+            "subheading": "Sunday Rituals",
+            "subheading_size": "h5",
+            "heading": "Hair Repair & Growth Oil",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "image_9xmDpr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03760.jpg",
+            "image_position": "center center",
+            "subheading": "Bag Charm (Strawberry)",
+            "subheading_size": "h5",
+            "heading": "Berry in Love",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "image_VYiyFx": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        },
+        "image_FmMTiw": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left",
+            "enable_highlight": false,
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "image_pjVbfA",
+        "image_9xmDpr",
+        "image_VYiyFx",
+        "image_FmMTiw"
+      ],
+      "name": "t:sections.gallery.presets.name",
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "colors_highlight": "#ffb503",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "enable_highlight": false,
+        "highlight_style": "marker"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter_zDTpzU",
+    "image-with-text-0",
+    "empty-space",
+    "rich_text_wf3zcm",
+    "gallery_XriPWP"
+  ]
+}

@@ -1,0 +1,37 @@
+{% comment %} Analemma -- Bundle Upsell: TLG + Metallic Charm {% endcomment %}
+
+<div class="bundle-upsell-box" style="background:#fff8f0;border:2px solid #d4838f;border-radius:16px;padding:24px;margin:24px auto;max-width:680px;font-family:inherit;">
+  <p style="font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#d4838f;margin:0 0 12px;">Bundle Deal -- Buy with any Tinted Lip Ganache &amp; Save $4</p>
+  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;">
+    <a href="/products/metallic-lip-balm-charm" style="flex:0 0 90px;text-decoration:none;">
+      <img src="https://cdn.shopify.com/s/files/1/0957/8368/2333/files/bag_charm_hanging_out_of_a_bag.jpg?v=1771740054" alt="TLG Metallic Purse Charm" style="width:90px;height:90px;object-fit:cover;border-radius:10px;border:1px solid #e8d5c8;" />
+    </a>
+    <div style="flex:1;min-width:160px;">
+      <a href="/products/metallic-lip-balm-charm" style="text-decoration:none;">
+        <p style="margin:0 0 4px;font-weight:700;font-size:15px;color:#2d2926;">TLG Metallic Purse Charm</p>
+      </a>
+      <p style="margin:0 0 8px;font-size:13px;color:#888;">Tarnish Free &middot; Vegan</p>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="font-size:16px;font-weight:700;color:#d4838f;">&#36;18.00 SGD</span>
+        <span style="font-size:13px;color:#aaa;text-decoration:line-through;">&#36;25.00</span>
+        <span style="background:#d4838f;color:white;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;">SAVE &#36;7</span>
+      </div>
+    </div>
+    <div style="flex:0 0 auto;">
+      <form action="/cart/add" method="post">
+        <input type="hidden" name="id" value="50956055413021" />
+        <input type="hidden" name="quantity" value="1" />
+        <button type="submit" style="background:#2d2926;color:#fff8f0;border:none;border-radius:30px;padding:12px 22px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;">+ Add to Bag</button>
+      </form>
+    </div>
+  </div>
+  <p style="margin:12px 0 0;font-size:12px;color:#888;text-align:center;">Bundle discount applied automatically at checkout ✦</p>
+</div>
+
+{% schema %}
+{
+  "name": "Bundle Upsell Charm",
+  "settings": [],
+  "presets": [{"name": "Bundle Upsell Charm"}]
+}
+{% endschema %}
