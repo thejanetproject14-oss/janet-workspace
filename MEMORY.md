@@ -23,8 +23,8 @@
 - Health: hypothyroidism, iron/B12 deficiency, elevated cortisol, mild fatty liver, bloating.
   - HRV ~58ms. Needs 9hr sleep. Earliest sleep 12am. Wants to wake at 5am.
   - Target: UK size 12. Anti-inflammatory approach.
-  - Cuboid fracture recovery. Yoga. Half marathon goal within a year.
-- Productivity: works 9:30-5pm. Wants structured morning blocks. Weekly OKRs.
+  - Cuboid fracture recovery. Yoga (class at 7:15am, 15 min walk each way). Half marathon goal within a year.
+- Productivity: works 10:30am-5pm. Wants structured morning blocks. Weekly OKRs.
 - Precision = power. Details aren't optional.
 - No em-dashes in responses. Write "terminal 3" with a space.
 

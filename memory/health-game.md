@@ -21,8 +21,9 @@
 - Mar 11: 75 pts
 - Mar 12: 75 pts
 - Mar 13: 0 pts (MC day, no activities)
+- Mar 14: 0 pts (No data received)
 Total Cumulative: 775 pts
-Calorie Deficit Streak: 0 days (reset — no data Mar 13)
+Calorie Deficit Streak: 0 days (reset — no data Mar 13–14)
 
 ## Kruthika -- Cumulative Scores
 - Feb 22: 0 pts (No score recorded)
@@ -45,8 +46,9 @@ Calorie Deficit Streak: 0 days (reset — no data Mar 13)
 - Mar 11: 0 pts (No data received)
 - Mar 12: 0 pts (No data received)
 - Mar 13: 0 pts (No data received)
+- Mar 14: 0 pts (No data received)
 Total Cumulative: 485 pts
-Streak: Paused at 7 days
+Streak: 0 days (reset — no data since Mar 8)
 
 ## Raghavi -- Cumulative Scores
 - Feb 22: 20 pts
@@ -69,12 +71,13 @@ Streak: Paused at 7 days
 - Mar 11: 40 pts
 - Mar 12: 40 pts
 - Mar 13: 15 pts
-Total Cumulative: 355 pts
-Current Streak: 0 days (reset)
+- Mar 14: 40 pts
+Total Cumulative: 395 pts
+Current Streak: 4 days (Mar 11–14)
 
-### Last Updated: Mar 13, 11:59 PM SGT
-### Mar 13 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0) — No data submitted by any member
-### Note: Kruthika has not submitted scores since Mar 8 (Mar 9–13 all 0 pts). Jan streak reset (no data Mar 13). Raghavi streak reset (no data Mar 13).
+### Last Updated: Mar 14, 11:59 PM SGT
+### Mar 14 Group Total Score: 40 pts (Jan: 0 + Raghavi: 40 + Kruthika: 0)
+### Note: Only Raghavi submitted data for Mar 14. Jan and Kruthika had no data. Kruthika has not submitted scores since Mar 8 (Mar 9–14 all 0 pts). Jan streak still at 0 (no data Mar 13–14).
 
 ## Janani (Jan) -- Daily Scores
 - Mar 6: 0 pts
@@ -85,6 +88,7 @@ Current Streak: 0 days (reset)
 - Mar 11: 75 pts (Sleep: 8hrs +30, Hydration: 2L +20, Food goals: +25, Wart recovery: no penalty)
 - Mar 12: 75 pts (Partial achievements, yoga +20, water & sleep still missed)
 - Mar 13: 0 pts (MC day, no activities)
+- Mar 14: 0 pts (No data received)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
@@ -95,6 +99,7 @@ Current Streak: 0 days (reset)
 - Mar 11: 0 pts (No data received)
 - Mar 12: 0 pts (No data received)
 - Mar 13: 0 pts (No data received)
+- Mar 14: 0 pts (No data received)
 
 ## Raghavi -- Daily Scores
 - Mar 6: 20 pts
@@ -105,4 +110,4 @@ Current Streak: 0 days (reset)
 - Mar 11: 40 pts (Stretches done +15, Sleeping on time +25)
 - Mar 12: 40 pts (Stretches done +15, Sleeping on time +25)
 - Mar 13: 15 pts (Stretches done +15, Missed sleep target -25)
-- Mar 13: 0 pts (No data received)
+- Mar 14: 40 pts (Stretches done +15, Sleeping on time +25)
