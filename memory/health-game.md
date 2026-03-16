@@ -23,8 +23,10 @@
 - Mar 13: 0 pts (MC day, no activities)
 - Mar 14: 0 pts (No data received)
 - Mar 15: 45 pts (B12 +5, Iron missed 0, Fiber 25g +10, Sleep 9hr +10, Water 2L +10, No pumpkin seeds 0, 2km walk +10)
-Total Cumulative: 820 pts
-Calorie Deficit Streak: 0 days
+- Mar 16: 55 pts (Full score! B12 +5, Iron +5, Pumpkin seeds +5, Fiber +10, Water 2L +10, Sleep +10, Movement/yoga+core +10)
+Total Cumulative: 875 pts
+Calorie Deficit Streak: 1 day
+⚠️ Water goal updated to 3L from Mar 17 onwards
 
 ## Kruthika -- Cumulative Scores
 - Feb 22: 0 pts (No score recorded)
@@ -48,38 +50,20 @@ Calorie Deficit Streak: 0 days
 - Mar 12: 0 pts (No data received)
 - Mar 13: 0 pts (No data received)
 - Mar 14: 0 pts (No data received)
-- Mar 15: 0 pts (No data received)
-Total Cumulative: 485 pts
-Streak: 0 days (reset — no data since Mar 8)
+- Mar 15: 60 pts (per Raghavi's correction)
+Total Cumulative: 545 pts
+Streak: 1 day (Mar 15 — back in action!)
 
 ## Raghavi -- Cumulative Scores
-- Feb 22: 20 pts
-- Feb 23: 20 pts
-- Feb 24: 20 pts
-- Feb 25: 20 pts
-- Feb 26: 20 pts
-- Feb 27: 20 pts
-- Feb 28: 130 pts
-- Mar 1: 20 pts
-- Mar 2: 20 pts
-- Mar 3: 20 pts
-- Mar 4: 20 pts
-- Mar 5: 20 pts
-- Mar 6: 20 pts
-- Mar 7: 15 pts
-- Mar 8: 35 pts
-- Mar 9: 20 pts
-- Mar 10: 0 pts
-- Mar 11: 40 pts
-- Mar 12: 40 pts
-- Mar 13: 15 pts
-- Mar 14: 40 pts
-Total Cumulative: 435 pts
-Current Streak: 5 days (Mar 11–15)
+- Pre-Mar 15 total: 370 pts (per Raghavi, Mar 15 correction)
+- Mar 15: 20 pts (stretches done; sleep on time not counted)
+Total Cumulative: 390 pts
+Current Streak: updated per Raghavi's correction
 
-### Last Updated: Mar 15, 11:59 PM SGT (Final)
-### Mar 15 Group Total Score: 85 pts (Jan: 45 + Raghavi: 40 + Kruthika: 0)
-### Note: Jan and Raghavi submitted for Mar 15. Kruthika — no data received. Raghavi on a 5-day streak! 🔥
+### Last Updated: Mar 15, corrected per Raghavi
+### Mar 15 Group Total Score: 125 pts (Jan: 45 + Raghavi: 20 + Kruthika: 60)
+### Corrected Cumulative Totals (per Raghavi): Jan: 820 | Raghavi: 390 | Kruthika: 545
+### Mar 16 update: Jan full score 55 pts → cumulative 875 pts. Water goal updated to 3L from Mar 17.
 
 ## Janani (Jan) -- Daily Scores
 - Mar 6: 0 pts
@@ -92,6 +76,7 @@ Current Streak: 5 days (Mar 11–15)
 - Mar 13: 0 pts (MC day, no activities)
 - Mar 14: 0 pts (No data received)
 - Mar 15: 45 pts (B12 +5, Iron missed 0, Fiber 25g +10, Sleep 9hr +10, Water 2L +10, No pumpkin seeds 0, 2km walk +10)
+- Mar 16: 55 pts (Full score! B12 +5, Iron +5, Pumpkin seeds +5, Fiber +10, Water 2L +10, Sleep +10, Movement/yoga+core +10)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
@@ -103,7 +88,7 @@ Current Streak: 5 days (Mar 11–15)
 - Mar 12: 0 pts (No data received)
 - Mar 13: 0 pts (No data received)
 - Mar 14: 0 pts (No data received)
-- Mar 15: 0 pts (No data received)
+- Mar 15: 60 pts (per Raghavi's correction)
 
 ## Raghavi -- Daily Scores
 - Mar 6: 20 pts
@@ -115,4 +100,4 @@ Current Streak: 5 days (Mar 11–15)
 - Mar 12: 40 pts (Stretches done +15, Sleeping on time +25)
 - Mar 13: 15 pts (Stretches done +15, Missed sleep target -25)
 - Mar 14: 40 pts (Stretches done +15, Sleeping on time +25)
-- Mar 15: 40 pts (Stretches done +15, Sleeping on time +25)
+- Mar 15: 20 pts (Stretches done +15, sleep on time not counted — per Raghavi's correction)
