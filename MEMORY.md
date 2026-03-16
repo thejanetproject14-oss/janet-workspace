@@ -47,8 +47,14 @@
 
 ## Analemma Timeline
 - **Dec 2025:** First launch at Night at Orchard. Sold some stuff. Bag charms were popular, rest didn't move much.
-- **Mar 15, 2026:** Website launch date (shifted from Mar 8). Pre-launch with XVXII collab first.
-- Website (Shopify) is #1 priority. Not live yet. Domain secured.
+- **Mar 16, 2026:** 🚀 **ANALEMMA.SHOP IS LIVE.** Store open to public. Storefront password removed. Payments working.
+- Website launched (was targeted Mar 15, went live Mar 16).
+
+## CURRENT PHASE: Content Seeding + Social Marketing (Mar 16 - Apr 15)
+This is the active phase. Website is done. Now it's about driving traffic, building audience, and converting.
+**First 30-Day Plan activated Mar 16.**
+Priority: content seeding, influencer outreach, social marketing, organic growth.
+Website tasks are secondary -- only fix bugs/UX issues as they come up.
 - Lip ganache photoshoot: scheduled Tue Feb 17, Dellea Studio JB. Dessert themed.
 - All products vegan. Line name: "Sweet Treat."
 - Blog post published: "Meet Analemma: Colour, Joy, and the Little Things That Make You, You"
@@ -83,23 +89,24 @@
 - Pre-fundraise checklist pushed to Notion under Analemma page.
 
 ## Active Workstreams
-1. **Analemma Website** -- URGENT. Shopify. Must be live before Mar 15. Storefront password still ON (launch blocker).
-2. **Lip Ganache Launch** -- content + PR only for Q1. No brunch in Q1 (moved to Q2 with perfume).
-   - 30 PR boxes (up from 15). Lock box concept. Aggressive seeding.
+1. **🚀 Analemma Content Seeding + Social Marketing** -- #1 PRIORITY. First 30-day plan (Mar 16 - Apr 15). Website is LIVE. Now drive traffic, grow audience, convert.
+   - Influencer outreach: micro-influencers SG first, then MY/ID
+   - 30 PR boxes. Lock box concept. Aggressive seeding.
+   - Content pillars: founder story, product education, behind-the-scenes, UGC reposts
    - Cinematic storyline content (not just product shots)
    - UGC strategy needs framework
-   - Content calendar restructured: tease don't reveal pre-launch, controlled reveals launch week (Mar 10-14)
-   - 5 flavours NOT YET revealed to audience. Reveal schedule: 2 per day (Mar 11-13), Tiramisu saved for eve-of-launch reveal.
    - Unposted photoshoot content available. Bridgerton video + postman video need editing.
+2. **Lip Ganache Marketing** -- content + PR. No brunch in Q1 (moved to Q2 with perfume).
 3. **Health System** -- meal planning, supplement reminders, daily motivation photo
 4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
-5. **Content Production** -- she loves cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih.
+5. **Content Production** -- cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih.
 6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
-7. **T3 Agentic Auth Positioning** -- XAA/OAuth gap analysis done. T3 = decentralized agent identity layer (KYA) beneath Okta's XAA. Pitch targets: Okta, Microsoft, Anthropic, OIDF, JPMorgan, Mastercard/Visa.
-8. **"Pass the Love" Feature** -- post-purchase paint/draw/flower canvas on Shopify thank-you page. Chain art to next buyer. Founder art backlog as fallback. Notion page created. Post-launch build.
+7. **T3 Agentic Auth Positioning** -- XAA/OAuth gap analysis done. T3 = decentralized agent identity layer (KYA) beneath Okta's XAA.
+8. **"Pass the Love" Feature** -- post-purchase canvas on Shopify thank-you page. Post-launch build.
+9. **Shopify Maintenance** -- site is live. Only fix bugs/UX issues as they surface. No longer the priority.
 
 ## Analemma Product Roadmap
-- **Mar 15:** Website + lip ganache launch
+- **Mar 16:** 🚀 Website + lip ganache LAUNCHED. Store live at analemma.shop.
 - **April:** Artbox event
 - **May:** Reality check (what's working). Perfume line arrives. Korea trip (COSMOBEAUTY Seoul May 27-29).
 - **June:** Potential perfume launch. Brunch event (with perfume sampling + lip ganache restock proof point).
