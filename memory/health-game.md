@@ -30,6 +30,7 @@
 - Mar 20: 0 pts (No data received)
 - Mar 21: 0 pts (No data received)
 - Mar 22: 0 pts (No data received)
+- Mar 23: 0 pts (No data received)
 Total Cumulative: 950 pts
 Calorie Deficit Streak: 0 days
 ⚠️ Water goal updated to 3L from Mar 17 onwards
@@ -64,6 +65,7 @@ Calorie Deficit Streak: 0 days
 - Mar 20: 0 pts (No data received)
 - Mar 21: 0 pts (No data received)
 - Mar 22: 0 pts (No data received)
+- Mar 23: 0 pts (No data received)
 Total Cumulative: 665 pts
 Streak: 0 days (reset — no data Mar 18–21)
 
@@ -77,10 +79,11 @@ Streak: 0 days (reset — no data Mar 18–21)
 - Mar 20: 0 pts (No data received)
 - Mar 21: 0 pts (No data received)
 - Mar 22: 0 pts (No data received)
+- Mar 23: 0 pts (No data received)
 Total Cumulative: 420 pts
 Current Streak: 0 days (reset — no data Mar 19–21)
 
-### Last Updated: Mar 22 (end of day — final)
+### Last Updated: Mar 23 (end of day — final)
 ### Mar 15 Group Total Score: 125 pts (Jan: 45 + Raghavi: 20 + Kruthika: 60)
 ### Mar 16 Group Total Score: 95 pts (Jan: 55 + Raghavi: 40 + Kruthika: 0 — no data received)
 ### Mar 17 Group Total Score: 80 pts (Jan: 55 + Raghavi: 0 + Kruthika: 25)
@@ -89,8 +92,9 @@ Current Streak: 0 days (reset — no data Mar 19–21)
 ### Mar 20 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
 ### Mar 21 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
 ### Mar 22 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
-### Mar 22 Cumulative Totals: Jan: 950 | Raghavi: 420 | Kruthika: 665
-### Streaks as of Mar 22: Jan: 0 | Raghavi: 0 | Kruthika: 0
+### Mar 23 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
+### Mar 23 Cumulative Totals: Jan: 950 | Raghavi: 420 | Kruthika: 665
+### Streaks as of Mar 23: Jan: 0 | Raghavi: 0 | Kruthika: 0
 ### ⚠️ Water goal updated to 3L from Mar 17 onwards (Jan)
 ### ⚠️ Kruthika Mar 17 sleep was never confirmed — scored at 25 pts (without sleep point)
 
@@ -112,6 +116,7 @@ Current Streak: 0 days (reset — no data Mar 19–21)
 - Mar 20: 0 pts (No data received)
 - Mar 21: 0 pts (No data received)
 - Mar 22: 0 pts (No data received)
+- Mar 23: 0 pts (No data received)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
@@ -131,6 +136,7 @@ Current Streak: 0 days (reset — no data Mar 19–21)
 - Mar 20: 0 pts (No data received)
 - Mar 21: 0 pts (No data received)
 - Mar 22: 0 pts (No data received)
+- Mar 23: 0 pts (No data received)
 
 ## Raghavi -- Daily Scores
 - Mar 6: 20 pts

@@ -107,10 +107,21 @@ Website tasks are secondary -- only fix bugs/UX issues as they come up.
 
 ## Analemma Product Roadmap
 - **Mar 16:** 🚀 Website + lip ganache LAUNCHED. Store live at analemma.shop.
-- **April:** Artbox event
+- **Mar 29-30:** Anchorpoint pop-up booth (Sat-Sun)
+- **April:** Artbox event (date TBC -- needs confirmation). Skin analysis web app as booth attraction.
 - **May:** Reality check (what's working). Perfume line arrives. Korea trip (COSMOBEAUTY Seoul May 27-29).
 - **June:** Potential perfume launch. Brunch event (with perfume sampling + lip ganache restock proof point).
 - ALL products vegan.
+- Perfume packaging: designs done, content needed, orders to place by Fri Mar 28.
+
+## Sunshine's Current Top 7 (set Mar 24)
+1. TikTok Shop setup
+2. Bridgerton video edit -- "girls show date" angle (before hype dies)
+3. Perfume packaging + skin analysis vibe coded web app
+4. Clear and sort baggage + stocks
+5. Anchorpoint pop-up ready (Mar 29-30)
+6. Artbox pop-up ready (April TBC)
+7. Warehouse situation at home
 
 ## Lip Ganache INCI (from packaging)
 Ethylhexyl Palmitate, Octyldodecanol, Polyisobutene, Ethylene/Propylene/Styrene Copolymer, Bis(16-Methylheptadecyl) Malate, Squalane, Hyaluronic Acid, Butyrospermum Parkii (Shea Butter) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Theobroma Cacao (Cocoa) Seed Butter, Tocopherol, Palmitoyl Tripeptide-1, Mica, Mild Flavor.
@@ -166,14 +177,19 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 - Header white space: unresolved, caused by logo_position: top-center
 
 ## Upcoming Dates
-- **Feb 28:** Bridgerton house party (1:30pm arrival, 3pm start). Analemma content shoot opportunity. PJs gifted.
-- **Mar 1:** Apple subscriptions audit, Sita routines session, HitPay DBS account update
-- **Mar 15:** Website + lip ganache launch
-- **April:** Artbox
+- **Mar 29-30:** Anchorpoint pop-up booth (Sat-Sun)
+- **April:** Artbox event (date TBC)
 - **May 22-31:** Korea trip (COSMOBEAUTY Seoul May 27-29)
 - **May:** Perfume line arrives
 - **June:** Potential perfume launch + brunch event
 - **Jul 4-5:** Parents' Shashtiaptapoorti in Bangalore (NON-NEGOTIABLE)
+
+## Wound Care (as of Mar 24)
+- Electrocautery on big toe, Fri Mar 21 (Bangalore)
+- Fusiskin: started Sun Mar 23, last day Wed Mar 25
+- SLC B solution: starts Thu Mar 26
+- No yoga until Sunday Mar 30. Re-enable yoga crons then.
+- Daily: moisturizer → C Repair → Peptide Protein → Fusiskin/SLC B
 
 ## Personal
 - Relationship: planning to exit. Details in daily files only -- NEVER surface in group chats or shared contexts.
