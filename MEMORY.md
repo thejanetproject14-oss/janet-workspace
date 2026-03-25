@@ -96,14 +96,26 @@ Website tasks are secondary -- only fix bugs/UX issues as they come up.
    - Cinematic storyline content (not just product shots)
    - UGC strategy needs framework
    - Unposted photoshoot content available. Bridgerton video + postman video need editing.
-2. **Lip Ganache Marketing** -- content + PR. No brunch in Q1 (moved to Q2 with perfume).
-3. **Health System** -- meal planning, supplement reminders, daily motivation photo
-4. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
-5. **Content Production** -- cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih.
-6. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
-7. **T3 Agentic Auth Positioning** -- XAA/OAuth gap analysis done. T3 = decentralized agent identity layer (KYA) beneath Okta's XAA.
-8. **"Pass the Love" Feature** -- post-purchase canvas on Shopify thank-you page. Post-launch build.
-9. **Shopify Maintenance** -- site is live. Only fix bugs/UX issues as they surface. No longer the priority.
+2. **🤖 AI Content Pipeline (NEW Mar 25)** -- HeyGen (AI avatar) + ElevenLabs (voice clone) + Janet (scripts) + Kling/Pixverse (B-roll) + Blotato (scheduling). ~$55/mo. Sunshine OK with AI version of herself speaking. Mix: real her + AI her + pure AI. Setup planned for tonight Mar 25.
+3. **Lip Ganache Marketing** -- content + PR. No brunch in Q1 (moved to Q2 with perfume).
+4. **Health System** -- meal planning, supplement reminders, daily motivation photo
+5. **Analemma 6-Month Strategy** -- content calendar, seeding, paid UGC on budget, organic growth
+6. **Content Production** -- cinematic videography. Scripted, shot lists. Inspirations: Nirmal Pillai, Life of Riza, Chloe Shih.
+7. **Financial Discipline** -- credit limit exceeded 2 months running. Clear personal loan debt by EOY. No unnecessary purchases.
+8. **T3 Agentic Auth Positioning** -- XAA/OAuth gap analysis done. T3 = decentralized agent identity layer (KYA) beneath Okta's XAA.
+9. **"Pass the Love" Feature** -- post-purchase canvas on Shopify thank-you page. Post-launch build.
+10. **Shopify Maintenance** -- site is live. Only fix bugs/UX issues as they surface. No longer the priority.
+11. **TikTok Shop setup** -- in Sunshine's Top 7 (Mar 24). Needs to happen this week.
+
+## AI Content Pipeline (NEW Mar 25)
+- Sunshine wants to build HeyGen avatar + ElevenLabs voice clone for TikTok/IG content.
+- Inspired by friend Wan Wei's "Aira" AI persona (Higgsfield avatar + Kling video + Blotato scheduling).
+- **Stack:** HeyGen ($24/mo) + ElevenLabs ($5-22/mo) + Kling ($8/mo) + Janet (scripts) + Blotato/Later (scheduling). ~$55/mo total.
+- **Content mix:** Real Sunshine (cinematic, BTS, founder stories when she has time) + AI Sunshine (product education, ingredient breakdowns, tips, FAQs) + Pure AI (product B-roll, loops).
+- She explicitly said she doesn't mind an AI version of herself speaking. Pragmatic -- no time to shoot.
+- **HeyGen training:** 2-5 min video of her talking to camera. One outfit per avatar (locked). Good lighting, eye level, natural expressions.
+- **Setup planned:** Evening of Mar 25 (6-8:30pm block). TikTok Shop + HeyGen + ElevenLabs.
+- **Note:** She previously said she doesn't like AI-generated social videos (early preference). This has CHANGED -- she now wants hybrid AI+real content. Update preference accordingly.
 
 ## Analemma Product Roadmap
 - **Mar 16:** 🚀 Website + lip ganache LAUNCHED. Store live at analemma.shop.
@@ -177,19 +189,36 @@ Key ingredients: Peptides, Plant Squalane, Hyaluronic Acid, Shea Butter, Cocoa B
 - Header white space: unresolved, caused by logo_position: top-center
 
 ## Upcoming Dates
+- **Mar 27:** ARTBOX booth design approval due
+- **Mar 28:** Perfume packaging orders DEADLINE ⚠️
+- **Mar 28 (Sat):** Influencer outreach day. Pull docs from Notion on Fri Mar 27.
 - **Mar 29-30:** Anchorpoint pop-up booth (Sat-Sun)
 - **April:** Artbox event (date TBC)
-- **May 22-31:** Korea trip (COSMOBEAUTY Seoul May 27-29)
 - **May:** Perfume line arrives
+- **May 21-30:** Seoul trip 🇰🇷 (solo vacation + COSMOBEAUTY Seoul May 27-29 + skin treatments + nature)
+- **May 31-Jun 10:** Bangalore trip 🇮🇳 (purpose TBC -- Shashtiaptapoorti was listed Jul 4-5, need to clarify)
 - **June:** Potential perfume launch + brunch event
 - **Jul 4-5:** Parents' Shashtiaptapoorti in Bangalore (NON-NEGOTIABLE)
 
-## Wound Care (as of Mar 24)
-- Electrocautery on big toe, Fri Mar 21 (Bangalore)
-- Fusiskin: started Sun Mar 23, last day Wed Mar 25
-- SLC B solution: starts Thu Mar 26
+## Travel: Seoul + Bangalore (May-Jun 2026)
+- **Route:** SIN → ICN (May 21) → SIN (May 30) → BLR (May 31) → SIN (Jun 10). All on SQ.
+- **Miles needed:** 89,000 KrisFlyer = 44,500 DBS points. She has 65,000 pts (130K miles). Plenty.
+- **Remaining after booking:** 20,500 DBS pts (41,000 miles) for future use.
+- **Cash outlay:** ~$400-500 SGD taxes only.
+- **DBS Points conversion:** Portal = best rate (5K pts = 10K miles, $27.25 fee). Kris+ for small top-ups (10% bonus until Mar 31).
+- **KrisFlyer won** over Qantas (no BLR routing), Cathay (all via HKG, more miles), Trip.com vouchers (burns all points).
+- **COSMOBEAUTY Seoul:** May 27-29. Free pre-registration, deadline May 25. Buyer hours 10am-1pm May 27. 440+ exhibitors, 53K visitors.
+- **Seoul plans:** Skin treatments, nature spots, COSMOBEAUTY networking, solo reset. Accommodation + clinics to research.
+- **TODO:** Convert DBS points → KrisFlyer, book all 4 SQ legs, pre-register COSMOBEAUTY, research Seoul accommodation + skin clinics.
+
+## Wound Care (CORRECTED Mar 25)
+- Electrocautery on big toe, Sat Mar 22 (Bangalore)
+- Fusiskin: Sun Mar 23 (Day 1), Mon Mar 24 (Day 2), Tue Mar 25... WAIT -- Fusiskin was 3 days starting Sun.
+- **CORRECT:** Fusiskin Sun/Mon/Tue (Mar 23-25). SLC B started **Wed Mar 25** (Sunshine confirmed).
+- Previous note said Fusiskin ends Wed -- WRONG. Sunshine corrected: she started SLC B on Wed (Day 4 post-op).
 - No yoga until Sunday Mar 30. Re-enable yoga crons then.
-- Daily: moisturizer → C Repair → Peptide Protein → Fusiskin/SLC B
+- Daily routine: moisturizer → C Repair → Peptide Protein → SLC B (from Wed Mar 25)
+- Wound photo (Mar 25): normal healing. Dark center = eschar. No infection. Healing from edges inward. NOT recurrence.
 
 ## Personal
 - Relationship: planning to exit. Details in daily files only -- NEVER surface in group chats or shared contexts.
@@ -236,3 +265,23 @@ These are standing rules -- no need to ask each time.
 - Anything that spends money (PR boxes, tools, ads, subscriptions)
 - Posting publicly on her behalf (IG, TikTok, etc.)
 - Anything irreversible
+
+## Google Calendar Integration (requested Mar 25)
+- Sunshine wants me to auto-schedule tasks into her calendar like Motion AI.
+- Needs Google Calendar read+write access via OpenClaw integration.
+- I already know her schedule structure (yoga mornings, Analemma 10-12, T3 12-5).
+- Task logged to Notion. Setup pending.
+
+## Sunshine's Top 7 Priorities (set Mar 24)
+1. TikTok Shop setup
+2. Bridgerton video edit -- "girls show date" angle (post before hype dies)
+3. Perfume packaging content + orders + skin analysis vibe coded app
+4. Clear and sort baggage + stocks
+5. Anchorpoint pop-up ready
+6. Artbox pop-up ready
+7. Warehouse situation at home
+
+## Financial Planning (requested Mar 25)
+- Sunshine needs a dedicated financial planning session. Logged to Notion for next week Mon/Tue.
+- She's cash-strapped. Loans need clearing. No unnecessary purchases. Strict budgeting.
+- DBS points are a goldmine though -- 65K points, use strategically.
