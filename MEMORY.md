@@ -27,11 +27,11 @@ Website LIVE at analemma.shop. Priority: traffic, audience, conversion.
 7. Warehouse situation
 
 ## Upcoming Dates
-- **Mar 28:** Perfume packaging orders DEADLINE
-- **Mar 29:** AI x Commerce Hackathon (Sunshine attending). Build: Skin Analysis → Product Recommender.
-- **Mar 29-30:** Anchorpoint pop-up (Vageesh solo)
-- **April:** Artbox (TBC)
-- **May 21-30:** Seoul (solo + COSMOBEAUTY May 27-29). Book flights THIS WEEK (Kris+ 10% expires Mar 31).
+- **Mar 28:** Perfume packaging orders DEADLINE. Anchorpoint pop-up Day 1 (Vageesh at booth).
+- **Mar 29-30:** Anchorpoint pop-up (Vageesh solo). Hackathon SKIPPED.
+- **April:** Artbox (TBC). Mid-April: send PR boxes (need addresses this week).
+- **May 1-21:** Bali deep work sprint (3 weeks solo). Notion plan: https://www.notion.so/Bali-Deep-Work-Sprint-May-2026-330eab200eed81c88052ec8b8811f145
+- **Korea:** Postponed. Savings redirected to debt clearance + Bali.
 - **May 31-Jun 10:** Bangalore
 - **Jul 4-5:** Parents' Shashtiaptapoorti (NON-NEGOTIABLE)
 
