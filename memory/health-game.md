@@ -35,6 +35,7 @@
 - Mar 25: 0 pts (No data received)
 - Mar 26: 0 pts (No data received)
 - Mar 27: 0 pts (No data received)
+- Mar 28: 0 pts (No data received)
 Total Cumulative: 950 pts
 Calorie Deficit Streak: 0 days
 ⚠️ Water goal updated to 3L from Mar 17 onwards
@@ -74,6 +75,7 @@ Calorie Deficit Streak: 0 days
 - Mar 25: 0 pts (No data received)
 - Mar 26: 0 pts (No data received)
 - Mar 27: 0 pts (No data received)
+- Mar 28: 0 pts (No data received)
 Total Cumulative: 665 pts
 Streak: 0 days (reset — no data Mar 18+)
 
@@ -92,6 +94,7 @@ Streak: 0 days (reset — no data Mar 18+)
 - Mar 25: 0 pts (No data received)
 - Mar 26: 0 pts (No data received)
 - Mar 27: 0 pts (No data received)
+- Mar 28: 0 pts (No data received)
 Total Cumulative: 420 pts
 Current Streak: 0 days (reset — no data Mar 19+)
 
@@ -109,9 +112,10 @@ Current Streak: 0 days (reset — no data Mar 19+)
 ### Mar 25 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
 ### Mar 26 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
 ### Mar 27 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
-### Mar 27 Cumulative Totals: Jan: 950 | Raghavi: 420 | Kruthika: 665
-### Streaks as of Mar 27: Jan: 0 | Raghavi: 0 | Kruthika: 0
-### Last Updated: Mar 27 (end of day — FINAL, 11:59 PM SGT)
+### Mar 28 Group Total Score: 0 pts (Jan: 0 + Raghavi: 0 + Kruthika: 0 — no data received from anyone)
+### Mar 28 Cumulative Totals: Jan: 950 | Raghavi: 420 | Kruthika: 665
+### Streaks as of Mar 28: Jan: 0 | Raghavi: 0 | Kruthika: 0
+### Last Updated: Mar 28 (end of day — final)
 ### ⚠️ Water goal updated to 3L from Mar 17 onwards (Jan)
 ### ⚠️ Kruthika Mar 17 sleep was never confirmed — scored at 25 pts (without sleep point)
 
@@ -138,6 +142,7 @@ Current Streak: 0 days (reset — no data Mar 19+)
 - Mar 25: 0 pts (No data received)
 - Mar 26: 0 pts (No data received)
 - Mar 27: 0 pts (No data received)
+- Mar 28: 0 pts (No data received)
 
 ## Kruthika -- Daily Scores
 - Mar 6: 55 pts
@@ -162,6 +167,7 @@ Current Streak: 0 days (reset — no data Mar 19+)
 - Mar 25: 0 pts (No data received)
 - Mar 26: 0 pts (No data received)
 - Mar 27: 0 pts (No data received)
+- Mar 28: 0 pts (No data received)
 
 ## Raghavi -- Daily Scores
 - Mar 6: 20 pts
