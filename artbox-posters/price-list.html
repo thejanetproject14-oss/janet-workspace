@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analemma -- Artbox Price List</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: #FFF8F3;
+    color: #2D2A26;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 15mm 18mm;
+    background: #FFF8F3;
+    position: relative;
+    overflow: hidden;
+  }
+
+  @media print {
+    body { margin: 0; padding: 0; background: #FFF8F3; }
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      padding: 10mm 15mm;
+      page-break-after: always;
+    }
+  }
+
+  /* Decorative blobs */
+  .blob-1 {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 180px;
+    height: 180px;
+    background: radial-gradient(circle, #FFD4E8 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+  .blob-2 {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #D4EAFF 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+  .blob-3 {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #E8D4FF 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.4;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2D2A26;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .tagline {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9B8B7E;
+    margin-bottom: 6px;
+  }
+
+  .divider {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #FF9EB5, #FFB347, #FF9EB5);
+    margin: 0 auto;
+  }
+
+  .category {
+    margin-bottom: 14px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cat-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .cat-emoji {
+    font-size: 18px;
+  }
+
+  .cat-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2D2A26;
+  }
+
+  .cat-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, #E8D4C8, transparent);
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 28px;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 12.5px;
+    line-height: 1.6;
+  }
+
+  .item-name {
+    color: #4A4540;
+  }
+
+  .item-dots {
+    flex: 1;
+    border-bottom: 1px dotted #D4C8BE;
+    margin: 0 6px;
+    min-width: 20px;
+  }
+
+  .item-price {
+    font-weight: 700;
+    color: #2D2A26;
+    white-space: nowrap;
+    font-size: 13px;
+  }
+
+  .item-note {
+    font-size: 10px;
+    color: #9B8B7E;
+    font-style: italic;
+    padding-left: 28px;
+    margin-top: -1px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 1px solid #E8D4C8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-text {
+    font-size: 11px;
+    color: #9B8B7E;
+    letter-spacing: 1px;
+  }
+
+  .footer-ig {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2D2A26;
+    margin-top: 4px;
+  }
+
+  .vegan-badge {
+    display: inline-block;
+    background: #E8F5E8;
+    color: #4A8B4A;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="blob-1"></div>
+  <div class="blob-2"></div>
+  <div class="blob-3"></div>
+
+  <div class="header">
+    <div class="brand-name">Analemma</div>
+    <div class="tagline">The Art of Noticing the Little Things</div>
+    <div class="divider"></div>
+  </div>
+
+  <!-- Lip Ganache -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">💄</span>
+      <span class="cat-title">Sweet Treat -- Tinted Lip Ganache</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Strawberry Jam</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$30</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Raspberry Coulis</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$30</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Hot Cocoa</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$30</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Maraschino Cherry</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$30</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Tiramisu</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$30</span>
+      </div>
+    </div>
+    <div class="item-note">Vegan · Moisturising · Buildable colour · Dessert-inspired</div>
+  </div>
+
+  <!-- Lip Charms -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">💋</span>
+      <span class="cat-title">Lip Charms</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">TLG Metallic Purse Charm -- Silver (tarnish-free)</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$45</span>
+      </div>
+      <div class="item">
+        <span class="item-name">TLG Metallic Purse Charm -- Gold (tarnish-free)</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$45</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bag Charms -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">🍒</span>
+      <span class="cat-title">Fruity Bag Charms</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Apple of My Eye · Berry in Love · Cherry on Top · Feeling Blue-tiful · Squeeze the Day · Zest Friends Forever</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$25 each</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Makeup Pouches -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">👛</span>
+      <span class="cat-title">Carry Your World -- Makeup Pouches</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Carnival · Mischief · Sunset</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$36 each</span>
+      </div>
+    </div>
+    <div class="item-note">Every pouch comes with a FREE enamel pin! (while stocks last)</div>
+  </div>
+
+  <!-- Hair Oil -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">✨</span>
+      <span class="cat-title">Haircare</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Sunday Rituals Hair Repair & Growth Oil</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$32</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enamel Pins -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">📌</span>
+      <span class="cat-title">Enamel Pins</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Blue Forget-Me-Not · Blue Lupin · Lavender · Sunset Ranunculus · White Lily</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$9 each</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brush Set -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">🖌️</span>
+      <span class="cat-title">Brush Set</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Limited Edition Vegan Brush Set with Bag</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$55</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Beaded & Vegan Bags -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">👜</span>
+      <span class="cat-title">Statement Bags</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Check Mate (beaded)</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$138</span>
+      </div>
+      <div class="item">
+        <span class="item-name">The Jaipur Florals (beaded)</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$138</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Dark Forest (vegan leather)</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$80</span>
+      </div>
+      <div class="item">
+        <span class="item-name">The Wine Lover (vegan leather)</span>
+        <span class="item-dots"></span>
+        <span class="item-price">$80</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Perfumes -->
+  <div class="category">
+    <div class="cat-header">
+      <span class="cat-emoji">🌸</span>
+      <span class="cat-title">Ankaa by Analemma -- Perfumes</span>
+      <span class="cat-line"></span>
+    </div>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Birthday Cake · Enrosadira · Meenakshi · Moonchild · Fragrance No.5</span>
+        <span class="item-dots"></span>
+        <span class="item-price">15ml $43 · 100ml $180</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-ig">@analemma.shop</div>
+    <div class="footer-text">analemma.shop · All prices in SGD</div>
+    <div class="vegan-badge">🌿 100% Vegan · Cruelty-Free</div>
+  </div>
+</div>
+</body>
+</html>

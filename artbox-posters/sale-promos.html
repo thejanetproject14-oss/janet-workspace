@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analemma -- ARTBOX DEALS</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=Playfair+Display:wght@600;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: #FF3366;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 12mm 15mm;
+    background: linear-gradient(135deg, #FF3366 0%, #FF6B6B 30%, #FF3366 60%, #CC2952 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  @media print {
+    body { margin: 0; padding: 0; }
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      padding: 8mm 12mm;
+      page-break-after: always;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+
+  /* Decorative elements */
+  .star {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.15;
+  }
+  .star-1 { top: 20px; right: 30px; transform: rotate(15deg); }
+  .star-2 { bottom: 80px; left: 20px; transform: rotate(-10deg); font-size: 45px; }
+  .star-3 { top: 45%; right: 10px; transform: rotate(25deg); font-size: 35px; }
+  .star-4 { top: 15%; left: 10px; font-size: 30px; }
+
+  .confetti {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.3;
+  }
+  .c1 { background: #FFD700; top: 8%; left: 15%; }
+  .c2 { background: #FFF; top: 12%; right: 20%; width: 6px; height: 6px; }
+  .c3 { background: #FFD700; top: 35%; left: 8%; width: 10px; height: 10px; }
+  .c4 { background: #FFF; bottom: 25%; right: 12%; }
+  .c5 { background: #FFD700; bottom: 15%; left: 25%; width: 6px; height: 6px; }
+  .c6 { background: #FFF; top: 55%; left: 5%; width: 5px; height: 5px; }
+  .c7 { background: #FFD700; top: 70%; right: 8%; width: 7px; height: 7px; }
+
+  .header {
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 8px;
+  }
+
+  .sale-badge {
+    display: inline-block;
+    background: #FFD700;
+    color: #CC2952;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    padding: 8px 35px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transform: rotate(-2deg);
+    margin-bottom: 5px;
+  }
+
+  .sale-sub {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+
+  .deals {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .deal-card {
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 14px;
+    padding: 12px 16px;
+    backdrop-filter: blur(5px);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .deal-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FFD700, #FFF, #FFD700);
+  }
+
+  .deal-icon {
+    font-size: 28px;
+    margin-bottom: 2px;
+  }
+
+  .deal-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  }
+
+  .deal-detail {
+    font-size: 13px;
+    opacity: 0.95;
+    line-height: 1.4;
+  }
+
+  .deal-price {
+    font-size: 28px;
+    font-weight: 900;
+    color: #FFD700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .deal-was {
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-size: 14px;
+    margin-left: 6px;
+  }
+
+  .deal-save {
+    display: inline-block;
+    background: #FFD700;
+    color: #CC2952;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .stocks {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-top: 2px;
+  }
+
+  /* Spin the wheel section */
+  .spin-section {
+    background: rgba(255,255,255,0.95);
+    color: #CC2952;
+    border-radius: 14px;
+    padding: 14px 16px;
+    text-align: center;
+    margin-top: 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .spin-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 4px;
+  }
+
+  .spin-subtitle {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+
+  .prizes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 12px;
+    text-align: left;
+    font-size: 11.5px;
+    color: #4A4540;
+  }
+
+  .prize {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .prize-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .pd-gold { background: #FFD700; }
+  .pd-pink { background: #FF6B6B; }
+  .pd-green { background: #4CAF50; }
+
+  .ig-section {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .ig-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+
+  .ig-reward {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFD700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-text {
+    font-size: 11px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="star star-1">✦</div>
+  <div class="star star-2">✦</div>
+  <div class="star star-3">✦</div>
+  <div class="star star-4">✦</div>
+  <div class="confetti c1"></div>
+  <div class="confetti c2"></div>
+  <div class="confetti c3"></div>
+  <div class="confetti c4"></div>
+  <div class="confetti c5"></div>
+  <div class="confetti c6"></div>
+  <div class="confetti c7"></div>
+
+  <div class="header">
+    <div class="brand-name">✦ Analemma ✦</div>
+    <div class="sale-badge">SALE</div>
+    <div class="sale-sub">Artbox Exclusive Deals</div>
+  </div>
+
+  <div class="deals">
+
+    <!-- Deal 1: Lip + Bag Charm -->
+    <div class="deal-card">
+      <div class="deal-icon">💄 + 🍒</div>
+      <div class="deal-title">Lip Ganache + Bag Charm Bundle</div>
+      <div class="deal-detail">
+        Any Tinted Lip Ganache + any Fruity Bag Charm
+        <br><span class="deal-price">$45</span>
+        <span class="deal-was">$55</span>
+        <span class="deal-save">Save $10!</span>
+      </div>
+    </div>
+
+    <!-- Deal 2: Spend $70 -->
+    <div class="deal-card">
+      <div class="deal-icon">🎁</div>
+      <div class="deal-title">Spend $70+ = FREE Brush Set!</div>
+      <div class="deal-detail">
+        Get a FREE Vegan Premium Makeup Brush Set with Bag
+        <br><span class="deal-price">FREE</span>
+        <span class="deal-was">Worth $65</span>
+      </div>
+      <div class="stocks">⚡ While stocks last</div>
+    </div>
+
+    <!-- Deal 3: Makeup Pouch + Pin -->
+    <div class="deal-card">
+      <div class="deal-icon">👛 + 📌</div>
+      <div class="deal-title">Every Makeup Pouch = FREE Enamel Pin</div>
+      <div class="deal-detail">
+        Buy any Carry Your World pouch and pick your favourite pin
+        <br><span class="deal-price">FREE PIN</span>
+        <span class="deal-was">Worth $9</span>
+      </div>
+      <div class="stocks">⚡ While stocks last</div>
+    </div>
+
+    <!-- Deal 4: Bag Charm -->
+    <div class="deal-card">
+      <div class="deal-icon">🍊</div>
+      <div class="deal-title">Fruity Bag Charms</div>
+      <div class="deal-detail">
+        6 adorable fruit charms to choose from
+        <br><span class="deal-price">$25</span> each
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Spin the wheel -->
+  <div class="spin-section">
+    <div class="spin-title">🎡 SPIN THE WHEEL!</div>
+    <div class="spin-subtitle">Spend $25+ to spin -- everyone's a winner!</div>
+    <div class="prizes">
+      <div class="prize"><span class="prize-dot pd-gold"></span> $5 off your purchase</div>
+      <div class="prize"><span class="prize-dot pd-pink"></span> Free Enamel Pin</div>
+      <div class="prize"><span class="prize-dot pd-gold"></span> $3 off your purchase</div>
+      <div class="prize"><span class="prize-dot pd-green"></span> Free Orange Bag Charm ($25!)</div>
+      <div class="prize"><span class="prize-dot pd-pink"></span> Free Makeup Pouch with $65 spend</div>
+      <div class="prize"><span class="prize-dot pd-gold"></span> Better luck next time 🍀</div>
+    </div>
+  </div>
+
+  <!-- Instagram Follow -->
+  <div class="ig-section">
+    <div class="ig-title">📸 Follow @analemma.shop on Instagram</div>
+    <div class="ig-reward">= FREE Tarot Card Reading! 🔮</div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">@analemma.shop · analemma.shop · 🌿 100% Vegan · Cruelty-Free</div>
+  </div>
+</div>
+</body>
+</html>
