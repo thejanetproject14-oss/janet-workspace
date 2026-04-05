@@ -5,7 +5,9 @@ Format: Date | Task | Notes
 
 ## Pending
 
-_No items scheduled._
+| Date | Task | Notes |
+|------|------|-------|
+| Mon 2026-04-06 | 🔴 Standard Chartered payment -- URGENT | Sunshine requested reminder Sun night. Do not skip. |
 
 ## Completed
 
