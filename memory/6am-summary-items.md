@@ -7,7 +7,8 @@ Format: Date | Task | Notes
 
 | Date | Task | Notes |
 |------|------|-------|
-| Mon 2026-04-06 | 🔴 Standard Chartered payment -- URGENT | Sunshine requested reminder Sun night. Do not skip. |
+| Fri 2026-04-10 | 📹 Take a video of everything shot at Artbox with camera footage | Artbox Weekend 2 Day 1. Sunshine requested this reminder on Apr 6. |
+
 
 ## Completed
 
@@ -19,3 +20,4 @@ Format: Date | Task | Notes
 | Tue 2026-03-31 | Payments setup session (HitPay + OpenClaw) | Moved to overdue -- originally scheduled Mar 15. Still in Notion master list. |
 | Wed 2026-04-01 6:46am | Install SingPost Shopify app + fulfil first order | Delivered in morning digest (msgId 6076). Link + steps + Alexandra PO address included. |
 | Thu 2026-04-02 7:51am | ARTBOX GRAB BAG reminder | Delivered full checklist via Telegram (msgId 6217). Print + pack + products + apps. |
+| Mon 2026-04-06 6:54am | 🔴 Standard Chartered payment -- URGENT | Delivered in morning digest (msgId 6370). |

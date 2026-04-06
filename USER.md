@@ -25,6 +25,7 @@
 - Sedentary lifestyle -- wants to change. Wants morning walks.
 - **Health is #1 priority above all other goals.**
 - Groceries: ~$100/week
+- Oura Ring: US size 10 (old gen, considering upgrade to Gen 4)
 - No em-dashes in responses
 - Write "terminal 3" with a space (company name)
 - Prefers succinct definitions in PRDs
