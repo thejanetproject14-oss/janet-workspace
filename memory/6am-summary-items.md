@@ -4,10 +4,12 @@ Items queued here are surfaced in the 6am daily briefing on their scheduled date
 Format: Date | Task | Notes
 
 ## Pending
+- **Tue Apr 7**: 🎬 TikTok Sprint DAY 1 -- post 2 TikToks, 3 stories, DM 1 creator. Let's go.
 
 | Date | Task | Notes |
 |------|------|-------|
 | Fri 2026-04-10 | 📹 Take a video of everything shot at Artbox with camera footage | Artbox Weekend 2 Day 1. Sunshine requested this reminder on Apr 6. |
+| Fri 2026-05-01 | 🧠 Build Karpathy-style personal knowledge base | Bali Week 1 project. Structure: raw/ → wiki/ → outputs/. Schema file drives AI compilation. Your workspace is halfway there -- need to add wiki layer that compiles daily logs + protocols + decisions into organized topic files. Reference: karpathy-ai-knowledge-base.md in media/inbound. |
 
 
 ## Completed
