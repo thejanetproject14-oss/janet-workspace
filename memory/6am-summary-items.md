@@ -8,7 +8,8 @@ Format: Date | Task | Notes
 
 | Date | Task | Notes |
 |------|------|-------|
-| Fri 2026-04-10 | 📹 Take a video of everything shot at Artbox with camera footage | Artbox Weekend 2 Day 1. Sunshine requested this reminder on Apr 6. |
+
+| Sun 2026-04-12 | 📩 Resend full influencer outreach lists (SG + MY + media contacts, Sahur excluded) | Sunshine wants both compiled lists fresh for Sunday outreach session. Resend msgId 6582 + 6583 content. |
 | Fri 2026-05-01 | 🧠 Build Karpathy-style personal knowledge base | Bali Week 1 project. Structure: raw/ → wiki/ → outputs/. Schema file drives AI compilation. Your workspace is halfway there -- need to add wiki layer that compiles daily logs + protocols + decisions into organized topic files. Reference: karpathy-ai-knowledge-base.md in media/inbound. |
 
 
@@ -23,3 +24,4 @@ Format: Date | Task | Notes
 | Wed 2026-04-01 6:46am | Install SingPost Shopify app + fulfil first order | Delivered in morning digest (msgId 6076). Link + steps + Alexandra PO address included. |
 | Thu 2026-04-02 7:51am | ARTBOX GRAB BAG reminder | Delivered full checklist via Telegram (msgId 6217). Print + pack + products + apps. |
 | Mon 2026-04-06 6:54am | 🔴 Standard Chartered payment -- URGENT | Delivered in morning digest (msgId 6370). |
+| Fri 2026-04-10 6:00am | 📹 Artbox camera footage reminder | Delivered in morning digest (msgId 6575). Film with Sony A7C, Fujifilm XM5, DJI Pocket 3. |
