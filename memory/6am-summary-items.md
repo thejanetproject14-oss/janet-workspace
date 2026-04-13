@@ -9,7 +9,7 @@ Format: Date | Task | Notes
 | Date | Task | Notes |
 |------|------|-------|
 
-| Sun 2026-04-12 | 📩 Resend full influencer outreach lists (SG + MY + media contacts, Sahur excluded) | Sunshine wants both compiled lists fresh for Sunday outreach session. Resend msgId 6582 + 6583 content. |
+
 | Fri 2026-05-01 | 🧠 Build Karpathy-style personal knowledge base | Bali Week 1 project. Structure: raw/ → wiki/ → outputs/. Schema file drives AI compilation. Your workspace is halfway there -- need to add wiki layer that compiles daily logs + protocols + decisions into organized topic files. Reference: karpathy-ai-knowledge-base.md in media/inbound. |
 
 
@@ -25,3 +25,4 @@ Format: Date | Task | Notes
 | Thu 2026-04-02 7:51am | ARTBOX GRAB BAG reminder | Delivered full checklist via Telegram (msgId 6217). Print + pack + products + apps. |
 | Mon 2026-04-06 6:54am | 🔴 Standard Chartered payment -- URGENT | Delivered in morning digest (msgId 6370). |
 | Fri 2026-04-10 6:00am | 📹 Artbox camera footage reminder | Delivered in morning digest (msgId 6575). Film with Sony A7C, Fujifilm XM5, DJI Pocket 3. |
+| Sun 2026-04-12 6:29am | 📩 Resend influencer outreach lists (SG + MY + media) | Delivered in morning digest (msgId 6642). Full tier lists + media contacts included. |
