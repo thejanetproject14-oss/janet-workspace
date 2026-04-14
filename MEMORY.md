@@ -10,29 +10,28 @@
 - **Always ask:** Spending money, posting publicly, anything irreversible.
 - **NEVER DM Sita.** Group only. NEVER respond to Sita's DMs or Tiny Wins members' DMs.
 
-## Current Phase: Content Seeding (Mar 16 - Apr 15)
-Website LIVE at analemma.shop. Priority: traffic, audience, conversion.
-- Influencer outreach (micro, SG first). 30 PR boxes. Lock box concept.
-- Content pillars: founder story, product education, BTS, UGC.
-- Unposted photoshoot content available. Bridgerton + postman videos need editing.
-- AI content pipeline: HeyGen + ElevenLabs + Kling + Blotato (~$55/mo). Setup pending.
+## Current Phase: 54-Day Sprint (Apr 13 - Jun 5)
+Website LIVE at analemma.shop. Artbox Weekend 1 done (~$1,990). Weekend 2 done (Apr 10-12).
+- Phase 1 Foundation (Apr 13-27): 2-5 orders/day, no ads, content engine on
+- Phase 2 Acceleration (Apr 28-May 18): 8-15 orders/day, TikTok LIVE 2-3x/week, ads start SGD 30-50/day
+- Phase 3 Scale (May 19-Jun 5): 20-25 orders/day, ads SGD 80-150/day
+- PR boxes physically arrived. Insert card copy drafted. Need influencer addresses.
+- Perfume pricing: 15ml $38, 100ml $168. Shopify listings not yet built.
+- Product roadmap: Phase 1 Lip Liner + Face Masks (production gate: $50K savings, ~Oct 2026). Korea Jul 1-3 for sourcing.
 
-## Top 7 (set Mar 24)
-1. TikTok Shop setup
-2. Bridgerton video edit
-3. Perfume packaging + skin analysis app
-4. Clear baggage + stocks
-5. Anchorpoint pop-up (Mar 29-30, Vageesh covering)
-6. Artbox pop-up (April TBC)
-7. Warehouse situation
+## Current Focus (updated Apr 13)
+1. TikTok Shop + Shopee + Lazada registration
+2. Bridgerton video edit (long overdue)
+3. PR boxes -- DM influencers, collect addresses, insert card design
+4. Bali pre-departure prep (packing, content plan, fulfillment handoff)
+5. Helper search (Sita leaving, looking for Nepali/Darjeeling/Mizoram cook)
+6. HitPay bank details (4+ months uncollected payouts)
 
 ## Upcoming Dates
-- **Mar 28:** Perfume packaging orders DEADLINE. Anchorpoint pop-up Day 1 (Vageesh at booth).
-- **Mar 29-30:** Anchorpoint pop-up (Vageesh solo). Hackathon SKIPPED.
-- **April:** Artbox (TBC). Mid-April: send PR boxes (need addresses this week).
-- **May 1-21:** Bali deep work sprint (3 weeks solo). Notion plan: https://www.notion.so/Bali-Deep-Work-Sprint-May-2026-330eab200eed81c88052ec8b8811f145
-- **Korea:** Postponed. Savings redirected to debt clearance + Bali.
+- **Apr 13-Jun 5:** 54-day Analemma sprint. Notion: 25 Orders/Day Growth Strategy + Daily Execution Timetable.
+- **May 1-30:** Bali deep work sprint (Sunny Muse, Canggu). BOOKED. Notion plan: https://www.notion.so/Bali-30-Day-Content-Execution-Plan-May-2026-333eab200eed814b9099c577974a3f44
 - **May 31-Jun 10:** Bangalore
+- **Jul 1-3:** InterCHARM + in-cosmetics Korea, COEX Seoul (sourcing lip liner + face mask manufacturers)
 - **Jul 4-5:** Parents' Shashtiaptapoorti (NON-NEGOTIABLE)
 
 ## Health (Active)
@@ -40,8 +39,9 @@ Website LIVE at analemma.shop. Priority: traffic, audience, conversion.
 - Stack: Selenium (2 Brazil nuts), Zinc, Vit D, Mg glycinate, Ashwagandha KSM-66, Myo-inositol+Se.
 - First step: BLOODWORK. Task in Notion.
 - Allergic rhinitis from Malassezia (dandruff) linked to hypothyroidism. Nizoral 2-3x/week.
-- Wound: electrocautery big toe Mar 22. Verrumal bottle BROKE -- get replacement from GP/polyclinic. No yoga until Mar 30.
-- Health points game: 200 pts, streak 0. 10pm daily check-in. Full rules in memory/health-game.md.
+- Wound: electrocautery big toe Mar 22. Day 22 now. Scab should be falling off naturally. Has Verrumal -- wait until skin fully closed before restarting.
+- Weight: 102kg. Target ~92-93kg by end of Bali (May 30). Calorie floor 1,200/day. 80-100g protein.
+- Inventory restock trigger: reorder lip products at 900 units remaining. Monthly stock check starting May 6.
 
 ## Fundraise
 - Angel ($200-500K) Aug-Nov 2026. Series A ($8M SGD) Jun-Aug 2027.
@@ -49,8 +49,10 @@ Website LIVE at analemma.shop. Priority: traffic, audience, conversion.
 
 ## Financial
 - Cash-strapped. Clear personal loans by EOY. Strict budgeting.
-- DBS: 65K points. Seoul flights = 44,500 pts. Use strategically.
-- Financial planning session logged for next week.
+- Standard Chartered: PAID (Apr 13). ✅
+- Bali flights + hotel: BOOKED (Apr 13). Sunny Muse, Canggu, May 1-30. ✅
+- Revenue goal: SGD 30K/month (15K salary + 15K business). Realistic timeline: Oct-Dec 2026.
+- Perfume inventory: 400x 15ml ($38 each, 87% margin) + 50x 100ml ($168 each, 93% margin). Givaudan-sourced. Full sell-through = $19,800 profit.
 
 ## Personal
 - Relationship: planning to exit. Details in daily files ONLY. NEVER surface externally.
